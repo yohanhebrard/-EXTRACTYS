@@ -1,0 +1,3295 @@
+[2025-05-20 07:09:19] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:09:19] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1
+[2025-05-20 07:09:19] GET Params: {"id":"1"}
+[2025-05-20 07:09:19] Mode simple: ID récupéré = 1
+[2025-05-20 07:09:19] User ID: 1
+[2025-05-20 07:09:19] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:09:19] Params: 1, 1
+[2025-05-20 07:09:19] Nombre d'analyses récupérées: 1
+[2025-05-20 07:09:19] IDs des analyses récupérées: 1
+[2025-05-20 07:09:19] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-20 07:09:19] Affichage analyse #1 ID: 1
+[2025-05-20 07:09:19] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:09:45] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:09:45] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-20 07:09:45] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-20 07:09:45] Mode simple: ID récupéré = 1
+[2025-05-20 07:09:45] User ID: 1
+[2025-05-20 07:09:45] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:09:45] Params: 1, 1
+[2025-05-20 07:09:45] Nombre d'analyses récupérées: 1
+[2025-05-20 07:09:45] IDs des analyses récupérées: 1
+[2025-05-20 07:09:45] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-20 07:09:45] Affichage analyse #1 ID: 1
+[2025-05-20 07:09:45] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:10:59] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:10:59] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-20 07:10:59] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-20 07:10:59] Mode simple: ID récupéré = 1
+[2025-05-20 07:10:59] User ID: 1
+[2025-05-20 07:10:59] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:10:59] Params: 1, 1
+[2025-05-20 07:10:59] Nombre d'analyses récupérées: 1
+[2025-05-20 07:10:59] IDs des analyses récupérées: 1
+[2025-05-20 07:10:59] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-20 07:10:59] Affichage analyse #1 ID: 1
+[2025-05-20 07:10:59] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:13:32] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:13:32] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-20 07:13:32] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-20 07:13:32] Mode simple: ID récupéré = 1
+[2025-05-20 07:13:32] User ID: 1
+[2025-05-20 07:13:32] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:13:32] Params: 1, 1
+[2025-05-20 07:13:32] Nombre d'analyses récupérées: 1
+[2025-05-20 07:13:32] IDs des analyses récupérées: 1
+[2025-05-20 07:13:32] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-20 07:13:32] Affichage analyse #1 ID: 1
+[2025-05-20 07:13:32] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:14:18] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:14:18] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,12,13&analyzed=true
+[2025-05-20 07:14:18] GET Params: {"ids":"1,3,12,13","analyzed":"true"}
+[2025-05-20 07:14:18] Mode multiple: IDs récupérés = 1, 3, 12, 13
+[2025-05-20 07:14:18] User ID: 1
+[2025-05-20 07:14:18] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:14:18] Params: 1, 3, 12, 13, 1
+[2025-05-20 07:14:18] Nombre d'analyses récupérées: 4
+[2025-05-20 07:14:18] IDs des analyses récupérées: 13, 12, 3, 1
+[2025-05-20 07:14:18] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:14:18] Affichage analyse #1 ID: 13
+[2025-05-20 07:14:18] Affichage analyse #2 ID: 12
+[2025-05-20 07:14:18] Affichage analyse #3 ID: 3
+[2025-05-20 07:14:18] Affichage analyse #4 ID: 1
+[2025-05-20 07:14:18] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:21:24] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:21:24] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:21:24] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:21:24] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:21:24] User ID: 1
+[2025-05-20 07:21:24] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:21:24] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:21:24] Nombre d'analyses récupérées: 4
+[2025-05-20 07:21:24] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:21:24] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:21:24] Affichage analyse #1 ID: 15
+[2025-05-20 07:21:24] Affichage analyse #2 ID: 14
+[2025-05-20 07:21:24] Affichage analyse #3 ID: 3
+[2025-05-20 07:21:24] Affichage analyse #4 ID: 1
+[2025-05-20 07:21:24] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:25:29] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:25:29] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:25:29] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:25:29] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:25:29] User ID: 1
+[2025-05-20 07:25:29] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:25:29] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:25:29] Nombre d'analyses récupérées: 4
+[2025-05-20 07:25:29] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:25:29] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:25:29] Affichage analyse #1 ID: 15
+[2025-05-20 07:25:29] Affichage analyse #2 ID: 14
+[2025-05-20 07:25:29] Affichage analyse #3 ID: 3
+[2025-05-20 07:25:29] Affichage analyse #4 ID: 1
+[2025-05-20 07:25:29] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:25:37] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:25:37] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:25:37] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:25:37] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:25:37] User ID: 1
+[2025-05-20 07:25:37] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:25:37] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:25:37] Nombre d'analyses récupérées: 4
+[2025-05-20 07:25:37] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:25:37] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:25:37] Affichage analyse #1 ID: 15
+[2025-05-20 07:25:37] Affichage analyse #2 ID: 14
+[2025-05-20 07:25:37] Affichage analyse #3 ID: 3
+[2025-05-20 07:25:37] Affichage analyse #4 ID: 1
+[2025-05-20 07:25:37] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:25:38] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:25:38] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:25:38] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:25:38] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:25:38] User ID: 1
+[2025-05-20 07:25:38] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:25:38] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:25:38] Nombre d'analyses récupérées: 4
+[2025-05-20 07:25:38] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:25:38] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:25:38] Affichage analyse #1 ID: 15
+[2025-05-20 07:25:38] Affichage analyse #2 ID: 14
+[2025-05-20 07:25:38] Affichage analyse #3 ID: 3
+[2025-05-20 07:25:38] Affichage analyse #4 ID: 1
+[2025-05-20 07:25:38] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:25:39] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:25:39] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:25:39] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:25:39] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:25:39] User ID: 1
+[2025-05-20 07:25:39] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:25:39] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:25:39] Nombre d'analyses récupérées: 4
+[2025-05-20 07:25:39] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:25:39] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:25:39] Affichage analyse #1 ID: 15
+[2025-05-20 07:25:39] Affichage analyse #2 ID: 14
+[2025-05-20 07:25:39] Affichage analyse #3 ID: 3
+[2025-05-20 07:25:39] Affichage analyse #4 ID: 1
+[2025-05-20 07:25:39] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:25:39] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:25:39] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:25:39] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:25:39] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:25:39] User ID: 1
+[2025-05-20 07:25:39] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:25:39] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:25:39] Nombre d'analyses récupérées: 4
+[2025-05-20 07:25:39] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:25:39] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:25:39] Affichage analyse #1 ID: 15
+[2025-05-20 07:25:39] Affichage analyse #2 ID: 14
+[2025-05-20 07:25:39] Affichage analyse #3 ID: 3
+[2025-05-20 07:25:39] Affichage analyse #4 ID: 1
+[2025-05-20 07:25:39] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:25:40] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:25:40] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:25:40] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:25:40] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:25:40] User ID: 1
+[2025-05-20 07:25:40] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:25:40] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:25:40] Nombre d'analyses récupérées: 4
+[2025-05-20 07:25:40] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:25:40] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:25:40] Affichage analyse #1 ID: 15
+[2025-05-20 07:25:40] Affichage analyse #2 ID: 14
+[2025-05-20 07:25:40] Affichage analyse #3 ID: 3
+[2025-05-20 07:25:40] Affichage analyse #4 ID: 1
+[2025-05-20 07:25:40] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:26:21] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:26:21] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:26:21] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:26:21] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:26:21] User ID: 1
+[2025-05-20 07:26:21] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:26:21] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:26:21] Nombre d'analyses récupérées: 4
+[2025-05-20 07:26:21] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:26:21] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:26:21] Affichage analyse #1 ID: 15
+[2025-05-20 07:26:21] Affichage analyse #2 ID: 14
+[2025-05-20 07:26:21] Affichage analyse #3 ID: 3
+[2025-05-20 07:26:21] Affichage analyse #4 ID: 1
+[2025-05-20 07:26:21] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:27:15] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:27:15] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:27:15] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:27:15] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:27:15] User ID: 1
+[2025-05-20 07:27:15] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:27:15] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:27:15] Nombre d'analyses récupérées: 4
+[2025-05-20 07:27:15] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:27:15] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:27:15] Affichage analyse #1 ID: 15
+[2025-05-20 07:27:15] Affichage analyse #2 ID: 14
+[2025-05-20 07:27:15] Affichage analyse #3 ID: 3
+[2025-05-20 07:27:15] Affichage analyse #4 ID: 1
+[2025-05-20 07:27:15] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:27:17] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:27:17] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:27:17] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:27:17] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:27:17] User ID: 1
+[2025-05-20 07:27:17] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:27:17] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:27:17] Nombre d'analyses récupérées: 4
+[2025-05-20 07:27:17] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:27:17] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:27:17] Affichage analyse #1 ID: 15
+[2025-05-20 07:27:17] Affichage analyse #2 ID: 14
+[2025-05-20 07:27:17] Affichage analyse #3 ID: 3
+[2025-05-20 07:27:17] Affichage analyse #4 ID: 1
+[2025-05-20 07:27:17] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:27:30] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:27:30] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:27:30] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:27:30] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:27:30] User ID: 1
+[2025-05-20 07:27:30] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:27:30] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:27:30] Nombre d'analyses récupérées: 4
+[2025-05-20 07:27:30] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:27:30] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:27:30] Affichage analyse #1 ID: 15
+[2025-05-20 07:27:30] Affichage analyse #2 ID: 14
+[2025-05-20 07:27:30] Affichage analyse #3 ID: 3
+[2025-05-20 07:27:30] Affichage analyse #4 ID: 1
+[2025-05-20 07:27:30] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:33:18] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:33:18] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:33:18] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:33:18] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:33:18] User ID: 1
+[2025-05-20 07:33:18] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:33:18] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:33:18] Nombre d'analyses récupérées: 4
+[2025-05-20 07:33:18] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:33:18] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:33:18] Affichage analyse #1 ID: 15
+[2025-05-20 07:33:18] Affichage analyse #2 ID: 14
+[2025-05-20 07:33:18] Affichage analyse #3 ID: 3
+[2025-05-20 07:33:18] Affichage analyse #4 ID: 1
+[2025-05-20 07:33:18] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:36:37] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:36:37] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:36:37] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:36:37] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:36:37] User ID: 1
+[2025-05-20 07:36:37] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:36:37] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:36:37] Nombre d'analyses récupérées: 4
+[2025-05-20 07:36:37] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:36:37] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:36:37] Affichage analyse #1 ID: 15
+[2025-05-20 07:36:37] Affichage analyse #2 ID: 14
+[2025-05-20 07:36:37] Affichage analyse #3 ID: 3
+[2025-05-20 07:36:37] Affichage analyse #4 ID: 1
+[2025-05-20 07:36:37] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:37:21] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:37:21] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:37:21] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:37:21] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:37:21] User ID: 1
+[2025-05-20 07:37:21] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:37:21] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:37:21] Nombre d'analyses récupérées: 4
+[2025-05-20 07:37:21] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:37:21] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:37:21] Affichage analyse #1 ID: 15
+[2025-05-20 07:37:21] Affichage analyse #2 ID: 14
+[2025-05-20 07:37:21] Affichage analyse #3 ID: 3
+[2025-05-20 07:37:21] Affichage analyse #4 ID: 1
+[2025-05-20 07:37:21] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:38:56] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:38:56] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:38:56] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:38:56] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:38:56] User ID: 1
+[2025-05-20 07:38:56] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:38:56] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:38:56] Nombre d'analyses récupérées: 4
+[2025-05-20 07:38:56] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:38:56] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:38:56] Affichage analyse #1 ID: 15
+[2025-05-20 07:38:56] Affichage analyse #2 ID: 14
+[2025-05-20 07:38:56] Affichage analyse #3 ID: 3
+[2025-05-20 07:38:56] Affichage analyse #4 ID: 1
+[2025-05-20 07:38:56] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:46:38] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:46:38] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:46:38] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:46:38] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:46:38] User ID: 1
+[2025-05-20 07:46:38] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:46:38] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:46:38] Nombre d'analyses récupérées: 4
+[2025-05-20 07:46:38] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:46:38] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:46:38] Affichage analyse #1 ID: 15
+[2025-05-20 07:46:38] Affichage analyse #2 ID: 14
+[2025-05-20 07:46:38] Affichage analyse #3 ID: 3
+[2025-05-20 07:46:38] Affichage analyse #4 ID: 1
+[2025-05-20 07:46:38] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:46:39] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:46:39] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:46:39] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:46:39] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:46:39] User ID: 1
+[2025-05-20 07:46:39] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:46:39] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:46:39] Nombre d'analyses récupérées: 4
+[2025-05-20 07:46:39] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:46:39] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:46:39] Affichage analyse #1 ID: 15
+[2025-05-20 07:46:39] Affichage analyse #2 ID: 14
+[2025-05-20 07:46:39] Affichage analyse #3 ID: 3
+[2025-05-20 07:46:39] Affichage analyse #4 ID: 1
+[2025-05-20 07:46:39] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:48:05] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:48:05] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:48:05] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:48:05] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:48:05] User ID: 1
+[2025-05-20 07:48:05] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:48:05] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:48:05] Nombre d'analyses récupérées: 4
+[2025-05-20 07:48:05] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:48:05] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:48:05] Affichage analyse #1 ID: 15
+[2025-05-20 07:48:05] Affichage analyse #2 ID: 14
+[2025-05-20 07:48:05] Affichage analyse #3 ID: 3
+[2025-05-20 07:48:05] Affichage analyse #4 ID: 1
+[2025-05-20 07:48:05] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:50:02] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:50:02] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:50:02] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:50:02] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:50:02] User ID: 1
+[2025-05-20 07:50:02] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:50:02] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:50:02] Nombre d'analyses récupérées: 4
+[2025-05-20 07:50:02] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:50:02] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:50:02] Affichage analyse #1 ID: 15
+[2025-05-20 07:50:02] Affichage analyse #2 ID: 14
+[2025-05-20 07:50:02] Affichage analyse #3 ID: 3
+[2025-05-20 07:50:02] Affichage analyse #4 ID: 1
+[2025-05-20 07:50:02] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:50:23] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:50:23] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:50:23] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:50:23] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:50:23] User ID: 1
+[2025-05-20 07:50:23] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:50:23] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:50:23] Nombre d'analyses récupérées: 4
+[2025-05-20 07:50:23] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:50:23] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:50:23] Affichage analyse #1 ID: 15
+[2025-05-20 07:50:23] Affichage analyse #2 ID: 14
+[2025-05-20 07:50:23] Affichage analyse #3 ID: 3
+[2025-05-20 07:50:23] Affichage analyse #4 ID: 1
+[2025-05-20 07:50:23] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:50:33] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:50:33] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:50:33] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:50:33] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:50:33] User ID: 1
+[2025-05-20 07:50:33] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:50:33] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:50:33] Nombre d'analyses récupérées: 4
+[2025-05-20 07:50:33] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:50:33] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:50:33] Affichage analyse #1 ID: 15
+[2025-05-20 07:50:33] Affichage analyse #2 ID: 14
+[2025-05-20 07:50:33] Affichage analyse #3 ID: 3
+[2025-05-20 07:50:33] Affichage analyse #4 ID: 1
+[2025-05-20 07:50:33] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:52:51] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:52:51] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:52:51] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:52:51] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:52:51] User ID: 1
+[2025-05-20 07:52:51] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:52:51] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:52:51] Nombre d'analyses récupérées: 4
+[2025-05-20 07:52:51] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:52:51] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:52:51] Affichage analyse #1 ID: 15
+[2025-05-20 07:52:51] Affichage analyse #2 ID: 14
+[2025-05-20 07:52:51] Affichage analyse #3 ID: 3
+[2025-05-20 07:52:51] Affichage analyse #4 ID: 1
+[2025-05-20 07:52:51] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:55:29] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:55:29] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:55:29] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:55:29] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:55:29] User ID: 1
+[2025-05-20 07:55:29] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:55:29] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:55:29] Nombre d'analyses récupérées: 4
+[2025-05-20 07:55:29] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:55:29] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:55:29] Affichage analyse #1 ID: 15
+[2025-05-20 07:55:29] Affichage analyse #2 ID: 14
+[2025-05-20 07:55:29] Affichage analyse #3 ID: 3
+[2025-05-20 07:55:29] Affichage analyse #4 ID: 1
+[2025-05-20 07:55:29] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 07:56:56] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 07:56:56] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:56:56] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 07:56:56] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 07:56:56] User ID: 1
+[2025-05-20 07:56:56] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 07:56:56] Params: 1, 3, 14, 15, 1
+[2025-05-20 07:56:56] Nombre d'analyses récupérées: 4
+[2025-05-20 07:56:56] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 07:56:56] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 07:56:56] Affichage analyse #1 ID: 15
+[2025-05-20 07:56:56] Affichage analyse #2 ID: 14
+[2025-05-20 07:56:56] Affichage analyse #3 ID: 3
+[2025-05-20 07:56:56] Affichage analyse #4 ID: 1
+[2025-05-20 07:56:56] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 08:00:49] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 08:00:49] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 08:00:49] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 08:00:49] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 08:00:49] User ID: 1
+[2025-05-20 08:00:49] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 08:00:49] Params: 1, 3, 14, 15, 1
+[2025-05-20 08:00:49] Nombre d'analyses récupérées: 4
+[2025-05-20 08:00:49] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 08:00:49] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 08:00:49] Affichage analyse #1 ID: 15
+[2025-05-20 08:00:49] Affichage analyse #2 ID: 14
+[2025-05-20 08:00:49] Affichage analyse #3 ID: 3
+[2025-05-20 08:00:49] Affichage analyse #4 ID: 1
+[2025-05-20 08:00:49] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 08:06:08] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 08:06:08] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 08:06:08] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 08:06:08] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 08:06:08] User ID: 1
+[2025-05-20 08:06:08] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 08:06:08] Params: 1, 3, 14, 15, 1
+[2025-05-20 08:06:08] Nombre d'analyses récupérées: 4
+[2025-05-20 08:06:08] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 08:06:08] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 08:06:08] Affichage analyse #1 ID: 15
+[2025-05-20 08:06:08] Affichage analyse #2 ID: 14
+[2025-05-20 08:06:08] Affichage analyse #3 ID: 3
+[2025-05-20 08:06:08] Affichage analyse #4 ID: 1
+[2025-05-20 08:06:08] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 08:06:51] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 08:06:51] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 08:06:51] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 08:06:51] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 08:06:51] User ID: 1
+[2025-05-20 08:06:51] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 08:06:51] Params: 1, 3, 14, 15, 1
+[2025-05-20 08:06:51] Nombre d'analyses récupérées: 4
+[2025-05-20 08:06:51] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 08:06:51] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 08:06:51] Affichage analyse #1 ID: 15
+[2025-05-20 08:06:51] Affichage analyse #2 ID: 14
+[2025-05-20 08:06:51] Affichage analyse #3 ID: 3
+[2025-05-20 08:06:51] Affichage analyse #4 ID: 1
+[2025-05-20 08:06:51] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 08:08:29] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 08:08:29] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 08:08:29] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 08:08:29] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 08:08:29] User ID: 1
+[2025-05-20 08:08:29] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 08:08:29] Params: 1, 3, 14, 15, 1
+[2025-05-20 08:08:29] Nombre d'analyses récupérées: 4
+[2025-05-20 08:08:29] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 08:08:29] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 08:08:29] Affichage analyse #1 ID: 15
+[2025-05-20 08:08:29] Affichage analyse #2 ID: 14
+[2025-05-20 08:08:29] Affichage analyse #3 ID: 3
+[2025-05-20 08:08:29] Affichage analyse #4 ID: 1
+[2025-05-20 08:08:29] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 08:17:50] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 08:17:50] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 08:17:50] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 08:17:50] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 08:17:50] User ID: 1
+[2025-05-20 08:17:50] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 08:17:50] Params: 1, 3, 14, 15, 1
+[2025-05-20 08:17:50] Nombre d'analyses récupérées: 4
+[2025-05-20 08:17:50] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 08:17:50] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 08:17:50] Affichage analyse #1 ID: 15
+[2025-05-20 08:17:50] Affichage analyse #2 ID: 14
+[2025-05-20 08:17:50] Affichage analyse #3 ID: 3
+[2025-05-20 08:17:50] Affichage analyse #4 ID: 1
+[2025-05-20 08:17:50] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 08:19:48] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 08:19:48] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 08:19:48] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 08:19:48] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 08:19:48] User ID: 1
+[2025-05-20 08:19:48] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 08:19:48] Params: 1, 3, 14, 15, 1
+[2025-05-20 08:19:48] Nombre d'analyses récupérées: 4
+[2025-05-20 08:19:48] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 08:19:48] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 08:19:48] Affichage analyse #1 ID: 15
+[2025-05-20 08:19:48] Affichage analyse #2 ID: 14
+[2025-05-20 08:19:48] Affichage analyse #3 ID: 3
+[2025-05-20 08:19:48] Affichage analyse #4 ID: 1
+[2025-05-20 08:19:48] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 08:33:39] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 08:33:39] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 08:33:39] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 08:33:39] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 08:33:39] User ID: 1
+[2025-05-20 08:33:39] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 08:33:39] Params: 1, 3, 14, 15, 1
+[2025-05-20 08:33:39] Nombre d'analyses récupérées: 4
+[2025-05-20 08:33:39] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 08:33:39] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 08:33:39] Affichage analyse #1 ID: 15
+[2025-05-20 08:33:39] Affichage analyse #2 ID: 14
+[2025-05-20 08:33:39] Affichage analyse #3 ID: 3
+[2025-05-20 08:33:39] Affichage analyse #4 ID: 1
+[2025-05-20 08:33:39] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 08:35:25] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 08:35:25] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 08:35:25] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 08:35:25] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 08:35:25] User ID: 1
+[2025-05-20 08:35:25] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 08:35:25] Params: 1, 3, 14, 15, 1
+[2025-05-20 08:35:25] Nombre d'analyses récupérées: 4
+[2025-05-20 08:35:25] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 08:35:25] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 08:35:25] Affichage analyse #1 ID: 15
+[2025-05-20 08:35:25] Affichage analyse #2 ID: 14
+[2025-05-20 08:35:25] Affichage analyse #3 ID: 3
+[2025-05-20 08:35:25] Affichage analyse #4 ID: 1
+[2025-05-20 08:35:25] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 08:38:21] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 08:38:21] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 08:38:21] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 08:38:21] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 08:38:21] User ID: 1
+[2025-05-20 08:38:21] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 08:38:21] Params: 1, 3, 14, 15, 1
+[2025-05-20 08:38:21] Nombre d'analyses récupérées: 4
+[2025-05-20 08:38:21] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 08:38:21] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 08:38:21] Affichage analyse #1 ID: 15
+[2025-05-20 08:38:21] Affichage analyse #2 ID: 14
+[2025-05-20 08:38:21] Affichage analyse #3 ID: 3
+[2025-05-20 08:38:21] Affichage analyse #4 ID: 1
+[2025-05-20 08:38:21] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 08:40:59] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 08:40:59] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 08:40:59] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 08:40:59] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 08:40:59] User ID: 1
+[2025-05-20 08:40:59] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 08:40:59] Params: 1, 3, 14, 15, 1
+[2025-05-20 08:40:59] Nombre d'analyses récupérées: 4
+[2025-05-20 08:40:59] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 08:40:59] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 08:40:59] Affichage analyse #1 ID: 15
+[2025-05-20 08:40:59] Affichage analyse #2 ID: 14
+[2025-05-20 08:40:59] Affichage analyse #3 ID: 3
+[2025-05-20 08:40:59] Affichage analyse #4 ID: 1
+[2025-05-20 08:40:59] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 08:43:20] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 08:43:20] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 08:43:20] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 08:43:20] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 08:43:20] User ID: 1
+[2025-05-20 08:43:20] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 08:43:20] Params: 1, 3, 14, 15, 1
+[2025-05-20 08:43:20] Nombre d'analyses récupérées: 4
+[2025-05-20 08:43:20] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 08:43:20] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 08:43:20] Affichage analyse #1 ID: 15
+[2025-05-20 08:43:20] Affichage analyse #2 ID: 14
+[2025-05-20 08:43:20] Affichage analyse #3 ID: 3
+[2025-05-20 08:43:20] Affichage analyse #4 ID: 1
+[2025-05-20 08:43:20] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 08:53:14] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 08:53:14] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 08:53:14] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 08:53:14] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 08:53:14] User ID: 1
+[2025-05-20 08:53:14] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 08:53:14] Params: 1, 3, 14, 15, 1
+[2025-05-20 08:53:14] Nombre d'analyses récupérées: 4
+[2025-05-20 08:53:14] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 08:53:14] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 08:53:14] Affichage analyse #1 ID: 15
+[2025-05-20 08:53:14] Affichage analyse #2 ID: 14
+[2025-05-20 08:53:14] Affichage analyse #3 ID: 3
+[2025-05-20 08:53:14] Affichage analyse #4 ID: 1
+[2025-05-20 08:53:14] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 08:56:07] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 08:56:07] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 08:56:07] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 08:56:07] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 08:56:07] User ID: 1
+[2025-05-20 08:56:07] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 08:56:07] Params: 1, 3, 14, 15, 1
+[2025-05-20 08:56:07] Nombre d'analyses récupérées: 4
+[2025-05-20 08:56:07] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 08:56:07] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 08:56:07] Affichage analyse #1 ID: 15
+[2025-05-20 08:56:07] Affichage analyse #2 ID: 14
+[2025-05-20 08:56:07] Affichage analyse #3 ID: 3
+[2025-05-20 08:56:07] Affichage analyse #4 ID: 1
+[2025-05-20 08:56:07] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 09:02:13] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 09:02:13] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 09:02:13] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 09:02:13] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 09:02:13] User ID: 1
+[2025-05-20 09:02:13] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 09:02:13] Params: 1, 3, 14, 15, 1
+[2025-05-20 09:02:13] Nombre d'analyses récupérées: 4
+[2025-05-20 09:02:13] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 09:02:13] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 09:02:13] Affichage analyse #1 ID: 15
+[2025-05-20 09:02:13] Affichage analyse #2 ID: 14
+[2025-05-20 09:02:13] Affichage analyse #3 ID: 3
+[2025-05-20 09:02:13] Affichage analyse #4 ID: 1
+[2025-05-20 09:02:13] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 09:03:46] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 09:03:46] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 09:03:46] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 09:03:46] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 09:03:46] User ID: 1
+[2025-05-20 09:03:46] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 09:03:46] Params: 1, 3, 14, 15, 1
+[2025-05-20 09:03:46] Nombre d'analyses récupérées: 4
+[2025-05-20 09:03:46] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 09:03:46] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 09:03:46] Affichage analyse #1 ID: 15
+[2025-05-20 09:03:46] Affichage analyse #2 ID: 14
+[2025-05-20 09:03:46] Affichage analyse #3 ID: 3
+[2025-05-20 09:03:46] Affichage analyse #4 ID: 1
+[2025-05-20 09:03:46] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 09:06:58] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 09:06:58] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 09:06:58] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 09:06:58] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 09:06:58] User ID: 1
+[2025-05-20 09:06:58] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 09:06:58] Params: 1, 3, 14, 15, 1
+[2025-05-20 09:06:58] Nombre d'analyses récupérées: 4
+[2025-05-20 09:06:58] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 09:06:58] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 09:06:58] Affichage analyse #1 ID: 15
+[2025-05-20 09:06:58] Affichage analyse #2 ID: 14
+[2025-05-20 09:06:58] Affichage analyse #3 ID: 3
+[2025-05-20 09:06:58] Affichage analyse #4 ID: 1
+[2025-05-20 09:06:58] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 09:09:49] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 09:09:49] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 09:09:49] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 09:09:49] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 09:09:49] User ID: 1
+[2025-05-20 09:09:49] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 09:09:49] Params: 1, 3, 14, 15, 1
+[2025-05-20 09:09:49] Nombre d'analyses récupérées: 4
+[2025-05-20 09:09:49] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 09:09:49] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 09:09:49] Affichage analyse #1 ID: 15
+[2025-05-20 09:09:49] Affichage analyse #2 ID: 14
+[2025-05-20 09:09:49] Affichage analyse #3 ID: 3
+[2025-05-20 09:09:49] Affichage analyse #4 ID: 1
+[2025-05-20 09:09:49] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 09:16:04] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 09:16:04] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 09:16:04] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 09:16:04] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 09:16:04] User ID: 1
+[2025-05-20 09:16:04] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 09:16:04] Params: 1, 3, 14, 15, 1
+[2025-05-20 09:16:04] Nombre d'analyses récupérées: 4
+[2025-05-20 09:16:04] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 09:16:04] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 09:16:04] Affichage analyse #1 ID: 15
+[2025-05-20 09:16:04] Affichage analyse #2 ID: 14
+[2025-05-20 09:16:04] Affichage analyse #3 ID: 3
+[2025-05-20 09:16:04] Affichage analyse #4 ID: 1
+[2025-05-20 09:16:04] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 09:19:35] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 09:19:35] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 09:19:35] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 09:19:35] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 09:19:35] User ID: 1
+[2025-05-20 09:19:35] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 09:19:35] Params: 1, 3, 14, 15, 1
+[2025-05-20 09:19:35] Nombre d'analyses récupérées: 4
+[2025-05-20 09:19:35] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 09:19:35] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 09:19:35] Affichage analyse #1 ID: 15
+[2025-05-20 09:19:35] Affichage analyse #2 ID: 14
+[2025-05-20 09:19:35] Affichage analyse #3 ID: 3
+[2025-05-20 09:19:35] Affichage analyse #4 ID: 1
+[2025-05-20 09:19:35] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 09:27:17] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 09:27:17] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 09:27:17] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 09:27:17] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 09:27:17] User ID: 1
+[2025-05-20 09:27:17] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 09:27:17] Params: 1, 3, 14, 15, 1
+[2025-05-20 09:27:17] Nombre d'analyses récupérées: 4
+[2025-05-20 09:27:17] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 09:27:17] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 09:27:17] Affichage analyse #1 ID: 15
+[2025-05-20 09:27:17] Affichage analyse #2 ID: 14
+[2025-05-20 09:27:17] Affichage analyse #3 ID: 3
+[2025-05-20 09:27:17] Affichage analyse #4 ID: 1
+[2025-05-20 09:27:17] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 09:31:09] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 09:31:09] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 09:31:09] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 09:31:09] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 09:31:09] User ID: 1
+[2025-05-20 09:31:09] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 09:31:09] Params: 1, 3, 14, 15, 1
+[2025-05-20 09:31:09] Nombre d'analyses récupérées: 4
+[2025-05-20 09:31:09] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 09:31:09] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 09:31:09] Affichage analyse #1 ID: 15
+[2025-05-20 09:31:09] Affichage analyse #2 ID: 14
+[2025-05-20 09:31:09] Affichage analyse #3 ID: 3
+[2025-05-20 09:31:09] Affichage analyse #4 ID: 1
+[2025-05-20 09:31:09] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 09:37:35] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 09:37:35] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 09:37:35] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 09:37:35] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 09:37:35] User ID: 1
+[2025-05-20 09:37:35] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 09:37:35] Params: 1, 3, 14, 15, 1
+[2025-05-20 09:37:35] Nombre d'analyses récupérées: 4
+[2025-05-20 09:37:35] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 09:37:35] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 09:37:35] Affichage analyse #1 ID: 15
+[2025-05-20 09:37:35] Affichage analyse #2 ID: 14
+[2025-05-20 09:37:35] Affichage analyse #3 ID: 3
+[2025-05-20 09:37:35] Affichage analyse #4 ID: 1
+[2025-05-20 09:37:35] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 09:39:05] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 09:39:05] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 09:39:05] GET Params: {"ids":"1,3,14,15","analyzed":"true"}
+[2025-05-20 09:39:05] Mode multiple: IDs récupérés = 1, 3, 14, 15
+[2025-05-20 09:39:05] User ID: 1
+[2025-05-20 09:39:05] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 09:39:05] Params: 1, 3, 14, 15, 1
+[2025-05-20 09:39:05] Nombre d'analyses récupérées: 4
+[2025-05-20 09:39:05] IDs des analyses récupérées: 15, 14, 3, 1
+[2025-05-20 09:39:05] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 09:39:05] Affichage analyse #1 ID: 15
+[2025-05-20 09:39:05] Affichage analyse #2 ID: 14
+[2025-05-20 09:39:05] Affichage analyse #3 ID: 3
+[2025-05-20 09:39:05] Affichage analyse #4 ID: 1
+[2025-05-20 09:39:05] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 09:48:25] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 09:48:25] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?analyzed=true
+[2025-05-20 09:48:25] GET Params: {"analyzed":"true"}
+[2025-05-20 09:48:25] Aucun ID spécifié dans l'URL
+[2025-05-20 09:48:25] User ID: 1
+[2025-05-20 09:48:25] Requête SQL (dernière analyse): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE f.user_id = :user_id
+        ORDER BY a.id DESC 
+        LIMIT 1
+    
+[2025-05-20 09:48:25] Dernière analyse récupérée: ID = 16
+[2025-05-20 09:48:25] Avant boucle d'affichage, nombre d'analyses: 0
+[2025-05-20 09:48:25] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 09:55:47] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 09:55:47] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-20 09:55:47] GET Params: {"id":"17","analyzed":"true"}
+[2025-05-20 09:55:47] Mode simple: ID récupéré = 17
+[2025-05-20 09:55:47] User ID: 1
+[2025-05-20 09:55:47] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 09:55:47] Params: 17, 1
+[2025-05-20 09:55:47] Nombre d'analyses récupérées: 1
+[2025-05-20 09:55:47] IDs des analyses récupérées: 17
+[2025-05-20 09:55:47] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-20 09:55:47] Affichage analyse #1 ID: 17
+[2025-05-20 09:55:47] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 11:44:00] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 11:44:00] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-20 11:44:00] GET Params: {"id":"17","analyzed":"true"}
+[2025-05-20 11:44:00] Mode simple: ID récupéré = 17
+[2025-05-20 11:44:00] User ID: 1
+[2025-05-20 11:44:00] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 11:44:00] Params: 17, 1
+[2025-05-20 11:44:00] Nombre d'analyses récupérées: 1
+[2025-05-20 11:44:00] IDs des analyses récupérées: 17
+[2025-05-20 11:44:00] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-20 11:44:00] Affichage analyse #1 ID: 17
+[2025-05-20 11:44:00] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 11:48:44] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 11:48:44] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-20 11:48:44] GET Params: {"id":"17","analyzed":"true"}
+[2025-05-20 11:48:44] Mode simple: ID récupéré = 17
+[2025-05-20 11:48:44] User ID: 1
+[2025-05-20 11:48:44] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 11:48:44] Params: 17, 1
+[2025-05-20 11:48:44] Nombre d'analyses récupérées: 1
+[2025-05-20 11:48:44] IDs des analyses récupérées: 17
+[2025-05-20 11:48:44] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-20 11:48:44] Affichage analyse #1 ID: 17
+[2025-05-20 11:48:44] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 11:57:57] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 11:57:57] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-20 11:57:57] GET Params: {"id":"17","analyzed":"true"}
+[2025-05-20 11:57:57] Mode simple: ID récupéré = 17
+[2025-05-20 11:57:57] User ID: 1
+[2025-05-20 11:57:57] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 11:57:57] Params: 17, 1
+[2025-05-20 11:57:57] Nombre d'analyses récupérées: 1
+[2025-05-20 11:57:57] IDs des analyses récupérées: 17
+[2025-05-20 11:57:57] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-20 11:57:57] Affichage analyse #1 ID: 17
+[2025-05-20 11:57:57] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-20 12:20:45] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 12:20:45] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=19,21,23,25&analyzed=true
+[2025-05-20 12:20:45] GET Params: {"ids":"19,21,23,25","analyzed":"true"}
+[2025-05-20 12:20:45] Mode multiple: IDs récupérés = 19, 21, 23, 25
+[2025-05-20 12:20:45] User ID: 1
+[2025-05-20 12:20:45] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 12:20:45] Params: 19, 21, 23, 25, 1
+[2025-05-20 12:20:45] Nombre d'analyses récupérées: 4
+[2025-05-20 12:20:45] IDs des analyses récupérées: 25, 23, 21, 19
+[2025-05-20 12:20:45] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 12:20:45] Affichage analyse #1 ID: 25
+[2025-05-20 12:20:45] Affichage analyse #2 ID: 23
+[2025-05-20 12:20:45] Affichage analyse #3 ID: 21
+[2025-05-20 12:20:45] Affichage analyse #4 ID: 19
+[2025-05-20 12:20:45] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-20 12:20:45] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=19,21,23,25&analyzed=true
+[2025-05-20 12:20:45] GET Params: {"ids":"19,21,23,25","analyzed":"true"}
+[2025-05-20 12:20:45] Mode multiple: IDs récupérés = 19, 21, 23, 25
+[2025-05-20 12:20:45] User ID: 1
+[2025-05-20 12:20:45] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-20 12:20:45] Params: 19, 21, 23, 25, 1
+[2025-05-20 12:20:45] Nombre d'analyses récupérées: 4
+[2025-05-20 12:20:45] IDs des analyses récupérées: 25, 23, 21, 19
+[2025-05-20 12:20:45] Avant boucle d'affichage, nombre d'analyses: 4
+[2025-05-20 12:20:45] Affichage analyse #1 ID: 25
+[2025-05-20 12:20:45] Affichage analyse #2 ID: 23
+[2025-05-20 12:20:45] Affichage analyse #3 ID: 21
+[2025-05-20 12:20:45] Affichage analyse #4 ID: 19
+[2025-05-20 12:20:45] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 07:36:13] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 07:36:13] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?analyzed=true
+[2025-05-23 07:36:13] GET Params: {"analyzed":"true"}
+[2025-05-23 07:36:13] Aucun ID spécifié dans l'URL
+[2025-05-23 07:36:13] User ID: 1
+[2025-05-23 07:36:13] Requête SQL (dernière analyse): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE f.user_id = :user_id
+        ORDER BY a.id DESC 
+        LIMIT 1
+    
+[2025-05-23 07:36:13] Dernière analyse récupérée: ID = 26
+[2025-05-23 07:36:13] Avant boucle d'affichage, nombre d'analyses: 0
+[2025-05-23 07:36:13] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 07:48:17] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 07:48:17] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?analyzed=true
+[2025-05-23 07:48:17] GET Params: {"analyzed":"true"}
+[2025-05-23 07:48:17] Aucun ID spécifié dans l'URL
+[2025-05-23 07:48:17] User ID: 1
+[2025-05-23 07:48:17] Requête SQL (dernière analyse): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE f.user_id = :user_id
+        ORDER BY a.id DESC 
+        LIMIT 1
+    
+[2025-05-23 07:48:17] Aucune dernière analyse trouvée
+[2025-05-23 07:48:17] ERREUR: Aucune analyse de facture trouvée.
+[2025-05-23 07:48:17] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 07:50:42] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 07:50:42] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?analyzed=true
+[2025-05-23 07:50:42] GET Params: {"analyzed":"true"}
+[2025-05-23 07:50:42] Aucun ID spécifié dans l'URL
+[2025-05-23 07:50:42] User ID: 1
+[2025-05-23 07:50:42] Requête SQL (dernière analyse): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE f.user_id = :user_id
+        ORDER BY a.id DESC 
+        LIMIT 1
+    
+[2025-05-23 07:50:42] Aucune dernière analyse trouvée
+[2025-05-23 07:50:42] ERREUR: Aucune analyse de facture trouvée.
+[2025-05-23 07:50:42] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 07:53:12] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 07:53:12] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 07:53:12] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 07:53:12] Mode simple: ID récupéré = 1
+[2025-05-23 07:53:12] User ID: 1
+[2025-05-23 07:53:12] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 07:53:12] Params: 1, 1
+[2025-05-23 07:53:12] Nombre d'analyses récupérées: 1
+[2025-05-23 07:53:12] IDs des analyses récupérées: 1
+[2025-05-23 07:53:12] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 07:53:12] Affichage analyse #1 ID: 1
+[2025-05-23 07:53:12] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 08:58:45] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 08:58:45] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 08:58:45] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 08:58:45] Mode simple: ID récupéré = 1
+[2025-05-23 08:58:45] User ID: 1
+[2025-05-23 08:58:45] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 08:58:45] Params: 1, 1
+[2025-05-23 08:58:45] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 08:58:45] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 08:58:45] Nombre d'analyses récupérées: 1
+[2025-05-23 08:58:45] IDs des analyses récupérées: 1
+[2025-05-23 08:58:45] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 08:58:45] Affichage analyse #1 ID: 1
+[2025-05-23 08:58:45] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 08:59:44] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 08:59:44] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 08:59:44] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 08:59:44] Mode simple: ID récupéré = 1
+[2025-05-23 08:59:44] User ID: 1
+[2025-05-23 08:59:44] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 08:59:44] Params: 1, 1
+[2025-05-23 08:59:44] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 08:59:44] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 08:59:44] Nombre d'analyses récupérées: 1
+[2025-05-23 08:59:44] IDs des analyses récupérées: 1
+[2025-05-23 08:59:44] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 08:59:44] Affichage analyse #1 ID: 1
+[2025-05-23 08:59:44] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:02:04] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:02:04] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:02:04] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:02:04] Mode simple: ID récupéré = 1
+[2025-05-23 09:02:04] User ID: 1
+[2025-05-23 09:02:04] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:02:04] Params: 1, 1
+[2025-05-23 09:02:04] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:02:04] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:02:04] Nombre d'analyses récupérées: 1
+[2025-05-23 09:02:04] IDs des analyses récupérées: 1
+[2025-05-23 09:02:04] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:02:04] Affichage analyse #1 ID: 1
+[2025-05-23 09:02:04] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:02:21] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:02:21] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:02:21] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:02:21] Mode simple: ID récupéré = 1
+[2025-05-23 09:02:21] User ID: 1
+[2025-05-23 09:02:21] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:02:22] Params: 1, 1
+[2025-05-23 09:02:22] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:02:22] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:02:22] Nombre d'analyses récupérées: 1
+[2025-05-23 09:02:22] IDs des analyses récupérées: 1
+[2025-05-23 09:02:22] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:02:22] Affichage analyse #1 ID: 1
+[2025-05-23 09:02:22] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:03:16] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:03:16] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:03:16] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:03:16] Mode simple: ID récupéré = 1
+[2025-05-23 09:03:16] User ID: 1
+[2025-05-23 09:03:16] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:03:16] Params: 1, 1
+[2025-05-23 09:03:16] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:03:16] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:03:16] Nombre d'analyses récupérées: 1
+[2025-05-23 09:03:16] IDs des analyses récupérées: 1
+[2025-05-23 09:03:16] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:03:16] Affichage analyse #1 ID: 1
+[2025-05-23 09:03:16] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:03:17] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:03:17] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:03:17] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:03:17] Mode simple: ID récupéré = 1
+[2025-05-23 09:03:17] User ID: 1
+[2025-05-23 09:03:17] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:03:17] Params: 1, 1
+[2025-05-23 09:03:17] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:03:17] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:03:17] Nombre d'analyses récupérées: 1
+[2025-05-23 09:03:17] IDs des analyses récupérées: 1
+[2025-05-23 09:03:17] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:03:17] Affichage analyse #1 ID: 1
+[2025-05-23 09:03:17] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:03:44] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:03:44] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:03:44] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:03:44] Mode simple: ID récupéré = 1
+[2025-05-23 09:03:44] User ID: 1
+[2025-05-23 09:03:44] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:03:44] Params: 1, 1
+[2025-05-23 09:03:44] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:03:44] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:03:44] Nombre d'analyses récupérées: 1
+[2025-05-23 09:03:44] IDs des analyses récupérées: 1
+[2025-05-23 09:03:44] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:03:44] Affichage analyse #1 ID: 1
+[2025-05-23 09:03:44] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:03:45] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:03:45] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:03:45] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:03:45] Mode simple: ID récupéré = 1
+[2025-05-23 09:03:45] User ID: 1
+[2025-05-23 09:03:45] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:03:45] Params: 1, 1
+[2025-05-23 09:03:45] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:03:45] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:03:45] Nombre d'analyses récupérées: 1
+[2025-05-23 09:03:45] IDs des analyses récupérées: 1
+[2025-05-23 09:03:45] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:03:45] Affichage analyse #1 ID: 1
+[2025-05-23 09:03:45] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:03:46] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:03:46] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:03:46] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:03:46] Mode simple: ID récupéré = 1
+[2025-05-23 09:03:46] User ID: 1
+[2025-05-23 09:03:46] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:03:46] Params: 1, 1
+[2025-05-23 09:03:46] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:03:46] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:03:46] Nombre d'analyses récupérées: 1
+[2025-05-23 09:03:46] IDs des analyses récupérées: 1
+[2025-05-23 09:03:46] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:03:46] Affichage analyse #1 ID: 1
+[2025-05-23 09:03:46] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:05:37] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:05:37] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:05:37] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:05:37] Mode simple: ID récupéré = 1
+[2025-05-23 09:05:37] User ID: 1
+[2025-05-23 09:05:37] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:05:37] Params: 1, 1
+[2025-05-23 09:05:37] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:05:37] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:05:37] Nombre d'analyses récupérées: 1
+[2025-05-23 09:05:37] IDs des analyses récupérées: 1
+[2025-05-23 09:05:37] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:05:37] Affichage analyse #1 ID: 1
+[2025-05-23 09:05:37] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:06:06] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:06:06] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:06:06] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:06:06] Mode simple: ID récupéré = 1
+[2025-05-23 09:06:06] User ID: 1
+[2025-05-23 09:06:06] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:06:06] Params: 1, 1
+[2025-05-23 09:06:06] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:06:06] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:06:06] Nombre d'analyses récupérées: 1
+[2025-05-23 09:06:06] IDs des analyses récupérées: 1
+[2025-05-23 09:06:06] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:06:06] Affichage analyse #1 ID: 1
+[2025-05-23 09:06:06] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:06:33] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:06:33] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:06:33] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:06:33] Mode simple: ID récupéré = 1
+[2025-05-23 09:06:33] User ID: 1
+[2025-05-23 09:06:33] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:06:33] Params: 1, 1
+[2025-05-23 09:06:33] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:06:33] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:06:33] Nombre d'analyses récupérées: 1
+[2025-05-23 09:06:33] IDs des analyses récupérées: 1
+[2025-05-23 09:06:33] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:06:33] Affichage analyse #1 ID: 1
+[2025-05-23 09:06:33] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:08:13] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:08:13] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:08:13] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:08:13] Mode simple: ID récupéré = 1
+[2025-05-23 09:08:13] User ID: 1
+[2025-05-23 09:08:13] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:08:13] Params: 1, 1
+[2025-05-23 09:08:13] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:08:13] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:08:13] Nombre d'analyses récupérées: 1
+[2025-05-23 09:08:13] IDs des analyses récupérées: 1
+[2025-05-23 09:08:13] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:08:13] Affichage analyse #1 ID: 1
+[2025-05-23 09:08:13] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:18:46] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:18:46] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:18:46] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:18:46] Mode simple: ID récupéré = 1
+[2025-05-23 09:18:46] User ID: 1
+[2025-05-23 09:18:46] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:18:46] Params: 1, 1
+[2025-05-23 09:18:46] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:18:46] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:18:46] Nombre d'analyses récupérées: 1
+[2025-05-23 09:18:46] IDs des analyses récupérées: 1
+[2025-05-23 09:18:46] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:18:46] Affichage analyse #1 ID: 1
+[2025-05-23 09:18:46] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:19:23] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:19:23] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:19:23] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:19:23] Mode simple: ID récupéré = 1
+[2025-05-23 09:19:23] User ID: 1
+[2025-05-23 09:19:23] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:19:23] Params: 1, 1
+[2025-05-23 09:19:23] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:19:23] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:19:23] Nombre d'analyses récupérées: 1
+[2025-05-23 09:19:23] IDs des analyses récupérées: 1
+[2025-05-23 09:19:23] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:19:23] Affichage analyse #1 ID: 1
+[2025-05-23 09:19:23] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:20:24] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:20:24] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 09:20:24] GET Params: {"id":"1","analyzed":"true"}
+[2025-05-23 09:20:24] Mode simple: ID récupéré = 1
+[2025-05-23 09:20:24] User ID: 1
+[2025-05-23 09:20:24] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 09:20:24] Params: 1, 1
+[2025-05-23 09:20:24] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 09:20:24] Nombre de lignes d'articles récupérées: 35
+[2025-05-23 09:20:24] Nombre d'analyses récupérées: 1
+[2025-05-23 09:20:24] IDs des analyses récupérées: 1
+[2025-05-23 09:20:24] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 09:20:24] Affichage analyse #1 ID: 1
+[2025-05-23 09:20:24] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 09:51:28] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 09:51:28] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?analyzed=true
+[2025-05-23 09:51:28] GET Params: {"analyzed":"true"}
+[2025-05-23 09:51:28] Aucun ID spécifié dans l'URL
+[2025-05-23 09:51:28] User ID: 1
+[2025-05-23 09:51:28] Requête SQL (dernière analyse): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE f.user_id = :user_id
+        ORDER BY a.id DESC 
+        LIMIT 1
+    
+[2025-05-23 09:51:28] Dernière analyse récupérée: ID = 1
+[2025-05-23 09:51:28] Avant boucle d'affichage, nombre d'analyses: 0
+[2025-05-23 09:51:28] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 11:27:38] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 11:27:38] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=2&analyzed=true
+[2025-05-23 11:27:38] GET Params: {"id":"2","analyzed":"true"}
+[2025-05-23 11:27:38] Mode simple: ID récupéré = 2
+[2025-05-23 11:27:38] User ID: 1
+[2025-05-23 11:27:38] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 11:27:38] Params: 2, 1
+[2025-05-23 11:27:38] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 11:27:38] Nombre de lignes d'articles récupérées: 91
+[2025-05-23 11:27:38] Nombre d'analyses récupérées: 1
+[2025-05-23 11:27:38] IDs des analyses récupérées: 2
+[2025-05-23 11:27:38] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 11:27:38] Affichage analyse #1 ID: 2
+[2025-05-23 11:27:38] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 11:31:04] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 11:31:04] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=2&analyzed=true
+[2025-05-23 11:31:04] GET Params: {"id":"2","analyzed":"true"}
+[2025-05-23 11:31:04] Mode simple: ID récupéré = 2
+[2025-05-23 11:31:04] User ID: 1
+[2025-05-23 11:31:04] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 11:31:04] Params: 2, 1
+[2025-05-23 11:31:04] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 11:31:04] Nombre de lignes d'articles récupérées: 91
+[2025-05-23 11:31:04] Nombre d'analyses récupérées: 1
+[2025-05-23 11:31:04] IDs des analyses récupérées: 2
+[2025-05-23 11:31:04] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 11:31:04] Affichage analyse #1 ID: 2
+[2025-05-23 11:31:04] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 11:33:28] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 11:33:28] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=3&analyzed=true
+[2025-05-23 11:33:28] GET Params: {"id":"3","analyzed":"true"}
+[2025-05-23 11:33:28] Mode simple: ID récupéré = 3
+[2025-05-23 11:33:28] User ID: 1
+[2025-05-23 11:33:28] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 11:33:28] Params: 3, 1
+[2025-05-23 11:33:28] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 11:33:28] Nombre de lignes d'articles récupérées: 4
+[2025-05-23 11:33:28] Nombre d'analyses récupérées: 1
+[2025-05-23 11:33:28] IDs des analyses récupérées: 3
+[2025-05-23 11:33:28] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 11:33:28] Affichage analyse #1 ID: 3
+[2025-05-23 11:33:28] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 11:34:12] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 11:34:12] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=3&analyzed=true
+[2025-05-23 11:34:12] GET Params: {"id":"3","analyzed":"true"}
+[2025-05-23 11:34:12] Mode simple: ID récupéré = 3
+[2025-05-23 11:34:12] User ID: 1
+[2025-05-23 11:34:12] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 11:34:12] Params: 3, 1
+[2025-05-23 11:34:12] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 11:34:12] Nombre de lignes d'articles récupérées: 4
+[2025-05-23 11:34:12] Nombre d'analyses récupérées: 1
+[2025-05-23 11:34:12] IDs des analyses récupérées: 3
+[2025-05-23 11:34:12] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 11:34:12] Affichage analyse #1 ID: 3
+[2025-05-23 11:34:12] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 11:34:34] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 11:34:34] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,2&analyzed=true
+[2025-05-23 11:34:34] GET Params: {"ids":"1,3,2","analyzed":"true"}
+[2025-05-23 11:34:34] Mode multiple: IDs récupérés = 1, 3, 2
+[2025-05-23 11:34:34] User ID: 1
+[2025-05-23 11:34:34] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?,?,?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 11:34:34] Params: 1, 3, 2, 1
+[2025-05-23 11:34:34] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?,?,?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 11:34:34] Nombre de lignes d'articles récupérées: 130
+[2025-05-23 11:34:34] Nombre d'analyses récupérées: 3
+[2025-05-23 11:34:34] IDs des analyses récupérées: 3, 2, 1
+[2025-05-23 11:34:34] Avant boucle d'affichage, nombre d'analyses: 3
+[2025-05-23 11:34:34] Affichage analyse #1 ID: 3
+[2025-05-23 11:34:34] Affichage analyse #2 ID: 2
+[2025-05-23 11:34:34] Affichage analyse #3 ID: 1
+[2025-05-23 11:34:34] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 12:30:16] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 12:30:16] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=4&analyzed=true
+[2025-05-23 12:30:16] GET Params: {"id":"4","analyzed":"true"}
+[2025-05-23 12:30:16] Mode simple: ID récupéré = 4
+[2025-05-23 12:30:16] User ID: 3
+[2025-05-23 12:30:16] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 12:30:16] Params: 4, 3
+[2025-05-23 12:30:16] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 12:30:16] Nombre de lignes d'articles récupérées: 2
+[2025-05-23 12:30:16] Nombre d'analyses récupérées: 1
+[2025-05-23 12:30:16] IDs des analyses récupérées: 4
+[2025-05-23 12:30:16] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 12:30:16] Affichage analyse #1 ID: 4
+[2025-05-23 12:30:16] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 12:32:29] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 12:32:29] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=5&analyzed=true
+[2025-05-23 12:32:29] GET Params: {"id":"5","analyzed":"true"}
+[2025-05-23 12:32:29] Mode simple: ID récupéré = 5
+[2025-05-23 12:32:29] User ID: 3
+[2025-05-23 12:32:29] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 12:32:29] Params: 5, 3
+[2025-05-23 12:32:29] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 12:32:29] Nombre de lignes d'articles récupérées: 2
+[2025-05-23 12:32:29] Nombre d'analyses récupérées: 1
+[2025-05-23 12:32:29] IDs des analyses récupérées: 5
+[2025-05-23 12:32:29] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 12:32:29] Affichage analyse #1 ID: 5
+[2025-05-23 12:32:29] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 12:38:47] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 12:38:47] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=6&analyzed=true
+[2025-05-23 12:38:47] GET Params: {"id":"6","analyzed":"true"}
+[2025-05-23 12:38:47] Mode simple: ID récupéré = 6
+[2025-05-23 12:38:47] User ID: 3
+[2025-05-23 12:38:47] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 12:38:47] Params: 6, 3
+[2025-05-23 12:38:47] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 12:38:47] Nombre de lignes d'articles récupérées: 12
+[2025-05-23 12:38:47] Nombre d'analyses récupérées: 1
+[2025-05-23 12:38:47] IDs des analyses récupérées: 6
+[2025-05-23 12:38:47] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 12:38:47] Affichage analyse #1 ID: 6
+[2025-05-23 12:38:47] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 12:46:20] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 12:46:20] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=7&analyzed=true
+[2025-05-23 12:46:20] GET Params: {"id":"7","analyzed":"true"}
+[2025-05-23 12:46:20] Mode simple: ID récupéré = 7
+[2025-05-23 12:46:20] User ID: 1
+[2025-05-23 12:46:20] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 12:46:20] Params: 7, 1
+[2025-05-23 12:46:20] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 12:46:20] Nombre de lignes d'articles récupérées: 0
+[2025-05-23 12:46:20] Nombre d'analyses récupérées: 1
+[2025-05-23 12:46:20] IDs des analyses récupérées: 7
+[2025-05-23 12:46:20] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 12:46:20] Affichage analyse #1 ID: 7
+[2025-05-23 12:46:20] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 12:46:53] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 12:46:53] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=7&analyzed=true
+[2025-05-23 12:46:53] GET Params: {"id":"7","analyzed":"true"}
+[2025-05-23 12:46:53] Mode simple: ID récupéré = 7
+[2025-05-23 12:46:53] User ID: 1
+[2025-05-23 12:46:53] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 12:46:53] Params: 7, 1
+[2025-05-23 12:46:53] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 12:46:53] Nombre de lignes d'articles récupérées: 0
+[2025-05-23 12:46:53] Nombre d'analyses récupérées: 1
+[2025-05-23 12:46:53] IDs des analyses récupérées: 7
+[2025-05-23 12:46:53] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 12:46:53] Affichage analyse #1 ID: 7
+[2025-05-23 12:46:53] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 12:46:57] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 12:46:57] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=7&analyzed=true
+[2025-05-23 12:46:57] GET Params: {"id":"7","analyzed":"true"}
+[2025-05-23 12:46:57] Mode simple: ID récupéré = 7
+[2025-05-23 12:46:57] User ID: 1
+[2025-05-23 12:46:57] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 12:46:57] Params: 7, 1
+[2025-05-23 12:46:57] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 12:46:57] Nombre de lignes d'articles récupérées: 0
+[2025-05-23 12:46:57] Nombre d'analyses récupérées: 1
+[2025-05-23 12:46:57] IDs des analyses récupérées: 7
+[2025-05-23 12:46:57] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 12:46:57] Affichage analyse #1 ID: 7
+[2025-05-23 12:46:57] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 12:47:10] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 12:47:10] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=7&analyzed=true
+[2025-05-23 12:47:10] GET Params: {"id":"7","analyzed":"true"}
+[2025-05-23 12:47:10] Mode simple: ID récupéré = 7
+[2025-05-23 12:47:10] User ID: 1
+[2025-05-23 12:47:10] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 12:47:10] Params: 7, 1
+[2025-05-23 12:47:10] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 12:47:10] Nombre de lignes d'articles récupérées: 0
+[2025-05-23 12:47:10] Nombre d'analyses récupérées: 1
+[2025-05-23 12:47:10] IDs des analyses récupérées: 7
+[2025-05-23 12:47:10] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 12:47:10] Affichage analyse #1 ID: 7
+[2025-05-23 12:47:10] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 12:47:36] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 12:47:36] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=7&analyzed=true
+[2025-05-23 12:47:36] GET Params: {"id":"7","analyzed":"true"}
+[2025-05-23 12:47:36] Mode simple: ID récupéré = 7
+[2025-05-23 12:47:36] User ID: 1
+[2025-05-23 12:47:36] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 12:47:36] Params: 7, 1
+[2025-05-23 12:47:36] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 12:47:36] Nombre de lignes d'articles récupérées: 0
+[2025-05-23 12:47:36] Nombre d'analyses récupérées: 1
+[2025-05-23 12:47:36] IDs des analyses récupérées: 7
+[2025-05-23 12:47:36] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 12:47:36] Affichage analyse #1 ID: 7
+[2025-05-23 12:47:36] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 12:48:09] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 12:48:09] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=7&analyzed=true
+[2025-05-23 12:48:09] GET Params: {"id":"7","analyzed":"true"}
+[2025-05-23 12:48:09] Mode simple: ID récupéré = 7
+[2025-05-23 12:48:09] User ID: 1
+[2025-05-23 12:48:09] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 12:48:09] Params: 7, 1
+[2025-05-23 12:48:09] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 12:48:09] Nombre de lignes d'articles récupérées: 0
+[2025-05-23 12:48:09] Nombre d'analyses récupérées: 1
+[2025-05-23 12:48:09] IDs des analyses récupérées: 7
+[2025-05-23 12:48:09] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 12:48:09] Affichage analyse #1 ID: 7
+[2025-05-23 12:48:09] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 12:58:07] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 12:58:07] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=8&analyzed=true
+[2025-05-23 12:58:07] GET Params: {"id":"8","analyzed":"true"}
+[2025-05-23 12:58:07] Mode simple: ID récupéré = 8
+[2025-05-23 12:58:07] User ID: 1
+[2025-05-23 12:58:07] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 12:58:07] Params: 8, 1
+[2025-05-23 12:58:07] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 12:58:07] Nombre de lignes d'articles récupérées: 11
+[2025-05-23 12:58:07] Nombre d'analyses récupérées: 1
+[2025-05-23 12:58:07] IDs des analyses récupérées: 8
+[2025-05-23 12:58:07] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 12:58:07] Affichage analyse #1 ID: 8
+[2025-05-23 12:58:07] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 13:05:23] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 13:05:23] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=8&analyzed=true
+[2025-05-23 13:05:23] GET Params: {"id":"8","analyzed":"true"}
+[2025-05-23 13:05:23] Mode simple: ID récupéré = 8
+[2025-05-23 13:05:23] User ID: 1
+[2025-05-23 13:05:23] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 13:05:23] Params: 8, 1
+[2025-05-23 13:05:23] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 13:05:23] Nombre de lignes d'articles récupérées: 11
+[2025-05-23 13:05:23] Nombre d'analyses récupérées: 1
+[2025-05-23 13:05:23] IDs des analyses récupérées: 8
+[2025-05-23 13:05:23] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 13:05:23] Affichage analyse #1 ID: 8
+[2025-05-23 13:05:23] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 13:07:35] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 13:07:35] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=9&analyzed=true
+[2025-05-23 13:07:35] GET Params: {"id":"9","analyzed":"true"}
+[2025-05-23 13:07:35] Mode simple: ID récupéré = 9
+[2025-05-23 13:07:35] User ID: 1
+[2025-05-23 13:07:35] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 13:07:35] Params: 9, 1
+[2025-05-23 13:07:35] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 13:07:35] Nombre de lignes d'articles récupérées: 8
+[2025-05-23 13:07:35] Nombre d'analyses récupérées: 1
+[2025-05-23 13:07:35] IDs des analyses récupérées: 9
+[2025-05-23 13:07:35] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 13:07:35] Affichage analyse #1 ID: 9
+[2025-05-23 13:07:35] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 13:13:51] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 13:13:51] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=9&analyzed=true
+[2025-05-23 13:13:51] GET Params: {"id":"9","analyzed":"true"}
+[2025-05-23 13:13:51] Mode simple: ID récupéré = 9
+[2025-05-23 13:13:51] User ID: 1
+[2025-05-23 13:13:51] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 13:13:51] Params: 9, 1
+[2025-05-23 13:13:51] Nombre d'analyses récupérées: 0
+[2025-05-23 13:13:51] ERREUR: Aucune analyse de facture trouvée.
+[2025-05-23 13:13:51] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 13:14:01] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 13:14:01] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=10&analyzed=true
+[2025-05-23 13:14:01] GET Params: {"id":"10","analyzed":"true"}
+[2025-05-23 13:14:01] Mode simple: ID récupéré = 10
+[2025-05-23 13:14:01] User ID: 1
+[2025-05-23 13:14:01] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 13:14:01] Params: 10, 1
+[2025-05-23 13:14:01] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 13:14:01] Nombre de lignes d'articles récupérées: 4
+[2025-05-23 13:14:01] Nombre d'analyses récupérées: 1
+[2025-05-23 13:14:01] IDs des analyses récupérées: 10
+[2025-05-23 13:14:01] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 13:14:01] Affichage analyse #1 ID: 10
+[2025-05-23 13:14:01] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 13:23:17] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 13:23:17] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=11&analyzed=true
+[2025-05-23 13:23:17] GET Params: {"id":"11","analyzed":"true"}
+[2025-05-23 13:23:17] Mode simple: ID récupéré = 11
+[2025-05-23 13:23:17] User ID: 1
+[2025-05-23 13:23:17] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 13:23:17] Params: 11, 1
+[2025-05-23 13:23:17] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 13:23:17] Nombre de lignes d'articles récupérées: 5
+[2025-05-23 13:23:17] Nombre d'analyses récupérées: 1
+[2025-05-23 13:23:17] IDs des analyses récupérées: 11
+[2025-05-23 13:23:17] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 13:23:17] Affichage analyse #1 ID: 11
+[2025-05-23 13:23:17] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 13:29:22] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 13:29:22] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=12&analyzed=true
+[2025-05-23 13:29:22] GET Params: {"id":"12","analyzed":"true"}
+[2025-05-23 13:29:22] Mode simple: ID récupéré = 12
+[2025-05-23 13:29:22] User ID: 1
+[2025-05-23 13:29:22] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 13:29:22] Params: 12, 1
+[2025-05-23 13:29:22] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 13:29:22] Nombre de lignes d'articles récupérées: 26
+[2025-05-23 13:29:22] Nombre d'analyses récupérées: 1
+[2025-05-23 13:29:22] IDs des analyses récupérées: 12
+[2025-05-23 13:29:22] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 13:29:22] Affichage analyse #1 ID: 12
+[2025-05-23 13:29:22] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 13:29:56] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 13:29:56] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=13&analyzed=true
+[2025-05-23 13:29:56] GET Params: {"id":"13","analyzed":"true"}
+[2025-05-23 13:29:56] Mode simple: ID récupéré = 13
+[2025-05-23 13:29:56] User ID: 1
+[2025-05-23 13:29:56] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 13:29:56] Params: 13, 1
+[2025-05-23 13:29:56] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 13:29:56] Nombre de lignes d'articles récupérées: 3
+[2025-05-23 13:29:56] Nombre d'analyses récupérées: 1
+[2025-05-23 13:29:56] IDs des analyses récupérées: 13
+[2025-05-23 13:29:56] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 13:29:56] Affichage analyse #1 ID: 13
+[2025-05-23 13:29:56] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 13:30:30] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 13:30:30] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=11&analyzed=true
+[2025-05-23 13:30:30] GET Params: {"id":"11","analyzed":"true"}
+[2025-05-23 13:30:30] Mode simple: ID récupéré = 11
+[2025-05-23 13:30:30] User ID: 1
+[2025-05-23 13:30:30] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 13:30:30] Params: 11, 1
+[2025-05-23 13:30:30] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 13:30:30] Nombre de lignes d'articles récupérées: 5
+[2025-05-23 13:30:30] Nombre d'analyses récupérées: 1
+[2025-05-23 13:30:30] IDs des analyses récupérées: 11
+[2025-05-23 13:30:30] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 13:30:30] Affichage analyse #1 ID: 11
+[2025-05-23 13:30:30] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 13:30:39] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 13:30:39] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=14&analyzed=true
+[2025-05-23 13:30:39] GET Params: {"id":"14","analyzed":"true"}
+[2025-05-23 13:30:39] Mode simple: ID récupéré = 14
+[2025-05-23 13:30:39] User ID: 1
+[2025-05-23 13:30:39] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 13:30:39] Params: 14, 1
+[2025-05-23 13:30:39] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 13:30:39] Nombre de lignes d'articles récupérées: 5
+[2025-05-23 13:30:39] Nombre d'analyses récupérées: 1
+[2025-05-23 13:30:39] IDs des analyses récupérées: 14
+[2025-05-23 13:30:39] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 13:30:39] Affichage analyse #1 ID: 14
+[2025-05-23 13:30:39] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:24:37] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:24:37] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=15&analyzed=true
+[2025-05-23 14:24:37] GET Params: {"id":"15","analyzed":"true"}
+[2025-05-23 14:24:37] Mode simple: ID récupéré = 15
+[2025-05-23 14:24:37] User ID: 1
+[2025-05-23 14:24:37] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:24:37] Params: 15, 1
+[2025-05-23 14:24:37] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:24:37] Nombre de lignes d'articles récupérées: 10
+[2025-05-23 14:24:37] Nombre d'analyses récupérées: 1
+[2025-05-23 14:24:37] IDs des analyses récupérées: 15
+[2025-05-23 14:24:37] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:24:37] Affichage analyse #1 ID: 15
+[2025-05-23 14:24:37] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:25:15] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:25:15] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:25:15] GET Params: {"id":"16","analyzed":"true"}
+[2025-05-23 14:25:15] Mode simple: ID récupéré = 16
+[2025-05-23 14:25:15] User ID: 1
+[2025-05-23 14:25:15] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:25:15] Params: 16, 1
+[2025-05-23 14:25:15] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:25:15] Nombre de lignes d'articles récupérées: 3
+[2025-05-23 14:25:15] Nombre d'analyses récupérées: 1
+[2025-05-23 14:25:15] IDs des analyses récupérées: 16
+[2025-05-23 14:25:15] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:25:15] Affichage analyse #1 ID: 16
+[2025-05-23 14:25:15] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:25:33] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:25:33] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-23 14:25:33] GET Params: {"id":"17","analyzed":"true"}
+[2025-05-23 14:25:33] Mode simple: ID récupéré = 17
+[2025-05-23 14:25:33] User ID: 1
+[2025-05-23 14:25:33] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:25:33] Params: 17, 1
+[2025-05-23 14:25:33] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:25:33] Nombre de lignes d'articles récupérées: 2
+[2025-05-23 14:25:33] Nombre d'analyses récupérées: 1
+[2025-05-23 14:25:33] IDs des analyses récupérées: 17
+[2025-05-23 14:25:33] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:25:33] Affichage analyse #1 ID: 17
+[2025-05-23 14:25:33] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:26:13] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:26:13] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=18&analyzed=true
+[2025-05-23 14:26:13] GET Params: {"id":"18","analyzed":"true"}
+[2025-05-23 14:26:13] Mode simple: ID récupéré = 18
+[2025-05-23 14:26:13] User ID: 1
+[2025-05-23 14:26:13] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:26:13] Params: 18, 1
+[2025-05-23 14:26:13] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:26:13] Nombre de lignes d'articles récupérées: 28
+[2025-05-23 14:26:13] Nombre d'analyses récupérées: 1
+[2025-05-23 14:26:13] IDs des analyses récupérées: 18
+[2025-05-23 14:26:13] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:26:13] Affichage analyse #1 ID: 18
+[2025-05-23 14:26:13] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:26:59] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:26:59] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:26:59] GET Params: {"id":"16","analyzed":"true"}
+[2025-05-23 14:26:59] Mode simple: ID récupéré = 16
+[2025-05-23 14:26:59] User ID: 1
+[2025-05-23 14:26:59] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:26:59] Params: 16, 1
+[2025-05-23 14:26:59] Requête SQL (lignes d'articles): 
+            SELECT * FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:26:59] Nombre de lignes d'articles récupérées: 3
+[2025-05-23 14:26:59] Nombre d'analyses récupérées: 1
+[2025-05-23 14:26:59] IDs des analyses récupérées: 16
+[2025-05-23 14:26:59] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:26:59] Affichage analyse #1 ID: 16
+[2025-05-23 14:26:59] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:34:53] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:34:53] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:34:53] GET Params: {"id":"16","analyzed":"true"}
+[2025-05-23 14:34:53] Mode simple: ID récupéré = 16
+[2025-05-23 14:34:53] User ID: 1
+[2025-05-23 14:34:53] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:34:53] Params: 16, 1
+[2025-05-23 14:34:53] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:34:53] Nombre de lignes d'articles récupérées: 3
+[2025-05-23 14:34:53] Nombre d'analyses récupérées: 1
+[2025-05-23 14:34:53] IDs des analyses récupérées: 16
+[2025-05-23 14:34:53] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:34:53] Affichage analyse #1 ID: 16
+[2025-05-23 14:34:53] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:38:14] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:38:14] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:38:14] GET Params: {"id":"16","analyzed":"true"}
+[2025-05-23 14:38:14] Mode simple: ID récupéré = 16
+[2025-05-23 14:38:14] User ID: 1
+[2025-05-23 14:38:14] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:38:14] Params: 16, 1
+[2025-05-23 14:38:14] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:38:14] Nombre de lignes d'articles récupérées: 3
+[2025-05-23 14:38:14] Nombre d'analyses récupérées: 1
+[2025-05-23 14:38:14] IDs des analyses récupérées: 16
+[2025-05-23 14:38:14] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:38:14] Affichage analyse #1 ID: 16
+[2025-05-23 14:38:14] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:38:15] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:38:15] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:38:15] GET Params: {"id":"16","analyzed":"true"}
+[2025-05-23 14:38:15] Mode simple: ID récupéré = 16
+[2025-05-23 14:38:15] User ID: 1
+[2025-05-23 14:38:15] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:38:15] Params: 16, 1
+[2025-05-23 14:38:15] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:38:15] Nombre de lignes d'articles récupérées: 3
+[2025-05-23 14:38:15] Nombre d'analyses récupérées: 1
+[2025-05-23 14:38:15] IDs des analyses récupérées: 16
+[2025-05-23 14:38:15] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:38:15] Affichage analyse #1 ID: 16
+[2025-05-23 14:38:15] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:38:15] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:38:15] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:38:15] GET Params: {"id":"16","analyzed":"true"}
+[2025-05-23 14:38:15] Mode simple: ID récupéré = 16
+[2025-05-23 14:38:15] User ID: 1
+[2025-05-23 14:38:15] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:38:15] Params: 16, 1
+[2025-05-23 14:38:15] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:38:15] Nombre de lignes d'articles récupérées: 3
+[2025-05-23 14:38:15] Nombre d'analyses récupérées: 1
+[2025-05-23 14:38:15] IDs des analyses récupérées: 16
+[2025-05-23 14:38:15] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:38:15] Affichage analyse #1 ID: 16
+[2025-05-23 14:38:15] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:47:02] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:47:02] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:47:02] GET Params: {"id":"16","analyzed":"true"}
+[2025-05-23 14:47:02] Mode simple: ID récupéré = 16
+[2025-05-23 14:47:02] User ID: 1
+[2025-05-23 14:47:02] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:47:02] Params: 16, 1
+[2025-05-23 14:47:02] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:47:02] Nombre de lignes d'articles récupérées: 3
+[2025-05-23 14:47:02] Nombre d'analyses récupérées: 1
+[2025-05-23 14:47:02] IDs des analyses récupérées: 16
+[2025-05-23 14:47:02] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:47:02] Affichage analyse #1 ID: 16
+[2025-05-23 14:47:02] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:47:03] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:47:03] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:47:03] GET Params: {"id":"16","analyzed":"true"}
+[2025-05-23 14:47:03] Mode simple: ID récupéré = 16
+[2025-05-23 14:47:03] User ID: 1
+[2025-05-23 14:47:03] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:47:03] Params: 16, 1
+[2025-05-23 14:47:03] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:47:03] Nombre de lignes d'articles récupérées: 3
+[2025-05-23 14:47:03] Nombre d'analyses récupérées: 1
+[2025-05-23 14:47:03] IDs des analyses récupérées: 16
+[2025-05-23 14:47:03] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:47:03] Affichage analyse #1 ID: 16
+[2025-05-23 14:47:03] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:47:03] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:47:03] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:47:03] GET Params: {"id":"16","analyzed":"true"}
+[2025-05-23 14:47:03] Mode simple: ID récupéré = 16
+[2025-05-23 14:47:03] User ID: 1
+[2025-05-23 14:47:03] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:47:03] Params: 16, 1
+[2025-05-23 14:47:03] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:47:03] Nombre de lignes d'articles récupérées: 3
+[2025-05-23 14:47:03] Nombre d'analyses récupérées: 1
+[2025-05-23 14:47:03] IDs des analyses récupérées: 16
+[2025-05-23 14:47:03] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:47:03] Affichage analyse #1 ID: 16
+[2025-05-23 14:47:03] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:47:04] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:47:04] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:47:04] GET Params: {"id":"16","analyzed":"true"}
+[2025-05-23 14:47:04] Mode simple: ID récupéré = 16
+[2025-05-23 14:47:04] User ID: 1
+[2025-05-23 14:47:04] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:47:04] Params: 16, 1
+[2025-05-23 14:47:04] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:47:04] Nombre de lignes d'articles récupérées: 3
+[2025-05-23 14:47:04] Nombre d'analyses récupérées: 1
+[2025-05-23 14:47:04] IDs des analyses récupérées: 16
+[2025-05-23 14:47:04] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:47:04] Affichage analyse #1 ID: 16
+[2025-05-23 14:47:04] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:48:33] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:48:33] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=15&analyzed=true
+[2025-05-23 14:48:33] GET Params: {"id":"15","analyzed":"true"}
+[2025-05-23 14:48:33] Mode simple: ID récupéré = 15
+[2025-05-23 14:48:33] User ID: 1
+[2025-05-23 14:48:33] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:48:33] Params: 15, 1
+[2025-05-23 14:48:33] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:48:33] Nombre de lignes d'articles récupérées: 10
+[2025-05-23 14:48:33] Nombre d'analyses récupérées: 1
+[2025-05-23 14:48:33] IDs des analyses récupérées: 15
+[2025-05-23 14:48:33] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:48:33] Affichage analyse #1 ID: 15
+[2025-05-23 14:48:33] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:49:38] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:49:38] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:49:38] GET Params: {"id":"16","analyzed":"true"}
+[2025-05-23 14:49:38] Mode simple: ID récupéré = 16
+[2025-05-23 14:49:38] User ID: 1
+[2025-05-23 14:49:38] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:49:38] Params: 16, 1
+[2025-05-23 14:49:38] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:49:38] Nombre de lignes d'articles récupérées: 3
+[2025-05-23 14:49:38] Nombre d'analyses récupérées: 1
+[2025-05-23 14:49:38] IDs des analyses récupérées: 16
+[2025-05-23 14:49:38] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:49:38] Affichage analyse #1 ID: 16
+[2025-05-23 14:49:38] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:50:44] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:50:44] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-23 14:50:44] GET Params: {"id":"17","analyzed":"true"}
+[2025-05-23 14:50:44] Mode simple: ID récupéré = 17
+[2025-05-23 14:50:44] User ID: 1
+[2025-05-23 14:50:44] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:50:44] Params: 17, 1
+[2025-05-23 14:50:44] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:50:44] Nombre de lignes d'articles récupérées: 2
+[2025-05-23 14:50:44] Nombre d'analyses récupérées: 1
+[2025-05-23 14:50:44] IDs des analyses récupérées: 17
+[2025-05-23 14:50:44] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:50:44] Affichage analyse #1 ID: 17
+[2025-05-23 14:50:44] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:51:31] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:51:31] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=18&analyzed=true
+[2025-05-23 14:51:31] GET Params: {"id":"18","analyzed":"true"}
+[2025-05-23 14:51:31] Mode simple: ID récupéré = 18
+[2025-05-23 14:51:31] User ID: 1
+[2025-05-23 14:51:31] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:51:31] Params: 18, 1
+[2025-05-23 14:51:31] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:51:31] Nombre de lignes d'articles récupérées: 28
+[2025-05-23 14:51:31] Nombre d'analyses récupérées: 1
+[2025-05-23 14:51:31] IDs des analyses récupérées: 18
+[2025-05-23 14:51:31] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:51:31] Affichage analyse #1 ID: 18
+[2025-05-23 14:51:31] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:52:08] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:52:08] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-23 14:52:08] GET Params: {"id":"17","analyzed":"true"}
+[2025-05-23 14:52:08] Mode simple: ID récupéré = 17
+[2025-05-23 14:52:08] User ID: 1
+[2025-05-23 14:52:08] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:52:08] Params: 17, 1
+[2025-05-23 14:52:08] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:52:08] Nombre de lignes d'articles récupérées: 2
+[2025-05-23 14:52:08] Nombre d'analyses récupérées: 1
+[2025-05-23 14:52:08] IDs des analyses récupérées: 17
+[2025-05-23 14:52:08] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:52:08] Affichage analyse #1 ID: 17
+[2025-05-23 14:52:08] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:58:11] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:58:11] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-23 14:58:11] GET Params: {"id":"17","analyzed":"true"}
+[2025-05-23 14:58:11] Mode simple: ID récupéré = 17
+[2025-05-23 14:58:11] User ID: 1
+[2025-05-23 14:58:11] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:58:11] Params: 17, 1
+[2025-05-23 14:58:11] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:58:11] Nombre de lignes d'articles récupérées: 2
+[2025-05-23 14:58:11] Nombre d'analyses récupérées: 1
+[2025-05-23 14:58:11] IDs des analyses récupérées: 17
+[2025-05-23 14:58:11] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:58:11] Affichage analyse #1 ID: 17
+[2025-05-23 14:58:11] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:58:15] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:58:15] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-23 14:58:15] GET Params: {"id":"17","analyzed":"true"}
+[2025-05-23 14:58:15] Mode simple: ID récupéré = 17
+[2025-05-23 14:58:15] User ID: 1
+[2025-05-23 14:58:15] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:58:15] Params: 17, 1
+[2025-05-23 14:58:15] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:58:15] Nombre de lignes d'articles récupérées: 2
+[2025-05-23 14:58:15] Nombre d'analyses récupérées: 1
+[2025-05-23 14:58:15] IDs des analyses récupérées: 17
+[2025-05-23 14:58:15] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:58:15] Affichage analyse #1 ID: 17
+[2025-05-23 14:58:15] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:59:06] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:59:06] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=19&analyzed=true
+[2025-05-23 14:59:06] GET Params: {"id":"19","analyzed":"true"}
+[2025-05-23 14:59:06] Mode simple: ID récupéré = 19
+[2025-05-23 14:59:06] User ID: 1
+[2025-05-23 14:59:06] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:59:06] Params: 19, 1
+[2025-05-23 14:59:06] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:59:06] Nombre de lignes d'articles récupérées: 4
+[2025-05-23 14:59:06] Nombre d'analyses récupérées: 1
+[2025-05-23 14:59:06] IDs des analyses récupérées: 19
+[2025-05-23 14:59:06] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:59:06] Affichage analyse #1 ID: 19
+[2025-05-23 14:59:06] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 14:59:32] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 14:59:32] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=20&analyzed=true
+[2025-05-23 14:59:32] GET Params: {"id":"20","analyzed":"true"}
+[2025-05-23 14:59:32] Mode simple: ID récupéré = 20
+[2025-05-23 14:59:32] User ID: 1
+[2025-05-23 14:59:32] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 14:59:32] Params: 20, 1
+[2025-05-23 14:59:32] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 14:59:32] Nombre de lignes d'articles récupérées: 3
+[2025-05-23 14:59:32] Nombre d'analyses récupérées: 1
+[2025-05-23 14:59:32] IDs des analyses récupérées: 20
+[2025-05-23 14:59:32] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 14:59:32] Affichage analyse #1 ID: 20
+[2025-05-23 14:59:32] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-23 15:00:04] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-23 15:00:04] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=21&analyzed=true
+[2025-05-23 15:00:04] GET Params: {"id":"21","analyzed":"true"}
+[2025-05-23 15:00:04] Mode simple: ID récupéré = 21
+[2025-05-23 15:00:04] User ID: 1
+[2025-05-23 15:00:04] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-23 15:00:04] Params: 21, 1
+[2025-05-23 15:00:04] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-23 15:00:04] Nombre de lignes d'articles récupérées: 10
+[2025-05-23 15:00:04] Nombre d'analyses récupérées: 1
+[2025-05-23 15:00:04] IDs des analyses récupérées: 21
+[2025-05-23 15:00:04] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-23 15:00:04] Affichage analyse #1 ID: 21
+[2025-05-23 15:00:04] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-28 06:59:58] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-28 06:59:58] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=19&analyzed=true
+[2025-05-28 06:59:58] GET Params: {"id":"19","analyzed":"true"}
+[2025-05-28 06:59:58] Mode simple: ID récupéré = 19
+[2025-05-28 06:59:58] User ID: 1
+[2025-05-28 06:59:58] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-28 06:59:58] Params: 19, 1
+[2025-05-28 06:59:58] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-28 06:59:58] Nombre de lignes d'articles récupérées: 4
+[2025-05-28 06:59:58] Nombre d'analyses récupérées: 1
+[2025-05-28 06:59:58] IDs des analyses récupérées: 19
+[2025-05-28 06:59:58] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-28 06:59:58] Affichage analyse #1 ID: 19
+[2025-05-28 06:59:58] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-28 07:00:49] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-28 07:00:49] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=21&analyzed=true
+[2025-05-28 07:00:49] GET Params: {"id":"21","analyzed":"true"}
+[2025-05-28 07:00:49] Mode simple: ID récupéré = 21
+[2025-05-28 07:00:49] User ID: 1
+[2025-05-28 07:00:49] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-28 07:00:49] Params: 21, 1
+[2025-05-28 07:00:49] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-28 07:00:49] Nombre de lignes d'articles récupérées: 10
+[2025-05-28 07:00:49] Nombre d'analyses récupérées: 1
+[2025-05-28 07:00:49] IDs des analyses récupérées: 21
+[2025-05-28 07:00:49] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-28 07:00:49] Affichage analyse #1 ID: 21
+[2025-05-28 07:00:49] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-28 07:01:53] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-28 07:01:53] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=20&analyzed=true
+[2025-05-28 07:01:53] GET Params: {"id":"20","analyzed":"true"}
+[2025-05-28 07:01:53] Mode simple: ID récupéré = 20
+[2025-05-28 07:01:53] User ID: 1
+[2025-05-28 07:01:53] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-28 07:01:53] Params: 20, 1
+[2025-05-28 07:01:53] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-28 07:01:53] Nombre de lignes d'articles récupérées: 3
+[2025-05-28 07:01:53] Nombre d'analyses récupérées: 1
+[2025-05-28 07:01:53] IDs des analyses récupérées: 20
+[2025-05-28 07:01:53] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-28 07:01:53] Affichage analyse #1 ID: 20
+[2025-05-28 07:01:53] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-28 07:10:51] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-28 07:10:51] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=22&analyzed=true
+[2025-05-28 07:10:51] GET Params: {"id":"22","analyzed":"true"}
+[2025-05-28 07:10:51] Mode simple: ID récupéré = 22
+[2025-05-28 07:10:51] User ID: 1
+[2025-05-28 07:10:51] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-28 07:10:51] Params: 22, 1
+[2025-05-28 07:10:51] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-28 07:10:51] Nombre de lignes d'articles récupérées: 2
+[2025-05-28 07:10:51] Nombre d'analyses récupérées: 1
+[2025-05-28 07:10:51] IDs des analyses récupérées: 22
+[2025-05-28 07:10:51] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-28 07:10:51] Affichage analyse #1 ID: 22
+[2025-05-28 07:10:51] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-28 07:12:52] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-28 07:12:52] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=22&analyzed=true
+[2025-05-28 07:12:52] GET Params: {"id":"22","analyzed":"true"}
+[2025-05-28 07:12:52] Mode simple: ID récupéré = 22
+[2025-05-28 07:12:52] User ID: 1
+[2025-05-28 07:12:52] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-28 07:12:52] Params: 22, 1
+[2025-05-28 07:12:52] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-28 07:12:52] Nombre de lignes d'articles récupérées: 0
+[2025-05-28 07:12:52] Nombre d'analyses récupérées: 1
+[2025-05-28 07:12:52] IDs des analyses récupérées: 22
+[2025-05-28 07:12:52] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-28 07:12:52] Affichage analyse #1 ID: 22
+[2025-05-28 07:12:52] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-28 07:13:19] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-28 07:13:19] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=23&analyzed=true
+[2025-05-28 07:13:19] GET Params: {"id":"23","analyzed":"true"}
+[2025-05-28 07:13:19] Mode simple: ID récupéré = 23
+[2025-05-28 07:13:19] User ID: 1
+[2025-05-28 07:13:19] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-28 07:13:19] Params: 23, 1
+[2025-05-28 07:13:19] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-28 07:13:19] Nombre de lignes d'articles récupérées: 2
+[2025-05-28 07:13:19] Nombre d'analyses récupérées: 1
+[2025-05-28 07:13:19] IDs des analyses récupérées: 23
+[2025-05-28 07:13:19] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-28 07:13:19] Affichage analyse #1 ID: 23
+[2025-05-28 07:13:19] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-28 07:14:42] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-28 07:14:42] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=24&analyzed=true
+[2025-05-28 07:14:42] GET Params: {"id":"24","analyzed":"true"}
+[2025-05-28 07:14:42] Mode simple: ID récupéré = 24
+[2025-05-28 07:14:42] User ID: 1
+[2025-05-28 07:14:42] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-28 07:14:42] Params: 24, 1
+[2025-05-28 07:14:42] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-28 07:14:42] Nombre de lignes d'articles récupérées: 2
+[2025-05-28 07:14:42] Nombre d'analyses récupérées: 1
+[2025-05-28 07:14:42] IDs des analyses récupérées: 24
+[2025-05-28 07:14:42] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-28 07:14:42] Affichage analyse #1 ID: 24
+[2025-05-28 07:14:42] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-28 07:22:00] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-28 07:22:00] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=25&analyzed=true
+[2025-05-28 07:22:00] GET Params: {"id":"25","analyzed":"true"}
+[2025-05-28 07:22:00] Mode simple: ID récupéré = 25
+[2025-05-28 07:22:00] User ID: 1
+[2025-05-28 07:22:00] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-28 07:22:00] Params: 25, 1
+[2025-05-28 07:22:00] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-28 07:22:00] Nombre de lignes d'articles récupérées: 2
+[2025-05-28 07:22:00] Nombre d'analyses récupérées: 1
+[2025-05-28 07:22:00] IDs des analyses récupérées: 25
+[2025-05-28 07:22:00] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-28 07:22:00] Affichage analyse #1 ID: 25
+[2025-05-28 07:22:00] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-28 07:30:09] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-28 07:30:09] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=26&analyzed=true
+[2025-05-28 07:30:09] GET Params: {"id":"26","analyzed":"true"}
+[2025-05-28 07:30:09] Mode simple: ID récupéré = 26
+[2025-05-28 07:30:09] User ID: 1
+[2025-05-28 07:30:09] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-28 07:30:09] Params: 26, 1
+[2025-05-28 07:30:09] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-28 07:30:09] Nombre de lignes d'articles récupérées: 2
+[2025-05-28 07:30:09] Nombre d'analyses récupérées: 1
+[2025-05-28 07:30:09] IDs des analyses récupérées: 26
+[2025-05-28 07:30:09] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-28 07:30:09] Affichage analyse #1 ID: 26
+[2025-05-28 07:30:09] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-28 07:40:16] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-28 07:40:16] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=27&analyzed=true
+[2025-05-28 07:40:16] GET Params: {"id":"27","analyzed":"true"}
+[2025-05-28 07:40:16] Mode simple: ID récupéré = 27
+[2025-05-28 07:40:16] User ID: 1
+[2025-05-28 07:40:16] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-28 07:40:16] Params: 27, 1
+[2025-05-28 07:40:16] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-28 07:40:16] Nombre de lignes d'articles récupérées: 2
+[2025-05-28 07:40:16] Nombre d'analyses récupérées: 1
+[2025-05-28 07:40:16] IDs des analyses récupérées: 27
+[2025-05-28 07:40:16] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-28 07:40:16] Affichage analyse #1 ID: 27
+[2025-05-28 07:40:16] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-28 11:49:41] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-28 11:49:41] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=28&analyzed=true
+[2025-05-28 11:49:41] GET Params: {"id":"28","analyzed":"true"}
+[2025-05-28 11:49:41] Mode simple: ID récupéré = 28
+[2025-05-28 11:49:41] User ID: 1
+[2025-05-28 11:49:41] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-28 11:49:41] Params: 28, 1
+[2025-05-28 11:49:41] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-28 11:49:41] Nombre de lignes d'articles récupérées: 10
+[2025-05-28 11:49:41] Nombre d'analyses récupérées: 1
+[2025-05-28 11:49:41] IDs des analyses récupérées: 28
+[2025-05-28 11:49:41] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-28 11:49:41] Affichage analyse #1 ID: 28
+[2025-05-28 11:49:41] =================== FIN AFFICHAGE FACTURES ===================
+[2025-05-28 11:50:01] =================== DÉBUT AFFICHAGE FACTURES ===================
+[2025-05-28 11:50:01] URL: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=29&analyzed=true
+[2025-05-28 11:50:01] GET Params: {"id":"29","analyzed":"true"}
+[2025-05-28 11:50:01] Mode simple: ID récupéré = 29
+[2025-05-28 11:50:01] User ID: 1
+[2025-05-28 11:50:01] Requête SQL (multiple): 
+        SELECT a.*, f.name as filename, f.path as filepath
+        FROM pdf_analyses a
+        JOIN files f ON a.pdf_file_id = f.id 
+        WHERE a.id IN (?) AND f.user_id = ?
+        ORDER BY a.id DESC
+    
+[2025-05-28 11:50:01] Params: 29, 1
+[2025-05-28 11:50:01] Requête SQL (lignes d'articles): 
+            SELECT *, 
+                   COALESCE(unit_price, 0) as unit_price,
+                   COALESCE(total_amount, 0) as total_amount,
+                   COALESCE(tax_rate, 0) as tax_rate,
+                   COALESCE(tax_amount, 0) as tax_amount,
+                   COALESCE(ttc_unit_price, 0) as ttc_unit_price,
+                   COALESCE(ttc_total_amount, 0) as ttc_total_amount
+            FROM invoice_line_items
+            WHERE analyse_id IN (?)
+            ORDER BY analyse_id, id
+        
+[2025-05-28 11:50:01] Nombre de lignes d'articles récupérées: 3
+[2025-05-28 11:50:01] Nombre d'analyses récupérées: 1
+[2025-05-28 11:50:01] IDs des analyses récupérées: 29
+[2025-05-28 11:50:01] Avant boucle d'affichage, nombre d'analyses: 1
+[2025-05-28 11:50:01] Affichage analyse #1 ID: 29
+[2025-05-28 11:50:01] =================== FIN AFFICHAGE FACTURES ===================

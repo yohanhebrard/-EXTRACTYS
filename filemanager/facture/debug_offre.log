@@ -1,0 +1,111 @@
+[2025-05-20 08:33:44] =================== DÉBUT GÉNÉRATION OFFRE ===================
+[2025-05-20 08:33:44] POST data: {"conditions":"","prestataire":"Client","montant_ttc":"100","economie_mensuelle":"10","economie_annuelle":"120"}
+[2025-05-20 08:33:44] FILES data: []
+[2025-05-20 08:33:44] Paramètre POST conditions: 
+[2025-05-20 08:33:44] Paramètre POST prestataire: Client
+[2025-05-20 08:33:44] Paramètre POST montant_ttc: 100
+[2025-05-20 08:33:44] Paramètre POST economie_mensuelle: 10
+[2025-05-20 08:33:44] Paramètre POST economie_annuelle: 120
+[2025-05-20 08:33:44] Simulation de la génération du PDF
+[2025-05-20 08:33:44] Dossier 'output' créé
+[2025-05-20 08:33:44] Résultat écriture fichier (output/offre_20250520_083344_a73bf4.txt): OK
+[2025-05-20 08:33:44] Fichier créé avec succès: output/offre_20250520_083344_a73bf4.txt
+[2025-05-20 08:33:44] Contenu du fichier:
+OFFRE PERSONNALISÉE
+
+Prestataire: Client
+Montant TTC: 100 €
+Économie mensuelle: 10 €
+Économie annuelle: 120 €
+
+Conditions particulières:
+
+
+Document généré le 20/05/2025
+Cette offre est valable 30 jours.
+[2025-05-20 08:33:44] Réponse JSON: {"success":true,"pdf_path":"output\/offre_20250520_083344_a73bf4.txt","message":"Offre g\u00e9n\u00e9r\u00e9e avec succ\u00e8s"}
+[2025-05-20 08:33:44] =================== FIN GÉNÉRATION OFFRE ===================
+[2025-05-20 08:35:29] =================== DÉBUT GÉNÉRATION OFFRE ===================
+[2025-05-20 08:35:29] POST data: {"prestataire":"<br \/>\r\n<b>Warning<\/b>:  Undefined variable $analyse in <b>C:\\laragon\\www\\EXTRACTYS\\filemanager\\facture\\generer_offre_conditions.php<\/b> on line <b>42<\/b><br \/>\r\n<br \/>\r\n<b>Warning<\/b>:  Trying to access array offset on value of type null in <b>C:\\laragon\\www\\EXTRACTYS\\filemanager\\facture\\generer_offre_conditions.php<\/b> on line <b>42<\/b><br \/>\r\n<br \/>\r\n<b>Deprecated<\/b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>C:\\laragon\\www\\EXTRACTYS\\filemanager\\facture\\generer_offre_conditions.php<\/b> on line <b>42<\/b><br \/>\r\n","montant_ttc":"<br \/>\r\n<b>Warning<\/b>:  Undefined variable $analyse in <b>C:\\laragon\\www\\EXTRACTYS\\filemanager\\facture\\generer_offre_conditions.php<\/b> on line <b>43<\/b><br \/>\r\n<br \/>\r\n<b>Warning<\/b>:  Trying to access array offset on value of type null in <b>C:\\laragon\\www\\EXTRACTYS\\filemanager\\facture\\generer_offre_conditions.php<\/b> on line <b>43<\/b><br \/>\r\n<br \/>\r\n<b>Deprecated<\/b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>C:\\laragon\\www\\EXTRACTYS\\filemanager\\facture\\generer_offre_conditions.php<\/b> on line <b>43<\/b><br \/>\r\n","economie_mensuelle":"<br \/>\r\n<b>Warning<\/b>:  Undefined variable $analyse in <b>C:\\laragon\\www\\EXTRACTYS\\filemanager\\facture\\generer_offre_conditions.php<\/b> on line <b>44<\/b><br \/>\r\n<br \/>\r\n<b>Warning<\/b>:  Trying to access array offset on value of type null in <b>C:\\laragon\\www\\EXTRACTYS\\filemanager\\facture\\generer_offre_conditions.php<\/b> on line <b>44<\/b><br \/>\r\n<br \/>\r\n<b>Deprecated<\/b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>C:\\laragon\\www\\EXTRACTYS\\filemanager\\facture\\generer_offre_conditions.php<\/b> on line <b>44<\/b><br \/>\r\n","economie_annuelle":"<br \/>\r\n<b>Warning<\/b>:  Undefined variable $analyse in <b>C:\\laragon\\www\\EXTRACTYS\\filemanager\\facture\\generer_offre_conditions.php<\/b> on line <b>45<\/b><br \/>\r\n<br \/>\r\n<b>Warning<\/b>:  Trying to access array offset on value of type null in <b>C:\\laragon\\www\\EXTRACTYS\\filemanager\\facture\\generer_offre_conditions.php<\/b> on line <b>45<\/b><br \/>\r\n<br \/>\r\n<b>Deprecated<\/b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>C:\\laragon\\www\\EXTRACTYS\\filemanager\\facture\\generer_offre_conditions.php<\/b> on line <b>45<\/b><br \/>\r\n","conditions":""}
+[2025-05-20 08:35:29] FILES data: []
+[2025-05-20 08:35:29] Paramètre POST prestataire: <br />
+<b>Warning</b>:  Undefined variable $analyse in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>42</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>42</b><br />
+<br />
+<b>Deprecated</b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>42</b><br />
+
+[2025-05-20 08:35:29] Paramètre POST montant_ttc: <br />
+<b>Warning</b>:  Undefined variable $analyse in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>43</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>43</b><br />
+<br />
+<b>Deprecated</b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>43</b><br />
+
+[2025-05-20 08:35:29] Paramètre POST economie_mensuelle: <br />
+<b>Warning</b>:  Undefined variable $analyse in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>44</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>44</b><br />
+<br />
+<b>Deprecated</b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>44</b><br />
+
+[2025-05-20 08:35:29] Paramètre POST economie_annuelle: <br />
+<b>Warning</b>:  Undefined variable $analyse in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>45</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>45</b><br />
+<br />
+<b>Deprecated</b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>45</b><br />
+
+[2025-05-20 08:35:29] Paramètre POST conditions: 
+[2025-05-20 08:35:29] Simulation de la génération du PDF
+[2025-05-20 08:35:29] Dossier 'output' existe déjà
+[2025-05-20 08:35:29] Résultat écriture fichier (output/offre_20250520_083529_2e25d8.txt): OK
+[2025-05-20 08:35:29] Fichier créé avec succès: output/offre_20250520_083529_2e25d8.txt
+[2025-05-20 08:35:29] Contenu du fichier:
+OFFRE PERSONNALISÉE
+
+Prestataire: <br />
+<b>Warning</b>:  Undefined variable $analyse in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>42</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>42</b><br />
+<br />
+<b>Deprecated</b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>42</b><br />
+
+Montant TTC: 0 €
+Économie mensuelle: 0 €
+Économie annuelle: 0 €
+
+Conditions particulières:
+
+
+Document généré le 20/05/2025
+Cette offre est valable 30 jours.
+[2025-05-20 08:35:29] Réponse JSON: {"success":true,"pdf_path":"output\/offre_20250520_083529_2e25d8.txt","message":"Offre g\u00e9n\u00e9r\u00e9e avec succ\u00e8s"}
+[2025-05-20 08:35:29] =================== FIN GÉNÉRATION OFFRE ===================
+[2025-05-20 08:38:31] =================== DÉBUT GÉNÉRATION OFFRE ===================
+[2025-05-20 08:38:31] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 08:38:31] FILES data: []
+[2025-05-20 08:38:31] Paramètre POST prestataire: SFR
+[2025-05-20 08:38:31] Paramètre POST montant_ttc: 42.99
+[2025-05-20 08:38:31] Paramètre POST economie_mensuelle: 8.60
+[2025-05-20 08:38:31] Paramètre POST economie_annuelle: 103.20
+[2025-05-20 08:38:31] Paramètre POST conditions: 
+[2025-05-20 08:38:31] Simulation de la génération du PDF
+[2025-05-20 08:38:31] Dossier 'output' existe déjà
+[2025-05-20 08:38:31] Résultat écriture fichier (output/offre_20250520_083831_e9807c.txt): OK
+[2025-05-20 08:38:31] Fichier créé avec succès: output/offre_20250520_083831_e9807c.txt
+[2025-05-20 08:38:31] Contenu du fichier:
+OFFRE PERSONNALISÉE
+
+Prestataire: SFR
+Montant TTC: 42.99 €
+Économie mensuelle: 8.6 €
+Économie annuelle: 103.2 €
+
+Conditions particulières:
+
+
+Document généré le 20/05/2025
+Cette offre est valable 30 jours.
+[2025-05-20 08:38:31] Réponse JSON: {"success":true,"pdf_path":"output\/offre_20250520_083831_e9807c.txt","message":"Offre g\u00e9n\u00e9r\u00e9e avec succ\u00e8s"}
+[2025-05-20 08:38:31] =================== FIN GÉNÉRATION OFFRE ===================

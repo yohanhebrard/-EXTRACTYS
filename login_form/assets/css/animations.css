@@ -1,0 +1,336 @@
+/* animations.css - Transitions et effets visuels */
+/* Transition pour tous les éléments */
+* {
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+
+/* Fondus */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+}
+
+/* Rebond */
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Pulsation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Rotation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Shake pour les erreurs */
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-5px);
+    }
+
+    40% {
+        transform: translateX(5px);
+    }
+
+    60% {
+        transform: translateX(-5px);
+    }
+
+    80% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Animation d'entrée pour le formulaire */
+.login-container {
+    animation: fadeInUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animation pour les champs de formulaire */
+@keyframes focusField {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.02);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.form-control:focus {
+    animation: focusField 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Animation pour bouton hover */
+@keyframes buttonPulse {
+    0% {
+        box-shadow: 0 4px 15px rgba(78, 115, 223, 0.35);
+    }
+
+    50% {
+        box-shadow: 0 4px 15px rgba(78, 115, 223, 0.6);
+    }
+
+    100% {
+        box-shadow: 0 4px 15px rgba(78, 115, 223, 0.35);
+    }
+}
+
+.btn-primary:hover {
+    animation: buttonPulse 2s infinite;
+}
+
+/* Animation logo subtle */
+@keyframes logoFloat {
+    0% {
+        transform: translateZ(20px);
+    }
+
+    50% {
+        transform: translateZ(25px);
+    }
+
+    100% {
+        transform: translateZ(20px);
+    }
+}
+
+.auth-logo .logo {
+    animation: logoFloat 3s ease-in-out infinite;
+    animation-play-state: paused;
+}
+
+.auth-logo:hover .logo {
+    animation-play-state: running;
+}
+
+/* Animation 3D card tilt effect */
+.auth-card {
+    transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Background circle animation */
+@keyframes circlePulse {
+    0% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.4;
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+}
+
+.login-background-circles {
+    animation: circlePulse 8s ease-in-out infinite;
+}
+
+/* Animation de validation réussie */
+@keyframes validSuccess {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.form-group.validated .form-icon {
+    color: var(--color-success);
+    animation: validSuccess 0.5s ease-out;
+}
+
+/* Classes d'animation */
+.fade-in {
+    animation: fadeIn var(--transition-normal) ease;
+}
+
+.fade-out {
+    animation: fadeOut var(--transition) ease-in forwards;
+}
+
+.bounce {
+    animation: bounce 1s ease infinite;
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+.spin {
+    animation: spin 1s linear infinite;
+}
+
+.shake {
+    animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+.error {
+    animation: shake 0.6s ease-in-out;
+}
+
+.slide-up {
+    animation: slideUp var(--transition-normal) ease;
+}
+
+/* Transitions des éléments */
+.auth-container {
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.auth-container:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-xl);
+}
+
+/* Effet sur les boutons */
+.btn {
+    transition: transform var(--transition-fast), background-color var(--transition), box-shadow var(--transition);
+}
+
+.btn:hover:not(:disabled) {
+    transform: translateY(-1px);
+}
+
+.btn:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+/* Animations pour 2FA */
+.digit-input {
+    transition: all var(--transition);
+}
+
+.digit-input.filled {
+    transform: scale(1.05);
+    border-color: var(--color-primary);
+    background-color: var(--color-primary-light);
+    color: var(--color-white);
+}
+
+/* Animation du compteur */
+.countdown {
+    transition: width var(--transition-slow) linear;
+}
+
+/* Animation de la vérification */
+.verifying {
+    position: relative;
+    overflow: hidden;
+}
+
+.verifying::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+    100% {
+        left: 100%;
+    }
+}
+
+/* Animation pour QR code */
+.qr-code {
+    transition: transform var(--transition);
+}
+
+.qr-code:hover {
+    transform: scale(1.02);
+}
+
+/* Effet de hover sur les boutons et liens */
+.hover-lift {
+    transition: transform var(--transition-fast);
+}
+
+.hover-lift:hover {
+    transform: translateY(-2px);
+}

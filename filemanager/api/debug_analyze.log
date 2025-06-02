@@ -1,0 +1,1066 @@
+[2025-05-20 07:09:38] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-20 07:09:38] Analyse multiple demandée avec IDs: 15
+[2025-05-20 07:09:38] Traitement du fichier ID: 15
+[2025-05-20 07:09:38] Fichier trouvé: {"info":{"id":15,"name":"ticket.pdf","path":"\/Racine\/tttttttttttuuu\/ticket.pdf","type":"application\/pdf","size":158598,"folder_id":2,"user_id":1,"created_at":"2025-05-19 14:38:38","updated_at":"2025-05-19 14:38:38"},"path":"C:\\laragon\\www\\EXTRACTYS\/storage\/users\/1\/\/Racine\/tttttttttttuuu\/ticket.pdf","exists":true}
+[2025-05-20 07:09:38] Fichier temporaire créé: C:\Users\yohan\AppData\Local\Temp\ana67AC.tmp.pdf
+[2025-05-20 07:09:38] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana67AC.tmp.pdf" "" "//Racine/tttttttttttuuu/ticket.pdf" 2>&1
+[2025-05-20 07:09:45] Code de retour Python: 0
+[2025-05-20 07:09:45] Sortie Python: Array
+(
+    [0] => DEBUG - Arguments reçus:
+    [1] => DEBUG - files_arg: C:\Users\yohan\AppData\Local\Temp\ana67AC.tmp.pdf
+    [2] => DEBUG - orig_name:
+    [3] => DEBUG - rel_path: //Racine/tttttttttttuuu/ticket.pdf
+    [4] => DEBUG - Processing document: C:\Users\yohan\AppData\Local\Temp\ana67AC.tmp.pdf
+    [5] => DEBUG - Original name:
+    [6] => DEBUG - Relative path: //Racine/tttttttttttuuu/ticket.pdf
+    [7] => Texte extrait :
+    [8] => VOTRE FACTURE MOBILE
+    [9] => Votre ligne * : 07 67 86 82 62
+    [10] => Votre email : yohan@sfr.fr
+    [11] => Fin d'engagement : 08/11/2026                                                                      MR YOHAN HEBRARD
+    [12] => Ref. Compte : 09-XDRLPD                           1 RUE TAISSON
+    [13] => Fin de facilité de paiement : 08/11/2026                                                    30100 ALES
+    [14] => Ë
+    [15] => [re)
+    [16] => 3
+    [17] => .Ë
+    [18] => FACTURE N° B525-000455734 DU 08/01/2025                                                                                                                                           3
+    [19] => ®
+    [20] => A         ; 4                                                                                                                                                                                         â
+    [21] => Montant net à prélever le 14/01/2025                                  42,99 €    ès
+    [22] => ®
+    [23] => Montant facturé (29,16 € HT)                                                                                                                                     34,99 € TTC          E2
+    [24] => -o
+    [25] => Dont TVA 20,00%                                                                                                                                                              5,83 €          «—âä
+    [26] => Mensualité de vos facilités de paiement                                                                                                                         8,00 €          ﬁË
+    [27] => ;ËLL
+    [28] => Les montants unitaires sont arrondis au centième le plus proche. Leur somme peut différer du montant total.                                                                                                                                » %
+    [29] => 8e
+    [30] => E
+    [31] => â<
+    [32] => gP
+    [33] => =$
+    [34] => se
+    [35] => 8                                                                                                                                                                                                                                                  »
+    [36] => S                                                                                                                                                                                                                                                               52
+    [37] => ë                                                                    ÉC
+    [38] => ë                                                                         cz
+    [39] => A                                                                                                                                                                               -
+    [40] => p                                                                                                                                                                                                                                                 =
+    [41] => Ë
+    [42] => =
+    [43] => Q
+    [44] => Q
+    [45] => C
+    [46] => =
+    [47] => D
+    [48] => $
+    [49] => Ë
+    [50] => w
+    [51] => T
+    [52] => D
+    [53] => )
+    [54] => VOTRE ESPACE CLIENT                          NOUS CONTACTER
+    [55] => Accessible 24h/24 pour                                Par téléphone au 1023                         Depuis l’application                           Par courrier
+    [56] => » Gérer votre compte et votre offre            du lundi au samedi 8h/20h              SFR & Moi                                          SFR Mobile,
+    [57] => » Consulter et payer vos factures               (appel gratuit depuis une ligne SFR)        ou depuis votre Espace Client        TSA 10101
+    [58] => » Suivre votre consommation                                                                            sur www.sfr.fr                                  69947 Lyon Cedex 20
+    [59] => * Lidentifiant de votre Espace Client est par défaut votre numéro de mobile, ou votre identifiant personnalisé.                                                                                                                                1/2
+    [60] => 
+    [61] => 
+    [62] => Votre facture en détail
+    [63] => 
+    [64] => u VOS ABONNEMENTS, FORFAITS ET OPTIONS du 08/01 au 07/02                                                                                      34,99 €
+    [65] => Forfait 250 Go 5G                                                                                                                                                                     44,99 €
+    [66] => Remise spéciale sur 1 an jusqu'au 08/11/2025                                                                                                                        -10,00 €
+    [67] => 
+    [68] => E VOS CONSOMMATIONS TÉLÉPHONIQUES du 08/12 au 07/01                                                                                                 0,00 €
+    [69] => Compris dans vos forfaits
+    [70] => Appels illimités en France métropolitaine : 5h53mn49s                                                                                                     inclus
+    [71] => SMS illimités en France métropolitaine : 11 textos                                                                                                            inclus
+    [72] => MMS illimités en France métropolitaine : 1 MMS                                                                                                                                                                inclus
+    [73] => Internet mobile : 36,35 Go                                                                                                                                                       inclus
+    [74] => 
+    [75] => E MENSUALITÉS DE VOS FACILITÉS DE PAIEMENT                                                                                                          8,00 €
+    [76] => Mensualité de votre facilité de paiement jusqu'au 08/11/2026                                                                                                           8,00 €
+    [77] => 
+    [78] => Protect Accès et Protect Intégrale sont facturées pour le compte de l'Equité, SA au capital de 18 469 320 euros régie par le code des assurances, RCS Paris B572 084 697, dont le siège social
+    [79] => 
+    [80] => est 7 bd Haussmann - 75442 Paris cedex 09. SFR Assistance est facturée pour le compte d'Europ Assistance, SA au capital de 23 601 857 euros régie par le code des assurances, RCS
+    [81] => 
+    [82] => Nanterre 451366405, 1 promenade de la Bonnette 92230 Gennevilliers.
+    [83] => 
+    [84] => Certains services sont facturés au nom et pour le compte d'éditeurs des services, notamment via les offres Internet+, SMS+, n° spéciaux. Pour plus d informations : www.surmafacture.fr
+    [85] => 
+    [86] => En cas de détention d'une option solidaire, le prélèvement du don de 1 euro est opéré par SFR au nom et pour le compte des structures concernées.
+    [87] => 
+    [88] => Taux de TVA à 20% sauf pour les tarifs : (1) taux de TVA de 10%, (2) taux de TVA de 5,5%, (3) taux de TVA de 2,1% et (4) taux de TVA de 0%.                                                                                       2/2
+    [89] => 
+    [90] => 
+    [91] => 
+    [92] => 
+    [93] => 
+    [94] => DEBUG - Starting bill info extraction
+    [95] => DEBUG - Found email: yohan@sfr.fr
+    [96] => 
+    [97] => DEBUG - Starting provider detection
+    [98] => DEBUG - Detecting provider
+    [99] => DEBUG - Email: yohan@sfr.fr
+    [100] => DEBUG - Checking SFR markers in email
+    [101] => DEBUG - Found provider SFR from email
+    [102] => DEBUG - Final provider result: SFR
+    [103] => DEBUG - Tentative d'enregistrement en BDD pour:
+    [104] => DEBUG - Nom original:
+    [105] => DEBUG - Chemin relatif: //Racine/tttttttttttuuu/ticket.pdf
+    [106] => DEBUG - Montant TTC: 42.99
+    [107] => DEBUG - Nom extrait du chemin: ticket.pdf
+    [108] => DEBUG - Chemin relatif extrait via Racine: /Racine/tttttttttttuuu/ticket.pdf
+    [109] => DEBUG - Recherche avec name=ticket.pdf ET path=/Racine/tttttttttttuuu/ticket.pdf
+    [110] => DEBUG - Fichier trouvé avec ID: 15
+    [111] => Résultat sauvegarde BDD: {'success': True, 'message': 'Analyse déjà existante', 'id': 1}
+    [112] => {"success": true, "files_processed": 1, "total_ttc": 42.99, "results": [{"numero": "0767868262", "email": "yohan@sfr.fr", "engagement": "08/11/2026", "reference": "09-XDRLPD", "prestataire": "SFR", "numero_facture": "B525-000455734", "nom": "Hebrard", "prenom": "Yohan", "date": "08/01/2025", "montant_ht": 29.16, "tva_20": 5.83, "montant_ttc": 42.99, "mensualite": 8.0, "original_name": "", "rel_path": "//Racine/tttttttttttuuu/ticket.pdf", "file_path": "C:\\Users\\yohan\\AppData\\Local\\Temp\\ana67AC.tmp.pdf", "prestations": []}]}
+)
+
+[2025-05-20 07:09:45] Analyse ID trouvé: 1 pour le fichier ID: 15
+[2025-05-20 07:09:45] Réponse finale (analyse simple): {"success":true,"files_processed":1,"total_ttc":42.99,"results":[{"numero":"0767868262","email":"yohan@sfr.fr","engagement":"08\/11\/2026","reference":"09-XDRLPD","prestataire":"SFR","numero_facture":"B525-000455734","nom":"Hebrard","prenom":"Yohan","date":"08\/01\/2025","montant_ht":29.16,"tva_20":5.83,"montant_ttc":42.99,"mensualite":8,"original_name":"","rel_path":"\/\/Racine\/tttttttttttuuu\/ticket.pdf","file_path":"C:\\Users\\yohan\\AppData\\Local\\Temp\\ana67AC.tmp.pdf","prestations":[]}],"analyse_id":1,"file_id":15,"redirect":"\/EXTRACTYS\/filemanager\/facture\/factures_telecom.php?id=1&analyzed=true"}
+[2025-05-20 07:09:45] =================== FIN ANALYSE ===================
+[2025-05-20 07:10:52] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-20 07:10:52] Analyse multiple demandée avec IDs: 15
+[2025-05-20 07:10:52] Traitement du fichier ID: 15
+[2025-05-20 07:10:52] Fichier trouvé: {"info":{"id":15,"name":"ticket.pdf","path":"\/Racine\/tttttttttttuuu\/ticket.pdf","type":"application\/pdf","size":158598,"folder_id":2,"user_id":1,"created_at":"2025-05-19 14:38:38","updated_at":"2025-05-19 14:38:38"},"path":"C:\\laragon\\www\\EXTRACTYS\/storage\/users\/1\/\/Racine\/tttttttttttuuu\/ticket.pdf","exists":true}
+[2025-05-20 07:10:52] Fichier temporaire créé: C:\Users\yohan\AppData\Local\Temp\ana887F.tmp.pdf
+[2025-05-20 07:10:52] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana887F.tmp.pdf" "" "//Racine/tttttttttttuuu/ticket.pdf" 2>&1
+[2025-05-20 07:10:59] Code de retour Python: 0
+[2025-05-20 07:10:59] Sortie Python: Array
+(
+    [0] => DEBUG - Arguments reçus:
+    [1] => DEBUG - files_arg: C:\Users\yohan\AppData\Local\Temp\ana887F.tmp.pdf
+    [2] => DEBUG - orig_name:
+    [3] => DEBUG - rel_path: //Racine/tttttttttttuuu/ticket.pdf
+    [4] => DEBUG - Processing document: C:\Users\yohan\AppData\Local\Temp\ana887F.tmp.pdf
+    [5] => DEBUG - Original name:
+    [6] => DEBUG - Relative path: //Racine/tttttttttttuuu/ticket.pdf
+    [7] => Texte extrait :
+    [8] => VOTRE FACTURE MOBILE
+    [9] => Votre ligne * : 07 67 86 82 62
+    [10] => Votre email : yohan@sfr.fr
+    [11] => Fin d'engagement : 08/11/2026                                                                      MR YOHAN HEBRARD
+    [12] => Ref. Compte : 09-XDRLPD                           1 RUE TAISSON
+    [13] => Fin de facilité de paiement : 08/11/2026                                                    30100 ALES
+    [14] => Ë
+    [15] => [re)
+    [16] => 3
+    [17] => .Ë
+    [18] => FACTURE N° B525-000455734 DU 08/01/2025                                                                                                                                           3
+    [19] => ®
+    [20] => A         ; 4                                                                                                                                                                                         â
+    [21] => Montant net à prélever le 14/01/2025                                  42,99 €    ès
+    [22] => ®
+    [23] => Montant facturé (29,16 € HT)                                                                                                                                     34,99 € TTC          E2
+    [24] => -o
+    [25] => Dont TVA 20,00%                                                                                                                                                              5,83 €          «—âä
+    [26] => Mensualité de vos facilités de paiement                                                                                                                         8,00 €          ﬁË
+    [27] => ;ËLL
+    [28] => Les montants unitaires sont arrondis au centième le plus proche. Leur somme peut différer du montant total.                                                                                                                                » %
+    [29] => 8e
+    [30] => E
+    [31] => â<
+    [32] => gP
+    [33] => =$
+    [34] => se
+    [35] => 8                                                                                                                                                                                                                                                  »
+    [36] => S                                                                                                                                                                                                                                                               52
+    [37] => ë                                                                    ÉC
+    [38] => ë                                                                         cz
+    [39] => A                                                                                                                                                                               -
+    [40] => p                                                                                                                                                                                                                                                 =
+    [41] => Ë
+    [42] => =
+    [43] => Q
+    [44] => Q
+    [45] => C
+    [46] => =
+    [47] => D
+    [48] => $
+    [49] => Ë
+    [50] => w
+    [51] => T
+    [52] => D
+    [53] => )
+    [54] => VOTRE ESPACE CLIENT                          NOUS CONTACTER
+    [55] => Accessible 24h/24 pour                                Par téléphone au 1023                         Depuis l’application                           Par courrier
+    [56] => » Gérer votre compte et votre offre            du lundi au samedi 8h/20h              SFR & Moi                                          SFR Mobile,
+    [57] => » Consulter et payer vos factures               (appel gratuit depuis une ligne SFR)        ou depuis votre Espace Client        TSA 10101
+    [58] => » Suivre votre consommation                                                                            sur www.sfr.fr                                  69947 Lyon Cedex 20
+    [59] => * Lidentifiant de votre Espace Client est par défaut votre numéro de mobile, ou votre identifiant personnalisé.                                                                                                                                1/2
+    [60] => 
+    [61] => 
+    [62] => Votre facture en détail
+    [63] => 
+    [64] => u VOS ABONNEMENTS, FORFAITS ET OPTIONS du 08/01 au 07/02                                                                                      34,99 €
+    [65] => Forfait 250 Go 5G                                                                                                                                                                     44,99 €
+    [66] => Remise spéciale sur 1 an jusqu'au 08/11/2025                                                                                                                        -10,00 €
+    [67] => 
+    [68] => E VOS CONSOMMATIONS TÉLÉPHONIQUES du 08/12 au 07/01                                                                                                 0,00 €
+    [69] => Compris dans vos forfaits
+    [70] => Appels illimités en France métropolitaine : 5h53mn49s                                                                                                     inclus
+    [71] => SMS illimités en France métropolitaine : 11 textos                                                                                                            inclus
+    [72] => MMS illimités en France métropolitaine : 1 MMS                                                                                                                                                                inclus
+    [73] => Internet mobile : 36,35 Go                                                                                                                                                       inclus
+    [74] => 
+    [75] => E MENSUALITÉS DE VOS FACILITÉS DE PAIEMENT                                                                                                          8,00 €
+    [76] => Mensualité de votre facilité de paiement jusqu'au 08/11/2026                                                                                                           8,00 €
+    [77] => 
+    [78] => Protect Accès et Protect Intégrale sont facturées pour le compte de l'Equité, SA au capital de 18 469 320 euros régie par le code des assurances, RCS Paris B572 084 697, dont le siège social
+    [79] => 
+    [80] => est 7 bd Haussmann - 75442 Paris cedex 09. SFR Assistance est facturée pour le compte d'Europ Assistance, SA au capital de 23 601 857 euros régie par le code des assurances, RCS
+    [81] => 
+    [82] => Nanterre 451366405, 1 promenade de la Bonnette 92230 Gennevilliers.
+    [83] => 
+    [84] => Certains services sont facturés au nom et pour le compte d'éditeurs des services, notamment via les offres Internet+, SMS+, n° spéciaux. Pour plus d informations : www.surmafacture.fr
+    [85] => 
+    [86] => En cas de détention d'une option solidaire, le prélèvement du don de 1 euro est opéré par SFR au nom et pour le compte des structures concernées.
+    [87] => 
+    [88] => Taux de TVA à 20% sauf pour les tarifs : (1) taux de TVA de 10%, (2) taux de TVA de 5,5%, (3) taux de TVA de 2,1% et (4) taux de TVA de 0%.                                                                                       2/2
+    [89] => 
+    [90] => 
+    [91] => 
+    [92] => 
+    [93] => 
+    [94] => DEBUG - Starting bill info extraction
+    [95] => DEBUG - Found email: yohan@sfr.fr
+    [96] => 
+    [97] => DEBUG - Starting provider detection
+    [98] => DEBUG - Detecting provider
+    [99] => DEBUG - Email: yohan@sfr.fr
+    [100] => DEBUG - Checking SFR markers in email
+    [101] => DEBUG - Found provider SFR from email
+    [102] => DEBUG - Final provider result: SFR
+    [103] => DEBUG - Tentative d'enregistrement en BDD pour:
+    [104] => DEBUG - Nom original:
+    [105] => DEBUG - Chemin relatif: //Racine/tttttttttttuuu/ticket.pdf
+    [106] => DEBUG - Montant TTC: 42.99
+    [107] => DEBUG - Nom extrait du chemin: ticket.pdf
+    [108] => DEBUG - Chemin relatif extrait via Racine: /Racine/tttttttttttuuu/ticket.pdf
+    [109] => DEBUG - Recherche avec name=ticket.pdf ET path=/Racine/tttttttttttuuu/ticket.pdf
+    [110] => DEBUG - Fichier trouvé avec ID: 15
+    [111] => Résultat sauvegarde BDD: {'success': True, 'message': 'Analyse déjà existante', 'id': 1}
+    [112] => {"success": true, "files_processed": 1, "total_ttc": 42.99, "results": [{"numero": "0767868262", "email": "yohan@sfr.fr", "engagement": "08/11/2026", "reference": "09-XDRLPD", "prestataire": "SFR", "numero_facture": "B525-000455734", "nom": "Hebrard", "prenom": "Yohan", "date": "08/01/2025", "montant_ht": 29.16, "tva_20": 5.83, "montant_ttc": 42.99, "mensualite": 8.0, "original_name": "", "rel_path": "//Racine/tttttttttttuuu/ticket.pdf", "file_path": "C:\\Users\\yohan\\AppData\\Local\\Temp\\ana887F.tmp.pdf", "prestations": []}]}
+)
+
+[2025-05-20 07:10:59] Analyse ID trouvé: 1 pour le fichier ID: 15
+[2025-05-20 07:10:59] Réponse finale (analyse simple): {"success":true,"files_processed":1,"total_ttc":42.99,"results":[{"numero":"0767868262","email":"yohan@sfr.fr","engagement":"08\/11\/2026","reference":"09-XDRLPD","prestataire":"SFR","numero_facture":"B525-000455734","nom":"Hebrard","prenom":"Yohan","date":"08\/01\/2025","montant_ht":29.16,"tva_20":5.83,"montant_ttc":42.99,"mensualite":8,"original_name":"","rel_path":"\/\/Racine\/tttttttttttuuu\/ticket.pdf","file_path":"C:\\Users\\yohan\\AppData\\Local\\Temp\\ana887F.tmp.pdf","prestations":[]}],"analyse_id":1,"file_id":15,"redirect":"\/EXTRACTYS\/filemanager\/facture\/factures_telecom.php?id=1&analyzed=true"}
+[2025-05-20 07:10:59] =================== FIN ANALYSE ===================
+[2025-05-20 07:13:51] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-20 07:13:51] POST data: {"csrf_token":"001c36dbd2cf1cfedb2d48c95046568e040fd4f73d84f72915e27bb16a945a87","ids":["15","16","19","20"]}
+[2025-05-20 07:13:51] Analyse multiple demandée avec 4 IDs: 15, 16, 19, 20
+[2025-05-20 07:13:51] Traitement du fichier ID: 15
+[2025-05-20 07:13:51] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana44A2.tmp.pdf" "" "//Racine/tttttttttttuuu/ticket.pdf" 2>&1
+[2025-05-20 07:13:58] Code de retour Python: 0
+[2025-05-20 07:13:58] Analyse ID trouvé: 1 pour le fichier ID: 15
+[2025-05-20 07:13:58] Traitement du fichier ID: 16
+[2025-05-20 07:13:58] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana5DF8.tmp.pdf" "" "//Racine/tttttttttttuuu/ticket.pdf_1747658318.pdf" 2>&1
+[2025-05-20 07:14:04] Code de retour Python: 0
+[2025-05-20 07:14:04] Analyse ID trouvé: 3 pour le fichier ID: 16
+[2025-05-20 07:14:04] Traitement du fichier ID: 19
+[2025-05-20 07:14:04] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana7634.tmp.pdf" "" "//Racine/tttttttttttuuu/tickett.pdf" 2>&1
+[2025-05-20 07:14:11] Code de retour Python: 0
+[2025-05-20 07:14:11] Analyse ID trouvé: 12 pour le fichier ID: 19
+[2025-05-20 07:14:11] Traitement du fichier ID: 20
+[2025-05-20 07:14:11] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana9342.tmp.pdf" "" "//Racine/tttttttttttuuu/tickett.pdf_1747662158.pdf" 2>&1
+[2025-05-20 07:14:18] Code de retour Python: 0
+[2025-05-20 07:14:18] Analyse ID trouvé: 13 pour le fichier ID: 20
+[2025-05-20 07:14:18] Nombre de résultats: 4
+[2025-05-20 07:14:18] Nombre d'analyse_ids: 4
+[2025-05-20 07:14:18] Liste des analyse_ids: 1, 3, 12, 13
+[2025-05-20 07:14:18] Redirection multiple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,12,13&analyzed=true
+[2025-05-20 07:14:18] =================== FIN ANALYSE ===================
+[2025-05-20 07:20:55] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-20 07:20:55] POST data: {"csrf_token":"001c36dbd2cf1cfedb2d48c95046568e040fd4f73d84f72915e27bb16a945a87","ids":["15","16","19","20"]}
+[2025-05-20 07:20:55] Analyse multiple demandée avec 4 IDs: 15, 16, 19, 20
+[2025-05-20 07:20:55] Traitement du fichier ID: 15
+[2025-05-20 07:20:55] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaBA66.tmp.pdf" "" "//Racine/tttttttttttuuu/ticket.pdf" 2>&1
+[2025-05-20 07:21:02] Code de retour Python: 0
+[2025-05-20 07:21:02] Analyse ID trouvé: 1 pour le fichier ID: 15
+[2025-05-20 07:21:02] Traitement du fichier ID: 16
+[2025-05-20 07:21:02] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaD707.tmp.pdf" "" "//Racine/tttttttttttuuu/ticket.pdf_1747658318.pdf" 2>&1
+[2025-05-20 07:21:08] Code de retour Python: 0
+[2025-05-20 07:21:08] Analyse ID trouvé: 3 pour le fichier ID: 16
+[2025-05-20 07:21:08] Traitement du fichier ID: 19
+[2025-05-20 07:21:08] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaEF14.tmp.pdf" "" "//Racine/tttttttttttuuu/tickett.pdf" 2>&1
+[2025-05-20 07:21:16] Code de retour Python: 0
+[2025-05-20 07:21:16] Analyse ID trouvé: 14 pour le fichier ID: 19
+[2025-05-20 07:21:16] Traitement du fichier ID: 20
+[2025-05-20 07:21:16] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaF10.tmp.pdf" "" "//Racine/tttttttttttuuu/tickett.pdf_1747662158.pdf" 2>&1
+[2025-05-20 07:21:24] Code de retour Python: 0
+[2025-05-20 07:21:24] Analyse ID trouvé: 15 pour le fichier ID: 20
+[2025-05-20 07:21:24] Nombre de résultats: 4
+[2025-05-20 07:21:24] Nombre d'analyse_ids: 4
+[2025-05-20 07:21:24] Liste des analyse_ids: 1, 3, 14, 15
+[2025-05-20 07:21:24] Redirection multiple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,14,15&analyzed=true
+[2025-05-20 07:21:24] =================== FIN ANALYSE ===================
+[2025-05-20 09:48:12] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-20 09:48:12] POST data: {"id":"34","csrf_token":"001c36dbd2cf1cfedb2d48c95046568e040fd4f73d84f72915e27bb16a945a87"}
+[2025-05-20 09:48:12] Analyse simple demandée avec ID: 34
+[2025-05-20 09:48:12] Traitement du fichier ID: 34
+[2025-05-20 09:48:12] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana94D2.tmp.pdf" "" "//Racine/ticket.pdf_1747734460.pdf" 2>&1
+[2025-05-20 09:48:24] Code de retour Python: 0
+[2025-05-20 09:48:24] ATTENTION: Aucun ID d'analyse trouvé pour le fichier ID: 34
+[2025-05-20 09:48:24] Nombre de résultats: 1
+[2025-05-20 09:48:24] Nombre d'analyse_ids: 0
+[2025-05-20 09:48:24] Liste des analyse_ids: 
+[2025-05-20 09:48:24] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?analyzed=true
+[2025-05-20 09:48:24] =================== FIN ANALYSE ===================
+[2025-05-20 09:55:42] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-20 09:55:42] POST data: {"id":"41","csrf_token":"001c36dbd2cf1cfedb2d48c95046568e040fd4f73d84f72915e27bb16a945a87"}
+[2025-05-20 09:55:42] Analyse simple demandée avec ID: 41
+[2025-05-20 09:55:42] Traitement du fichier ID: 41
+[2025-05-20 09:55:42] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana7218.tmp.pdf" "" "//Racine/tttttttttttuuu/ticket.pdf" 2>&1
+[2025-05-20 09:55:46] Code de retour Python: 0
+[2025-05-20 09:55:46] Analyse ID trouvé: 17 pour le fichier ID: 41
+[2025-05-20 09:55:46] Nombre de résultats: 1
+[2025-05-20 09:55:46] Nombre d'analyse_ids: 1
+[2025-05-20 09:55:46] Liste des analyse_ids: 17
+[2025-05-20 09:55:46] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-20 09:55:46] =================== FIN ANALYSE ===================
+[2025-05-20 11:43:50] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-20 11:43:50] POST data: {"id":"41","csrf_token":"001c36dbd2cf1cfedb2d48c95046568e040fd4f73d84f72915e27bb16a945a87"}
+[2025-05-20 11:43:50] Analyse simple demandée avec ID: 41
+[2025-05-20 11:43:50] Traitement du fichier ID: 41
+[2025-05-20 11:43:50] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana7053.tmp.pdf" "" "//Racine/tttttttttttuuu/ticket.pdf" 2>&1
+[2025-05-20 11:43:59] Code de retour Python: 0
+[2025-05-20 11:43:59] Analyse ID trouvé: 17 pour le fichier ID: 41
+[2025-05-20 11:43:59] Nombre de résultats: 1
+[2025-05-20 11:43:59] Nombre d'analyse_ids: 1
+[2025-05-20 11:43:59] Liste des analyse_ids: 17
+[2025-05-20 11:43:59] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-20 11:43:59] =================== FIN ANALYSE ===================
+[2025-05-20 11:48:35] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-20 11:48:35] POST data: {"id":"41","csrf_token":"001c36dbd2cf1cfedb2d48c95046568e040fd4f73d84f72915e27bb16a945a87"}
+[2025-05-20 11:48:35] Analyse simple demandée avec ID: 41
+[2025-05-20 11:48:35] Traitement du fichier ID: 41
+[2025-05-20 11:48:35] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaCB92.tmp.pdf" "" "//Racine/tttttttttttuuu/ticket.pdf" 2>&1
+[2025-05-20 11:48:43] Code de retour Python: 0
+[2025-05-20 11:48:43] Analyse ID trouvé: 17 pour le fichier ID: 41
+[2025-05-20 11:48:43] Nombre de résultats: 1
+[2025-05-20 11:48:43] Nombre d'analyse_ids: 1
+[2025-05-20 11:48:43] Liste des analyse_ids: 17
+[2025-05-20 11:48:43] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-20 11:48:43] =================== FIN ANALYSE ===================
+[2025-05-20 11:57:48] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-20 11:57:48] POST data: {"id":"41","csrf_token":"001c36dbd2cf1cfedb2d48c95046568e040fd4f73d84f72915e27bb16a945a87"}
+[2025-05-20 11:57:48] Analyse simple demandée avec ID: 41
+[2025-05-20 11:57:48] Traitement du fichier ID: 41
+[2025-05-20 11:57:48] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana3BAC.tmp.pdf" "" "//Racine/tttttttttttuuu/ticket.pdf" 2>&1
+[2025-05-20 11:57:56] Code de retour Python: 0
+[2025-05-20 11:57:56] Analyse ID trouvé: 17 pour le fichier ID: 41
+[2025-05-20 11:57:56] Nombre de résultats: 1
+[2025-05-20 11:57:56] Nombre d'analyse_ids: 1
+[2025-05-20 11:57:56] Liste des analyse_ids: 17
+[2025-05-20 11:57:56] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-20 11:57:56] =================== FIN ANALYSE ===================
+[2025-05-20 12:20:22] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-20 12:20:22] POST data: {"csrf_token":"001c36dbd2cf1cfedb2d48c95046568e040fd4f73d84f72915e27bb16a945a87","ids":["45","43","44","42"]}
+[2025-05-20 12:20:22] Analyse multiple demandée avec 4 IDs: 45, 43, 44, 42
+[2025-05-20 12:20:22] Traitement du fichier ID: 45
+[2025-05-20 12:20:22] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-20 12:20:22] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaE3F5.tmp.pdf" "" "//Racine/tttttttttttuuu/ttt/ticket.pdf" 2>&1
+[2025-05-20 12:20:22] POST data: {"csrf_token":"001c36dbd2cf1cfedb2d48c95046568e040fd4f73d84f72915e27bb16a945a87","ids":["45","43","44","42"]}
+[2025-05-20 12:20:22] Analyse multiple demandée avec 4 IDs: 45, 43, 44, 42
+[2025-05-20 12:20:22] Traitement du fichier ID: 45
+[2025-05-20 12:20:22] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaE406.tmp.pdf" "" "//Racine/tttttttttttuuu/ttt/ticket.pdf" 2>&1
+[2025-05-20 12:20:28] Code de retour Python: 0
+[2025-05-20 12:20:28] Analyse ID trouvé: 19 pour le fichier ID: 45
+[2025-05-20 12:20:28] Traitement du fichier ID: 43
+[2025-05-20 12:20:29] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaFCFE.tmp.pdf" "" "//Racine/tttttttttttuuu/ttt/ticket3.pdf" 2>&1
+[2025-05-20 12:20:29] Code de retour Python: 0
+[2025-05-20 12:20:29] Analyse ID trouvé: 19 pour le fichier ID: 45
+[2025-05-20 12:20:29] Traitement du fichier ID: 43
+[2025-05-20 12:20:29] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaFD0E.tmp.pdf" "" "//Racine/tttttttttttuuu/ttt/ticket3.pdf" 2>&1
+[2025-05-20 12:20:32] Code de retour Python: 0
+[2025-05-20 12:20:32] Analyse ID trouvé: 21 pour le fichier ID: 43
+[2025-05-20 12:20:32] Traitement du fichier ID: 44
+[2025-05-20 12:20:32] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaC52.tmp.pdf" "" "//Racine/tttttttttttuuu/ttt/Ticket5.pdf" 2>&1
+[2025-05-20 12:20:32] Code de retour Python: 0
+[2025-05-20 12:20:32] Analyse ID trouvé: 21 pour le fichier ID: 43
+[2025-05-20 12:20:32] Traitement du fichier ID: 44
+[2025-05-20 12:20:32] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaC91.tmp.pdf" "" "//Racine/tttttttttttuuu/ttt/Ticket5.pdf" 2>&1
+[2025-05-20 12:20:36] Code de retour Python: 0
+[2025-05-20 12:20:36] Analyse ID trouvé: 23 pour le fichier ID: 44
+[2025-05-20 12:20:36] Traitement du fichier ID: 42
+[2025-05-20 12:20:36] Code de retour Python: 0
+[2025-05-20 12:20:36] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana1BA5.tmp.pdf" "" "//Racine/tttttttttttuuu/ttt/tickett.pdf" 2>&1
+[2025-05-20 12:20:36] Analyse ID trouvé: 23 pour le fichier ID: 44
+[2025-05-20 12:20:36] Traitement du fichier ID: 42
+[2025-05-20 12:20:36] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana1BB6.tmp.pdf" "" "//Racine/tttttttttttuuu/ttt/tickett.pdf" 2>&1
+[2025-05-20 12:20:44] Code de retour Python: 0
+[2025-05-20 12:20:44] Analyse ID trouvé: 25 pour le fichier ID: 42
+[2025-05-20 12:20:44] Nombre de résultats: 4
+[2025-05-20 12:20:44] Nombre d'analyse_ids: 4
+[2025-05-20 12:20:44] Liste des analyse_ids: 19, 21, 23, 25
+[2025-05-20 12:20:44] Redirection multiple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=19,21,23,25&analyzed=true
+[2025-05-20 12:20:44] =================== FIN ANALYSE ===================
+[2025-05-20 12:20:45] Code de retour Python: 0
+[2025-05-20 12:20:45] Analyse ID trouvé: 25 pour le fichier ID: 42
+[2025-05-20 12:20:45] Nombre de résultats: 4
+[2025-05-20 12:20:45] Nombre d'analyse_ids: 4
+[2025-05-20 12:20:45] Liste des analyse_ids: 19, 21, 23, 25
+[2025-05-20 12:20:45] Redirection multiple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=19,21,23,25&analyzed=true
+[2025-05-20 12:20:45] =================== FIN ANALYSE ===================
+[2025-05-23 07:36:10] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 07:36:10] POST data: {"id":"41","csrf_token":"a17cce14fd46f09a60989d4b557a99ec05120fa497716fc930ccf57b5dfc7118"}
+[2025-05-23 07:36:10] Analyse simple demandée avec ID: 41
+[2025-05-23 07:36:10] Traitement du fichier ID: 41
+[2025-05-23 07:36:10] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaC991.tmp.pdf" "" "//Racine/tttttttttttuuu/ticket.pdf" 2>&1
+[2025-05-23 07:36:11] Code de retour Python: 1
+[2025-05-23 07:36:11] ERREUR: Le script Python a échoué
+[2025-05-23 07:36:11] Nombre de résultats: 1
+[2025-05-23 07:36:11] Nombre d'analyse_ids: 0
+[2025-05-23 07:36:11] Liste des analyse_ids: 
+[2025-05-23 07:36:11] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?analyzed=true
+[2025-05-23 07:36:11] =================== FIN ANALYSE ===================
+[2025-05-23 07:48:10] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 07:48:10] POST data: {"id":"46","csrf_token":"a17cce14fd46f09a60989d4b557a99ec05120fa497716fc930ccf57b5dfc7118"}
+[2025-05-23 07:48:10] Analyse simple demandée avec ID: 46
+[2025-05-23 07:48:10] Traitement du fichier ID: 46
+[2025-05-23 07:48:10] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaC5B5.tmp.pdf" "" "//Racine/tttttttttttuuu/facture.pdf" 2>&1
+[2025-05-23 07:48:15] Code de retour Python: 1
+[2025-05-23 07:48:15] ERREUR: Le script Python a échoué
+[2025-05-23 07:48:15] Nombre de résultats: 1
+[2025-05-23 07:48:15] Nombre d'analyse_ids: 0
+[2025-05-23 07:48:15] Liste des analyse_ids: 
+[2025-05-23 07:48:15] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?analyzed=true
+[2025-05-23 07:48:15] =================== FIN ANALYSE ===================
+[2025-05-23 07:50:36] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 07:50:36] POST data: {"id":"46","csrf_token":"a17cce14fd46f09a60989d4b557a99ec05120fa497716fc930ccf57b5dfc7118"}
+[2025-05-23 07:50:36] Analyse simple demandée avec ID: 46
+[2025-05-23 07:50:36] Traitement du fichier ID: 46
+[2025-05-23 07:50:36] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaFF89.tmp.pdf" "" "//Racine/tttttttttttuuu/facture.pdf" 2>&1
+[2025-05-23 07:50:40] Code de retour Python: 1
+[2025-05-23 07:50:40] ERREUR: Le script Python a échoué
+[2025-05-23 07:50:40] Nombre de résultats: 1
+[2025-05-23 07:50:40] Nombre d'analyse_ids: 0
+[2025-05-23 07:50:40] Liste des analyse_ids: 
+[2025-05-23 07:50:40] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?analyzed=true
+[2025-05-23 07:50:40] =================== FIN ANALYSE ===================
+[2025-05-23 07:53:06] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 07:53:06] POST data: {"id":"46","csrf_token":"a17cce14fd46f09a60989d4b557a99ec05120fa497716fc930ccf57b5dfc7118"}
+[2025-05-23 07:53:06] Analyse simple demandée avec ID: 46
+[2025-05-23 07:53:06] Traitement du fichier ID: 46
+[2025-05-23 07:53:06] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana494B.tmp.pdf" "46" "" "//Racine/tttttttttttuuu/facture.pdf" 2>&1
+[2025-05-23 07:53:11] Code de retour Python: 0
+[2025-05-23 07:53:11] Analyse ID trouvé: 1 pour le fichier ID: 46
+[2025-05-23 07:53:11] Nombre de résultats: 1
+[2025-05-23 07:53:11] Nombre d'analyse_ids: 1
+[2025-05-23 07:53:11] Liste des analyse_ids: 1
+[2025-05-23 07:53:11] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=1&analyzed=true
+[2025-05-23 07:53:11] =================== FIN ANALYSE ===================
+[2025-05-23 09:51:21] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 09:51:21] POST data: {"id":"46","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 09:51:21] Analyse simple demandée avec ID: 46
+[2025-05-23 09:51:21] Traitement du fichier ID: 46
+[2025-05-23 09:51:21] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana89A3.tmp.pdf" "46" "" "//Racine/tttttttttttuuu/facture.pdf" 2>&1
+[2025-05-23 09:51:26] Code de retour Python: 1
+[2025-05-23 09:51:26] ERREUR: Le script Python a échoué
+[2025-05-23 09:51:26] Nombre de résultats: 1
+[2025-05-23 09:51:26] Nombre d'analyse_ids: 0
+[2025-05-23 09:51:26] Liste des analyse_ids: 
+[2025-05-23 09:51:26] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?analyzed=true
+[2025-05-23 09:51:26] =================== FIN ANALYSE ===================
+[2025-05-23 11:27:14] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 11:27:14] POST data: {"id":"47","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 11:27:14] Analyse simple demandée avec ID: 47
+[2025-05-23 11:27:14] Traitement du fichier ID: 47
+[2025-05-23 11:27:14] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana54FD.tmp.pdf" "47" "" "//Racine/tttttttttttuuu/facture2.pdf" 2>&1
+[2025-05-23 11:27:37] Code de retour Python: 0
+[2025-05-23 11:27:37] Analyse ID trouvé: 2 pour le fichier ID: 47
+[2025-05-23 11:27:37] Nombre de résultats: 1
+[2025-05-23 11:27:37] Nombre d'analyse_ids: 1
+[2025-05-23 11:27:37] Liste des analyse_ids: 2
+[2025-05-23 11:27:37] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=2&analyzed=true
+[2025-05-23 11:27:37] =================== FIN ANALYSE ===================
+[2025-05-23 11:33:24] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 11:33:24] POST data: {"id":"48","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 11:33:24] Analyse simple demandée avec ID: 48
+[2025-05-23 11:33:24] Traitement du fichier ID: 48
+[2025-05-23 11:33:24] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaF955.tmp.pdf" "48" "" "//Racine/tttttttttttuuu/facture17.pdf" 2>&1
+[2025-05-23 11:33:27] Code de retour Python: 0
+[2025-05-23 11:33:27] Analyse ID trouvé: 3 pour le fichier ID: 48
+[2025-05-23 11:33:27] Nombre de résultats: 1
+[2025-05-23 11:33:27] Nombre d'analyse_ids: 1
+[2025-05-23 11:33:27] Liste des analyse_ids: 3
+[2025-05-23 11:33:27] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=3&analyzed=true
+[2025-05-23 11:33:27] =================== FIN ANALYSE ===================
+[2025-05-23 11:34:10] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 11:34:10] POST data: {"id":"48","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 11:34:10] Analyse simple demandée avec ID: 48
+[2025-05-23 11:34:10] Traitement du fichier ID: 48
+[2025-05-23 11:34:10] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaAD54.tmp.pdf" "48" "" "//Racine/tttttttttttuuu/facture17.pdf" 2>&1
+[2025-05-23 11:34:11] Code de retour Python: 0
+[2025-05-23 11:34:11] Analyse ID trouvé: 3 pour le fichier ID: 48
+[2025-05-23 11:34:11] Nombre de résultats: 1
+[2025-05-23 11:34:11] Nombre d'analyse_ids: 1
+[2025-05-23 11:34:11] Liste des analyse_ids: 3
+[2025-05-23 11:34:11] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=3&analyzed=true
+[2025-05-23 11:34:11] =================== FIN ANALYSE ===================
+[2025-05-23 11:34:33] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 11:34:33] POST data: {"csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25","ids":["46","48","47"]}
+[2025-05-23 11:34:33] Analyse multiple demandée avec 3 IDs: 46, 48, 47
+[2025-05-23 11:34:33] Traitement du fichier ID: 46
+[2025-05-23 11:34:33] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana539.tmp.pdf" "46" "" "//Racine/tttttttttttuuu/facture.pdf" 2>&1
+[2025-05-23 11:34:33] Code de retour Python: 0
+[2025-05-23 11:34:33] Analyse ID trouvé: 1 pour le fichier ID: 46
+[2025-05-23 11:34:33] Traitement du fichier ID: 48
+[2025-05-23 11:34:33] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana6F0.tmp.pdf" "48" "" "//Racine/tttttttttttuuu/facture17.pdf" 2>&1
+[2025-05-23 11:34:33] Code de retour Python: 0
+[2025-05-23 11:34:33] Analyse ID trouvé: 3 pour le fichier ID: 48
+[2025-05-23 11:34:33] Traitement du fichier ID: 47
+[2025-05-23 11:34:33] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana877.tmp.pdf" "47" "" "//Racine/tttttttttttuuu/facture2.pdf" 2>&1
+[2025-05-23 11:34:34] Code de retour Python: 0
+[2025-05-23 11:34:34] Analyse ID trouvé: 2 pour le fichier ID: 47
+[2025-05-23 11:34:34] Nombre de résultats: 3
+[2025-05-23 11:34:34] Nombre d'analyse_ids: 3
+[2025-05-23 11:34:34] Liste des analyse_ids: 1, 3, 2
+[2025-05-23 11:34:34] Redirection multiple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?ids=1,3,2&analyzed=true
+[2025-05-23 11:34:34] =================== FIN ANALYSE ===================
+[2025-05-23 12:27:32] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 12:27:32] POST data: {"csrf_token":"bf96c0391b90c4fdd37e09b5b3571983bd1fc76e674e0a51640f78d134b60623","ids":["49"]}
+[2025-05-23 12:27:32] Analyse multiple demandée avec 1 IDs: 49
+[2025-05-23 12:27:32] Traitement du fichier ID: 49
+[2025-05-23 12:27:32] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana86C8.tmp.pdf" "49" "" "///facture_9096204600_2025-05-07.pdf" 2>&1
+[2025-05-23 12:27:35] Code de retour Python: 0
+[2025-05-23 12:27:35] Analyse ID trouvé: 4 pour le fichier ID: 49
+[2025-05-23 12:27:35] Nombre de résultats: 1
+[2025-05-23 12:27:35] Nombre d'analyse_ids: 1
+[2025-05-23 12:27:35] Liste des analyse_ids: 4
+[2025-05-23 12:27:35] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=4&analyzed=true
+[2025-05-23 12:27:35] =================== FIN ANALYSE ===================
+[2025-05-23 12:30:14] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 12:30:14] POST data: {"id":"49","csrf_token":"bf96c0391b90c4fdd37e09b5b3571983bd1fc76e674e0a51640f78d134b60623"}
+[2025-05-23 12:30:14] Analyse simple demandée avec ID: 49
+[2025-05-23 12:30:14] Traitement du fichier ID: 49
+[2025-05-23 12:30:14] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana11F.tmp.pdf" "49" "" "///facture_9096204600_2025-05-07.pdf" 2>&1
+[2025-05-23 12:30:15] Code de retour Python: 0
+[2025-05-23 12:30:15] Analyse ID trouvé: 4 pour le fichier ID: 49
+[2025-05-23 12:30:15] Nombre de résultats: 1
+[2025-05-23 12:30:15] Nombre d'analyse_ids: 1
+[2025-05-23 12:30:15] Liste des analyse_ids: 4
+[2025-05-23 12:30:15] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=4&analyzed=true
+[2025-05-23 12:30:15] =================== FIN ANALYSE ===================
+[2025-05-23 12:32:25] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 12:32:25] POST data: {"id":"50","csrf_token":"bf96c0391b90c4fdd37e09b5b3571983bd1fc76e674e0a51640f78d134b60623"}
+[2025-05-23 12:32:25] Analyse simple demandée avec ID: 50
+[2025-05-23 12:32:25] Traitement du fichier ID: 50
+[2025-05-23 12:32:25] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana212.tmp.pdf" "50" "" "///facture_9096204600_2025-01-08.pdf" 2>&1
+[2025-05-23 12:32:28] Code de retour Python: 0
+[2025-05-23 12:32:28] Analyse ID trouvé: 5 pour le fichier ID: 50
+[2025-05-23 12:32:28] Nombre de résultats: 1
+[2025-05-23 12:32:28] Nombre d'analyse_ids: 1
+[2025-05-23 12:32:28] Liste des analyse_ids: 5
+[2025-05-23 12:32:28] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=5&analyzed=true
+[2025-05-23 12:32:28] =================== FIN ANALYSE ===================
+[2025-05-23 12:38:42] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 12:38:42] POST data: {"id":"51","csrf_token":"bf96c0391b90c4fdd37e09b5b3571983bd1fc76e674e0a51640f78d134b60623"}
+[2025-05-23 12:38:42] Analyse simple demandée avec ID: 51
+[2025-05-23 12:38:42] Traitement du fichier ID: 51
+[2025-05-23 12:38:42] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaC183.tmp.pdf" "51" "" "///Facture_Free_202310_17211208_1231477579.pdf" 2>&1
+[2025-05-23 12:38:46] Code de retour Python: 0
+[2025-05-23 12:38:46] Analyse ID trouvé: 6 pour le fichier ID: 51
+[2025-05-23 12:38:46] Nombre de résultats: 1
+[2025-05-23 12:38:46] Nombre d'analyse_ids: 1
+[2025-05-23 12:38:46] Liste des analyse_ids: 6
+[2025-05-23 12:38:46] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=6&analyzed=true
+[2025-05-23 12:38:46] =================== FIN ANALYSE ===================
+[2025-05-23 12:46:18] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 12:46:18] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 12:46:18] Analyse simple demandée avec ID: 52
+[2025-05-23 12:46:18] Traitement du fichier ID: 52
+[2025-05-23 12:46:18] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaB752.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 12:46:19] Code de retour Python: 0
+[2025-05-23 12:46:19] Analyse ID trouvé: 7 pour le fichier ID: 52
+[2025-05-23 12:46:19] Nombre de résultats: 1
+[2025-05-23 12:46:19] Nombre d'analyse_ids: 1
+[2025-05-23 12:46:19] Liste des analyse_ids: 7
+[2025-05-23 12:46:19] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=7&analyzed=true
+[2025-05-23 12:46:19] =================== FIN ANALYSE ===================
+[2025-05-23 12:46:52] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 12:46:52] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 12:46:52] Analyse simple demandée avec ID: 52
+[2025-05-23 12:46:52] Traitement du fichier ID: 52
+[2025-05-23 12:46:52] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana3B19.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 12:46:52] Code de retour Python: 0
+[2025-05-23 12:46:52] Analyse ID trouvé: 7 pour le fichier ID: 52
+[2025-05-23 12:46:52] Nombre de résultats: 1
+[2025-05-23 12:46:52] Nombre d'analyse_ids: 1
+[2025-05-23 12:46:52] Liste des analyse_ids: 7
+[2025-05-23 12:46:52] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=7&analyzed=true
+[2025-05-23 12:46:52] =================== FIN ANALYSE ===================
+[2025-05-23 12:46:56] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 12:46:56] POST data: {"csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25","ids":["52"]}
+[2025-05-23 12:46:56] Analyse multiple demandée avec 1 IDs: 52
+[2025-05-23 12:46:56] Traitement du fichier ID: 52
+[2025-05-23 12:46:56] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana4D1C.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 12:46:57] Code de retour Python: 0
+[2025-05-23 12:46:57] Analyse ID trouvé: 7 pour le fichier ID: 52
+[2025-05-23 12:46:57] Nombre de résultats: 1
+[2025-05-23 12:46:57] Nombre d'analyse_ids: 1
+[2025-05-23 12:46:57] Liste des analyse_ids: 7
+[2025-05-23 12:46:57] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=7&analyzed=true
+[2025-05-23 12:46:57] =================== FIN ANALYSE ===================
+[2025-05-23 12:47:08] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 12:47:08] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 12:47:08] Analyse simple demandée avec ID: 52
+[2025-05-23 12:47:08] Traitement du fichier ID: 52
+[2025-05-23 12:47:08] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana7C2C.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 12:47:09] Code de retour Python: 0
+[2025-05-23 12:47:09] Analyse ID trouvé: 7 pour le fichier ID: 52
+[2025-05-23 12:47:09] Nombre de résultats: 1
+[2025-05-23 12:47:09] Nombre d'analyse_ids: 1
+[2025-05-23 12:47:09] Liste des analyse_ids: 7
+[2025-05-23 12:47:09] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=7&analyzed=true
+[2025-05-23 12:47:09] =================== FIN ANALYSE ===================
+[2025-05-23 12:47:34] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 12:47:34] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 12:47:34] Analyse simple demandée avec ID: 52
+[2025-05-23 12:47:34] Traitement du fichier ID: 52
+[2025-05-23 12:47:34] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaE046.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 12:47:35] Code de retour Python: 0
+[2025-05-23 12:47:35] Analyse ID trouvé: 7 pour le fichier ID: 52
+[2025-05-23 12:47:35] Nombre de résultats: 1
+[2025-05-23 12:47:35] Nombre d'analyse_ids: 1
+[2025-05-23 12:47:35] Liste des analyse_ids: 7
+[2025-05-23 12:47:35] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=7&analyzed=true
+[2025-05-23 12:47:35] =================== FIN ANALYSE ===================
+[2025-05-23 12:48:08] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 12:48:08] POST data: {"csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25","ids":["52"]}
+[2025-05-23 12:48:08] Analyse multiple demandée avec 1 IDs: 52
+[2025-05-23 12:48:08] Traitement du fichier ID: 52
+[2025-05-23 12:48:08] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana668E.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 12:48:09] Code de retour Python: 0
+[2025-05-23 12:48:09] Analyse ID trouvé: 7 pour le fichier ID: 52
+[2025-05-23 12:48:09] Nombre de résultats: 1
+[2025-05-23 12:48:09] Nombre d'analyse_ids: 1
+[2025-05-23 12:48:09] Liste des analyse_ids: 7
+[2025-05-23 12:48:09] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=7&analyzed=true
+[2025-05-23 12:48:09] =================== FIN ANALYSE ===================
+[2025-05-23 12:58:01] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 12:58:01] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 12:58:01] Analyse simple demandée avec ID: 52
+[2025-05-23 12:58:01] Traitement du fichier ID: 52
+[2025-05-23 12:58:01] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana726A.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 12:58:06] Code de retour Python: 0
+[2025-05-23 12:58:06] Analyse ID trouvé: 8 pour le fichier ID: 52
+[2025-05-23 12:58:06] Nombre de résultats: 1
+[2025-05-23 12:58:06] Nombre d'analyse_ids: 1
+[2025-05-23 12:58:06] Liste des analyse_ids: 8
+[2025-05-23 12:58:06] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=8&analyzed=true
+[2025-05-23 12:58:06] =================== FIN ANALYSE ===================
+[2025-05-23 13:05:55] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 13:05:55] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 13:05:55] Analyse simple demandée avec ID: 52
+[2025-05-23 13:05:55] Traitement du fichier ID: 52
+[2025-05-23 13:05:55] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaADCC.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 13:06:00] Code de retour Python: 1
+[2025-05-23 13:06:00] ERREUR: Le script Python a échoué
+[2025-05-23 13:06:00] Nombre de résultats: 1
+[2025-05-23 13:06:00] Nombre d'analyse_ids: 0
+[2025-05-23 13:06:00] Liste des analyse_ids: 
+[2025-05-23 13:06:00] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?analyzed=true
+[2025-05-23 13:06:00] =================== FIN ANALYSE ===================
+[2025-05-23 13:07:30] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 13:07:30] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 13:07:30] Analyse simple demandée avec ID: 52
+[2025-05-23 13:07:30] Traitement du fichier ID: 52
+[2025-05-23 13:07:30] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana1DF7.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 13:07:34] Code de retour Python: 0
+[2025-05-23 13:07:34] Analyse ID trouvé: 9 pour le fichier ID: 52
+[2025-05-23 13:07:34] Nombre de résultats: 1
+[2025-05-23 13:07:34] Nombre d'analyse_ids: 1
+[2025-05-23 13:07:34] Liste des analyse_ids: 9
+[2025-05-23 13:07:34] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=9&analyzed=true
+[2025-05-23 13:07:34] =================== FIN ANALYSE ===================
+[2025-05-23 13:13:55] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 13:13:55] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 13:13:55] Analyse simple demandée avec ID: 52
+[2025-05-23 13:13:55] Traitement du fichier ID: 52
+[2025-05-23 13:13:55] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaFDC1.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 13:14:00] Code de retour Python: 0
+[2025-05-23 13:14:00] Analyse ID trouvé: 10 pour le fichier ID: 52
+[2025-05-23 13:14:00] Nombre de résultats: 1
+[2025-05-23 13:14:00] Nombre d'analyse_ids: 1
+[2025-05-23 13:14:00] Liste des analyse_ids: 10
+[2025-05-23 13:14:00] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=10&analyzed=true
+[2025-05-23 13:14:00] =================== FIN ANALYSE ===================
+[2025-05-23 13:23:11] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 13:23:11] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 13:23:11] Analyse simple demandée avec ID: 52
+[2025-05-23 13:23:11] Traitement du fichier ID: 52
+[2025-05-23 13:23:11] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana7D0D.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 13:23:16] Code de retour Python: 0
+[2025-05-23 13:23:16] Analyse ID trouvé: 11 pour le fichier ID: 52
+[2025-05-23 13:23:16] Nombre de résultats: 1
+[2025-05-23 13:23:16] Nombre d'analyse_ids: 1
+[2025-05-23 13:23:16] Liste des analyse_ids: 11
+[2025-05-23 13:23:16] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=11&analyzed=true
+[2025-05-23 13:23:16] =================== FIN ANALYSE ===================
+[2025-05-23 13:29:03] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 13:29:03] POST data: {"id":"53","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 13:29:03] Analyse simple demandée avec ID: 53
+[2025-05-23 13:29:03] Traitement du fichier ID: 53
+[2025-05-23 13:29:03] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaD921.tmp.pdf" "53" "" "//Racine/facture2.pdf" 2>&1
+[2025-05-23 13:29:21] Code de retour Python: 0
+[2025-05-23 13:29:21] Analyse ID trouvé: 12 pour le fichier ID: 53
+[2025-05-23 13:29:21] Nombre de résultats: 1
+[2025-05-23 13:29:21] Nombre d'analyse_ids: 1
+[2025-05-23 13:29:21] Liste des analyse_ids: 12
+[2025-05-23 13:29:21] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=12&analyzed=true
+[2025-05-23 13:29:21] =================== FIN ANALYSE ===================
+[2025-05-23 13:29:53] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 13:29:53] POST data: {"id":"54","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 13:29:53] Analyse simple demandée avec ID: 54
+[2025-05-23 13:29:53] Traitement du fichier ID: 54
+[2025-05-23 13:29:53] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana9CF0.tmp.pdf" "54" "" "//Racine/facture17.pdf" 2>&1
+[2025-05-23 13:29:55] Code de retour Python: 0
+[2025-05-23 13:29:55] Analyse ID trouvé: 13 pour le fichier ID: 54
+[2025-05-23 13:29:55] Nombre de résultats: 1
+[2025-05-23 13:29:55] Nombre d'analyse_ids: 1
+[2025-05-23 13:29:55] Liste des analyse_ids: 13
+[2025-05-23 13:29:55] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=13&analyzed=true
+[2025-05-23 13:29:55] =================== FIN ANALYSE ===================
+[2025-05-23 13:30:29] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 13:30:29] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 13:30:29] Analyse simple demandée avec ID: 52
+[2025-05-23 13:30:29] Traitement du fichier ID: 52
+[2025-05-23 13:30:29] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana2934.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 13:30:29] Code de retour Python: 0
+[2025-05-23 13:30:29] Analyse ID trouvé: 11 pour le fichier ID: 52
+[2025-05-23 13:30:29] Nombre de résultats: 1
+[2025-05-23 13:30:29] Nombre d'analyse_ids: 1
+[2025-05-23 13:30:29] Liste des analyse_ids: 11
+[2025-05-23 13:30:29] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=11&analyzed=true
+[2025-05-23 13:30:29] =================== FIN ANALYSE ===================
+[2025-05-23 13:30:34] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 13:30:34] POST data: {"id":"55","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 13:30:34] Analyse simple demandée avec ID: 55
+[2025-05-23 13:30:34] Traitement du fichier ID: 55
+[2025-05-23 13:30:34] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana3F4D.tmp.pdf" "55" "" "//Racine/Facture_Free_202310_17211208_1231477579.pdf" 2>&1
+[2025-05-23 13:30:38] Code de retour Python: 0
+[2025-05-23 13:30:38] Analyse ID trouvé: 14 pour le fichier ID: 55
+[2025-05-23 13:30:38] Nombre de résultats: 1
+[2025-05-23 13:30:38] Nombre d'analyse_ids: 1
+[2025-05-23 13:30:38] Liste des analyse_ids: 14
+[2025-05-23 13:30:38] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=14&analyzed=true
+[2025-05-23 13:30:38] =================== FIN ANALYSE ===================
+[2025-05-23 14:24:32] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:24:32] POST data: {"id":"55","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:24:32] Analyse simple demandée avec ID: 55
+[2025-05-23 14:24:32] Traitement du fichier ID: 55
+[2025-05-23 14:24:32] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaA4C1.tmp.pdf" "55" "" "//Racine/Facture_Free_202310_17211208_1231477579.pdf" 2>&1
+[2025-05-23 14:24:36] Code de retour Python: 0
+[2025-05-23 14:24:36] Analyse ID trouvé: 15 pour le fichier ID: 55
+[2025-05-23 14:24:36] Nombre de résultats: 1
+[2025-05-23 14:24:36] Nombre d'analyse_ids: 1
+[2025-05-23 14:24:36] Liste des analyse_ids: 15
+[2025-05-23 14:24:36] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=15&analyzed=true
+[2025-05-23 14:24:36] =================== FIN ANALYSE ===================
+[2025-05-23 14:25:09] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:25:09] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:25:09] Analyse simple demandée avec ID: 52
+[2025-05-23 14:25:09] Traitement du fichier ID: 52
+[2025-05-23 14:25:09] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana3847.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 14:25:14] Code de retour Python: 0
+[2025-05-23 14:25:14] Analyse ID trouvé: 16 pour le fichier ID: 52
+[2025-05-23 14:25:14] Nombre de résultats: 1
+[2025-05-23 14:25:14] Nombre d'analyse_ids: 1
+[2025-05-23 14:25:14] Liste des analyse_ids: 16
+[2025-05-23 14:25:14] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:25:14] =================== FIN ANALYSE ===================
+[2025-05-23 14:25:30] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:25:30] POST data: {"id":"54","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:25:30] Analyse simple demandée avec ID: 54
+[2025-05-23 14:25:30] Traitement du fichier ID: 54
+[2025-05-23 14:25:30] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana8743.tmp.pdf" "54" "" "//Racine/facture17.pdf" 2>&1
+[2025-05-23 14:25:32] Code de retour Python: 0
+[2025-05-23 14:25:32] Analyse ID trouvé: 17 pour le fichier ID: 54
+[2025-05-23 14:25:32] Nombre de résultats: 1
+[2025-05-23 14:25:32] Nombre d'analyse_ids: 1
+[2025-05-23 14:25:32] Liste des analyse_ids: 17
+[2025-05-23 14:25:32] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-23 14:25:32] =================== FIN ANALYSE ===================
+[2025-05-23 14:25:55] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:25:55] POST data: {"id":"53","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:25:55] Analyse simple demandée avec ID: 53
+[2025-05-23 14:25:55] Traitement du fichier ID: 53
+[2025-05-23 14:25:55] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaEA44.tmp.pdf" "53" "" "//Racine/facture2.pdf" 2>&1
+[2025-05-23 14:26:12] Code de retour Python: 0
+[2025-05-23 14:26:12] Analyse ID trouvé: 18 pour le fichier ID: 53
+[2025-05-23 14:26:12] Nombre de résultats: 1
+[2025-05-23 14:26:12] Nombre d'analyse_ids: 1
+[2025-05-23 14:26:12] Liste des analyse_ids: 18
+[2025-05-23 14:26:12] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=18&analyzed=true
+[2025-05-23 14:26:12] =================== FIN ANALYSE ===================
+[2025-05-23 14:26:58] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:26:58] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:26:58] Analyse simple demandée avec ID: 52
+[2025-05-23 14:26:58] Traitement du fichier ID: 52
+[2025-05-23 14:26:58] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaDFC1.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 14:26:58] Code de retour Python: 0
+[2025-05-23 14:26:58] Analyse ID trouvé: 16 pour le fichier ID: 52
+[2025-05-23 14:26:58] Nombre de résultats: 1
+[2025-05-23 14:26:58] Nombre d'analyse_ids: 1
+[2025-05-23 14:26:58] Liste des analyse_ids: 16
+[2025-05-23 14:26:58] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:26:58] =================== FIN ANALYSE ===================
+[2025-05-23 14:48:31] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:48:31] POST data: {"id":"55","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:48:31] Analyse simple demandée avec ID: 55
+[2025-05-23 14:48:31] Traitement du fichier ID: 55
+[2025-05-23 14:48:31] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana9B84.tmp.pdf" "55" "" "//Racine/Facture_Free_202310_17211208_1231477579.pdf" 2>&1
+[2025-05-23 14:48:32] Code de retour Python: 0
+[2025-05-23 14:48:32] Analyse ID trouvé: 15 pour le fichier ID: 55
+[2025-05-23 14:48:32] Nombre de résultats: 1
+[2025-05-23 14:48:32] Nombre d'analyse_ids: 1
+[2025-05-23 14:48:32] Liste des analyse_ids: 15
+[2025-05-23 14:48:32] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=15&analyzed=true
+[2025-05-23 14:48:32] =================== FIN ANALYSE ===================
+[2025-05-23 14:49:36] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:49:36] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:49:36] Analyse simple demandée avec ID: 52
+[2025-05-23 14:49:36] Traitement du fichier ID: 52
+[2025-05-23 14:49:36] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana9A38.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 14:49:37] Code de retour Python: 0
+[2025-05-23 14:49:37] Analyse ID trouvé: 16 pour le fichier ID: 52
+[2025-05-23 14:49:37] Nombre de résultats: 1
+[2025-05-23 14:49:37] Nombre d'analyse_ids: 1
+[2025-05-23 14:49:37] Liste des analyse_ids: 16
+[2025-05-23 14:49:37] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=16&analyzed=true
+[2025-05-23 14:49:37] =================== FIN ANALYSE ===================
+[2025-05-23 14:50:43] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:50:43] POST data: {"id":"54","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:50:43] Analyse simple demandée avec ID: 54
+[2025-05-23 14:50:43] Traitement du fichier ID: 54
+[2025-05-23 14:50:43] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana9EC8.tmp.pdf" "54" "" "//Racine/facture17.pdf" 2>&1
+[2025-05-23 14:50:43] Code de retour Python: 0
+[2025-05-23 14:50:43] Analyse ID trouvé: 17 pour le fichier ID: 54
+[2025-05-23 14:50:43] Nombre de résultats: 1
+[2025-05-23 14:50:43] Nombre d'analyse_ids: 1
+[2025-05-23 14:50:43] Liste des analyse_ids: 17
+[2025-05-23 14:50:43] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-23 14:50:43] =================== FIN ANALYSE ===================
+[2025-05-23 14:51:29] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:51:29] POST data: {"id":"53","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:51:29] Analyse simple demandée avec ID: 53
+[2025-05-23 14:51:29] Traitement du fichier ID: 53
+[2025-05-23 14:51:29] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana53A2.tmp.pdf" "53" "" "//Racine/facture2.pdf" 2>&1
+[2025-05-23 14:51:30] Code de retour Python: 0
+[2025-05-23 14:51:30] Analyse ID trouvé: 18 pour le fichier ID: 53
+[2025-05-23 14:51:30] Nombre de résultats: 1
+[2025-05-23 14:51:30] Nombre d'analyse_ids: 1
+[2025-05-23 14:51:30] Liste des analyse_ids: 18
+[2025-05-23 14:51:30] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=18&analyzed=true
+[2025-05-23 14:51:30] =================== FIN ANALYSE ===================
+[2025-05-23 14:52:07] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:52:07] POST data: {"id":"54","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:52:07] Analyse simple demandée avec ID: 54
+[2025-05-23 14:52:07] Traitement du fichier ID: 54
+[2025-05-23 14:52:07] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaE6CB.tmp.pdf" "54" "" "//Racine/facture17.pdf" 2>&1
+[2025-05-23 14:52:07] Code de retour Python: 0
+[2025-05-23 14:52:07] Analyse ID trouvé: 17 pour le fichier ID: 54
+[2025-05-23 14:52:07] Nombre de résultats: 1
+[2025-05-23 14:52:07] Nombre d'analyse_ids: 1
+[2025-05-23 14:52:07] Liste des analyse_ids: 17
+[2025-05-23 14:52:07] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-23 14:52:07] =================== FIN ANALYSE ===================
+[2025-05-23 14:58:14] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:58:14] POST data: {"id":"54","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:58:14] Analyse simple demandée avec ID: 54
+[2025-05-23 14:58:14] Traitement du fichier ID: 54
+[2025-05-23 14:58:14] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana8054.tmp.pdf" "54" "" "//Racine/facture17.pdf" 2>&1
+[2025-05-23 14:58:14] Code de retour Python: 0
+[2025-05-23 14:58:14] Analyse ID trouvé: 17 pour le fichier ID: 54
+[2025-05-23 14:58:14] Nombre de résultats: 1
+[2025-05-23 14:58:14] Nombre d'analyse_ids: 1
+[2025-05-23 14:58:14] Liste des analyse_ids: 17
+[2025-05-23 14:58:14] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=17&analyzed=true
+[2025-05-23 14:58:14] =================== FIN ANALYSE ===================
+[2025-05-23 14:59:02] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:59:02] POST data: {"id":"54","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:59:02] Analyse simple demandée avec ID: 54
+[2025-05-23 14:59:02] Traitement du fichier ID: 54
+[2025-05-23 14:59:02] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana3E36.tmp.pdf" "54" "" "//Racine/facture17.pdf" 2>&1
+[2025-05-23 14:59:05] Code de retour Python: 0
+[2025-05-23 14:59:05] Analyse ID trouvé: 19 pour le fichier ID: 54
+[2025-05-23 14:59:05] Nombre de résultats: 1
+[2025-05-23 14:59:05] Nombre d'analyse_ids: 1
+[2025-05-23 14:59:05] Liste des analyse_ids: 19
+[2025-05-23 14:59:05] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=19&analyzed=true
+[2025-05-23 14:59:05] =================== FIN ANALYSE ===================
+[2025-05-23 14:59:26] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:59:26] POST data: {"id":"52","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:59:26] Analyse simple demandée avec ID: 52
+[2025-05-23 14:59:26] Traitement du fichier ID: 52
+[2025-05-23 14:59:26] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana9BD8.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-23 14:59:31] Code de retour Python: 0
+[2025-05-23 14:59:31] Analyse ID trouvé: 20 pour le fichier ID: 52
+[2025-05-23 14:59:31] Nombre de résultats: 1
+[2025-05-23 14:59:31] Nombre d'analyse_ids: 1
+[2025-05-23 14:59:31] Liste des analyse_ids: 20
+[2025-05-23 14:59:31] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=20&analyzed=true
+[2025-05-23 14:59:31] =================== FIN ANALYSE ===================
+[2025-05-23 14:59:59] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-23 14:59:59] POST data: {"id":"55","csrf_token":"6cfce7bcd2336df7fa22408f769b1c6318688b224f97ba5bef14b4ddc415bc25"}
+[2025-05-23 14:59:59] Analyse simple demandée avec ID: 55
+[2025-05-23 14:59:59] Traitement du fichier ID: 55
+[2025-05-23 14:59:59] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana1C63.tmp.pdf" "55" "" "//Racine/Facture_Free_202310_17211208_1231477579.pdf" 2>&1
+[2025-05-23 15:00:03] Code de retour Python: 0
+[2025-05-23 15:00:03] Analyse ID trouvé: 21 pour le fichier ID: 55
+[2025-05-23 15:00:03] Nombre de résultats: 1
+[2025-05-23 15:00:03] Nombre d'analyse_ids: 1
+[2025-05-23 15:00:03] Liste des analyse_ids: 21
+[2025-05-23 15:00:03] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=21&analyzed=true
+[2025-05-23 15:00:03] =================== FIN ANALYSE ===================
+[2025-05-28 06:59:54] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-28 06:59:54] POST data: {"id":"54","csrf_token":"056a4757cacc8ab0571c581d6854b046928ea3d330baa03ea5b8714350265d8c"}
+[2025-05-28 06:59:54] Analyse simple demandée avec ID: 54
+[2025-05-28 06:59:54] Traitement du fichier ID: 54
+[2025-05-28 06:59:54] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana6021.tmp.pdf" "54" "" "//Racine/facture17.pdf" 2>&1
+[2025-05-28 06:59:57] Code de retour Python: 0
+[2025-05-28 06:59:57] Analyse ID trouvé: 19 pour le fichier ID: 54
+[2025-05-28 06:59:57] Nombre de résultats: 1
+[2025-05-28 06:59:57] Nombre d'analyse_ids: 1
+[2025-05-28 06:59:57] Liste des analyse_ids: 19
+[2025-05-28 06:59:57] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=19&analyzed=true
+[2025-05-28 06:59:57] =================== FIN ANALYSE ===================
+[2025-05-28 07:00:47] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-28 07:00:47] POST data: {"id":"55","csrf_token":"056a4757cacc8ab0571c581d6854b046928ea3d330baa03ea5b8714350265d8c"}
+[2025-05-28 07:00:47] Analyse simple demandée avec ID: 55
+[2025-05-28 07:00:47] Traitement du fichier ID: 55
+[2025-05-28 07:00:47] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana3043.tmp.pdf" "55" "" "//Racine/Facture_Free_202310_17211208_1231477579.pdf" 2>&1
+[2025-05-28 07:00:48] Code de retour Python: 0
+[2025-05-28 07:00:48] Analyse ID trouvé: 21 pour le fichier ID: 55
+[2025-05-28 07:00:48] Nombre de résultats: 1
+[2025-05-28 07:00:48] Nombre d'analyse_ids: 1
+[2025-05-28 07:00:48] Liste des analyse_ids: 21
+[2025-05-28 07:00:48] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=21&analyzed=true
+[2025-05-28 07:00:48] =================== FIN ANALYSE ===================
+[2025-05-28 07:01:52] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-28 07:01:52] POST data: {"id":"52","csrf_token":"056a4757cacc8ab0571c581d6854b046928ea3d330baa03ea5b8714350265d8c"}
+[2025-05-28 07:01:52] Analyse simple demandée avec ID: 52
+[2025-05-28 07:01:52] Traitement du fichier ID: 52
+[2025-05-28 07:01:52] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana2CB5.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-28 07:01:52] Code de retour Python: 0
+[2025-05-28 07:01:52] Analyse ID trouvé: 20 pour le fichier ID: 52
+[2025-05-28 07:01:52] Nombre de résultats: 1
+[2025-05-28 07:01:52] Nombre d'analyse_ids: 1
+[2025-05-28 07:01:52] Liste des analyse_ids: 20
+[2025-05-28 07:01:52] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=20&analyzed=true
+[2025-05-28 07:01:52] =================== FIN ANALYSE ===================
+[2025-05-28 07:10:30] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-28 07:10:30] POST data: {"id":"56","csrf_token":"056a4757cacc8ab0571c581d6854b046928ea3d330baa03ea5b8714350265d8c"}
+[2025-05-28 07:10:30] Analyse simple demandée avec ID: 56
+[2025-05-28 07:10:30] Traitement du fichier ID: 56
+[2025-05-28 07:10:30] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana16D8.tmp.pdf" "56" "" "//Racine/facture9.pdf" 2>&1
+[2025-05-28 07:10:50] Code de retour Python: 0
+[2025-05-28 07:10:50] Analyse ID trouvé: 22 pour le fichier ID: 56
+[2025-05-28 07:10:50] Nombre de résultats: 1
+[2025-05-28 07:10:50] Nombre d'analyse_ids: 1
+[2025-05-28 07:10:50] Liste des analyse_ids: 22
+[2025-05-28 07:10:50] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=22&analyzed=true
+[2025-05-28 07:10:50] =================== FIN ANALYSE ===================
+[2025-05-28 07:12:50] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-28 07:12:50] POST data: {"id":"56","csrf_token":"056a4757cacc8ab0571c581d6854b046928ea3d330baa03ea5b8714350265d8c"}
+[2025-05-28 07:12:50] Analyse simple demandée avec ID: 56
+[2025-05-28 07:12:50] Traitement du fichier ID: 56
+[2025-05-28 07:12:50] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana36EA.tmp.pdf" "56" "" "//Racine/facture9.pdf" 2>&1
+[2025-05-28 07:12:50] Code de retour Python: 0
+[2025-05-28 07:12:50] Analyse ID trouvé: 22 pour le fichier ID: 56
+[2025-05-28 07:12:50] Nombre de résultats: 1
+[2025-05-28 07:12:50] Nombre d'analyse_ids: 1
+[2025-05-28 07:12:50] Liste des analyse_ids: 22
+[2025-05-28 07:12:50] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=22&analyzed=true
+[2025-05-28 07:12:50] =================== FIN ANALYSE ===================
+[2025-05-28 07:13:15] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-28 07:13:15] POST data: {"id":"56","csrf_token":"056a4757cacc8ab0571c581d6854b046928ea3d330baa03ea5b8714350265d8c"}
+[2025-05-28 07:13:15] Analyse simple demandée avec ID: 56
+[2025-05-28 07:13:15] Traitement du fichier ID: 56
+[2025-05-28 07:13:15] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana996E.tmp.pdf" "56" "" "//Racine/facture9.pdf" 2>&1
+[2025-05-28 07:13:18] Code de retour Python: 0
+[2025-05-28 07:13:18] Analyse ID trouvé: 23 pour le fichier ID: 56
+[2025-05-28 07:13:18] Nombre de résultats: 1
+[2025-05-28 07:13:18] Nombre d'analyse_ids: 1
+[2025-05-28 07:13:18] Liste des analyse_ids: 23
+[2025-05-28 07:13:18] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=23&analyzed=true
+[2025-05-28 07:13:18] =================== FIN ANALYSE ===================
+[2025-05-28 07:14:38] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-28 07:14:38] POST data: {"id":"57","csrf_token":"056a4757cacc8ab0571c581d6854b046928ea3d330baa03ea5b8714350265d8c"}
+[2025-05-28 07:14:38] Analyse simple demandée avec ID: 57
+[2025-05-28 07:14:38] Traitement du fichier ID: 57
+[2025-05-28 07:14:39] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaDFF8.tmp.pdf" "57" "" "//Racine/facture12.pdf" 2>&1
+[2025-05-28 07:14:41] Code de retour Python: 0
+[2025-05-28 07:14:41] Analyse ID trouvé: 24 pour le fichier ID: 57
+[2025-05-28 07:14:41] Nombre de résultats: 1
+[2025-05-28 07:14:41] Nombre d'analyse_ids: 1
+[2025-05-28 07:14:41] Liste des analyse_ids: 24
+[2025-05-28 07:14:41] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=24&analyzed=true
+[2025-05-28 07:14:41] =================== FIN ANALYSE ===================
+[2025-05-28 07:21:56] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-28 07:21:56] POST data: {"id":"56","csrf_token":"056a4757cacc8ab0571c581d6854b046928ea3d330baa03ea5b8714350265d8c"}
+[2025-05-28 07:21:56] Analyse simple demandée avec ID: 56
+[2025-05-28 07:21:56] Traitement du fichier ID: 56
+[2025-05-28 07:21:56] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana8DA1.tmp.pdf" "56" "" "//Racine/facture9.pdf" 2>&1
+[2025-05-28 07:21:59] Code de retour Python: 0
+[2025-05-28 07:21:59] Analyse ID trouvé: 25 pour le fichier ID: 56
+[2025-05-28 07:21:59] Nombre de résultats: 1
+[2025-05-28 07:21:59] Nombre d'analyse_ids: 1
+[2025-05-28 07:21:59] Liste des analyse_ids: 25
+[2025-05-28 07:21:59] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=25&analyzed=true
+[2025-05-28 07:21:59] =================== FIN ANALYSE ===================
+[2025-05-28 07:30:04] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-28 07:30:04] POST data: {"id":"56","csrf_token":"056a4757cacc8ab0571c581d6854b046928ea3d330baa03ea5b8714350265d8c"}
+[2025-05-28 07:30:04] Analyse simple demandée avec ID: 56
+[2025-05-28 07:30:04] Traitement du fichier ID: 56
+[2025-05-28 07:30:04] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaFFA4.tmp.pdf" "56" "" "//Racine/facture9.pdf" 2>&1
+[2025-05-28 07:30:08] Code de retour Python: 0
+[2025-05-28 07:30:08] Analyse ID trouvé: 26 pour le fichier ID: 56
+[2025-05-28 07:30:08] Nombre de résultats: 1
+[2025-05-28 07:30:08] Nombre d'analyse_ids: 1
+[2025-05-28 07:30:08] Liste des analyse_ids: 26
+[2025-05-28 07:30:08] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=26&analyzed=true
+[2025-05-28 07:30:08] =================== FIN ANALYSE ===================
+[2025-05-28 07:40:12] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-28 07:40:12] POST data: {"id":"56","csrf_token":"056a4757cacc8ab0571c581d6854b046928ea3d330baa03ea5b8714350265d8c"}
+[2025-05-28 07:40:12] Analyse simple demandée avec ID: 56
+[2025-05-28 07:40:12] Traitement du fichier ID: 56
+[2025-05-28 07:40:12] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana4685.tmp.pdf" "56" "" "//Racine/facture9.pdf" 2>&1
+[2025-05-28 07:40:15] Code de retour Python: 0
+[2025-05-28 07:40:15] Analyse ID trouvé: 27 pour le fichier ID: 56
+[2025-05-28 07:40:15] Nombre de résultats: 1
+[2025-05-28 07:40:15] Nombre d'analyse_ids: 1
+[2025-05-28 07:40:15] Liste des analyse_ids: 27
+[2025-05-28 07:40:15] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=27&analyzed=true
+[2025-05-28 07:40:15] =================== FIN ANALYSE ===================
+[2025-05-28 11:49:31] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-28 11:49:31] POST data: {"id":"55","csrf_token":"dd37c62382c7d5bd4f3b5c7c1a8745cc7a3d393fb1218a529aa4ad1597486c55"}
+[2025-05-28 11:49:31] Analyse simple demandée avec ID: 55
+[2025-05-28 11:49:31] Traitement du fichier ID: 55
+[2025-05-28 11:49:31] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana8ADE.tmp.pdf" "55" "" "//Racine/Facture_Free_202310_17211208_1231477579.pdf" 2>&1
+[2025-05-28 11:49:40] Code de retour Python: 0
+[2025-05-28 11:49:40] Analyse ID trouvé: 28 pour le fichier ID: 55
+[2025-05-28 11:49:40] Nombre de résultats: 1
+[2025-05-28 11:49:40] Nombre d'analyse_ids: 1
+[2025-05-28 11:49:40] Liste des analyse_ids: 28
+[2025-05-28 11:49:40] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=28&analyzed=true
+[2025-05-28 11:49:40] =================== FIN ANALYSE ===================
+[2025-05-28 11:49:55] =================== DÉBUT NOUVELLE ANALYSE ===================
+[2025-05-28 11:49:55] POST data: {"id":"52","csrf_token":"dd37c62382c7d5bd4f3b5c7c1a8745cc7a3d393fb1218a529aa4ad1597486c55"}
+[2025-05-28 11:49:55] Analyse simple demandée avec ID: 52
+[2025-05-28 11:49:55] Traitement du fichier ID: 52
+[2025-05-28 11:49:55] Commande Python: python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\anaE8BE.tmp.pdf" "52" "" "//Racine/Facture_total_20000144990425.pdf" 2>&1
+[2025-05-28 11:50:00] Code de retour Python: 0
+[2025-05-28 11:50:00] Analyse ID trouvé: 29 pour le fichier ID: 52
+[2025-05-28 11:50:00] Nombre de résultats: 1
+[2025-05-28 11:50:00] Nombre d'analyse_ids: 1
+[2025-05-28 11:50:00] Liste des analyse_ids: 29
+[2025-05-28 11:50:00] Redirection simple vers: /EXTRACTYS/filemanager/facture/factures_telecom.php?id=29&analyzed=true
+[2025-05-28 11:50:00] =================== FIN ANALYSE ===================

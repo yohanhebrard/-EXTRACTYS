@@ -1,0 +1,69 @@
+
+RAPPORT D'ANALYSE DE L'ÉTUDE MOBILE
+Date de génération: 20/05/2025 14:55:49
+
+INFORMATIONS CLIENT:
+Nom: BOUDENNE-PEDOUSSAUT
+Date de l'étude: 07/05/2025
+Valable jusqu'au: 30/06/2025
+
+INFORMATIONS OPÉRATEUR:
+Adresse: 1883, route de Nîmes, 30 560 ST HILAIRE DE BRETHMAS
+Tél: 04 66 52 30 19
+Téléphone: 04 66 52 30 19
+Email: commercial@perfectys.fr
+
+RÉSUMÉ FINANCIER:
+Total actuel: 150.18 €/mois
+Total proposé: 111.01 €/mois
+Économie mensuelle: 39.18 €
+Économie annuelle: 470.16 €
+
+DÉTAIL DES LIGNES TÉLÉPHONIQUES:
+Nombre de lignes: 7
+Coût moyen actuel par ligne: 20.03 €
+Coût moyen conseillé par ligne: 15.86 €
+Gain total sur les lignes: 29.18 €
+
+DÉTAIL PAR LIGNE:
+Ligne 1 (utilisateur 1): 0638780050
+  Forfait actuel: Bouygues Appel&sms illimités - data 60Go - 21.74 €
+  Forfait conseillé: Forfait Pro Appel&sms illimités - data 60Go - 18.00 €
+  Gain: 3.74 €
+
+Ligne 2 (utilisateur 2): 0671582887
+  Forfait actuel: Bouygues Appel&sms illimités - data 5Go - 15.74 €
+  Forfait conseillé: Forfait Pro Appel&sms illimités - data 5Go - 10.50 €
+  Gain: 5.24 €
+
+Ligne 3 (utilisateur 3): 0679439446
+  Forfait actuel: Bouygues Appel&sms illimités - data 60Go - 21.74 €
+  Forfait conseillé: Forfait Pro Appel&sms illimités - data 60Go - 18.00 €
+  Gain: 3.74 €
+
+Ligne 4 (utilisateur 4): 0681622426
+  Forfait actuel: Bouygues Appel&sms illimités - data 60Go - 21.74 €
+  Forfait conseillé: Forfait Pro Appel&sms illimités - data 60Go - 18.00 €
+  Gain: 3.74 €
+
+Ligne 5 (utilisateur 5): 0750092719
+  Forfait actuel: Bouygues Appel&sms illimités - data 5Go - 15.74 €
+  Forfait conseillé: Forfait Pro Appel&sms illimités - data 5Go - 10.50 €
+  Gain: 5.24 €
+
+Ligne 6 (utilisateur 6): 0755685637
+  Forfait actuel: Bouygues Appel&sms illimités - data 60Go - 21.74 €
+  Forfait conseillé: Forfait Pro Appel&sms illimités - data 60Go - 18.00 €
+  Gain: 3.74 €
+
+Ligne 7 (utilisateur 7): 0755685775
+  Forfait actuel: Bouygues Appel&sms illimités - data 60Go - 21.74 €
+  Forfait conseillé: Forfait Pro Appel&sms illimités - data 60Go - 18.00 €
+  Gain: 3.74 €
+
+
+SERVICE:
+Type: Bouygues Services support optimisé
+Coût actuel: 10 €
+Coût proposé: inclus
+Gain: 10.00 €

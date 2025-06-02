@@ -1,0 +1,36 @@
+[2025-05-23 09:50:40.865605] Erreur lors du traitement de la base de données: 1366 (HY000): Incorrect integer value: 'FF89' for column 'pdf_file_id' at row 1
+Traceback (most recent call last):
+  File "C:\laragon\www\EXTRACTYS\filemanager\python\analyse_factures.py", line 130, in <module>
+    cursor.execute(query, values)
+  File "C:\Users\yohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mysql\connector\cursor.py", line 537, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\yohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\yohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mysql\connector\connection.py", line 872, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\yohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mysql\connector\connection.py", line 648, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.DatabaseError: 1366 (HY000): Incorrect integer value: 'FF89' for column 'pdf_file_id' at row 1
+
+[2025-05-23 11:51:21.646890] Erreur lors de la vérification de l'analyse existante: Object of type Decimal is not JSON serializable
+[2025-05-23 11:51:25.980099] Erreur lors du traitement de la base de données: Cursor is not connected
+Traceback (most recent call last):
+  File "C:\Users\yohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mysql\connector\cursor.py", line 498, in execute
+    raise ProgrammingError
+mysql.connector.errors.ProgrammingError: Unknown error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\laragon\www\EXTRACTYS\filemanager\python\analyse_factures.py", line 152, in <module>
+    cursor.execute("SHOW TABLES LIKE 'pdf_analyses'")
+  File "C:\Users\yohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mysql\connector\cursor.py", line 500, in execute
+    raise ProgrammingError("Cursor is not connected") from err
+mysql.connector.errors.ProgrammingError: Cursor is not connected
+
+[2025-05-23 13:27:16.534012] Divisant un PDF de 21 pages en morceaux de 10 pages
+[2025-05-23 14:46:19.487218] Erreur lors du traitement avec Mindee: HTTPSConnectionPool(host='api.mindee.net', port=443): Max retries exceeded with url: /v1/products/mindee/invoices/v4/predict (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001479F4DB1F0>: Failed to resolve 'api.mindee.net' ([Errno 11001] getaddrinfo failed)"))
+[2025-05-23 15:06:00.453818] Erreur lors de l'extraction des lignes d'articles: 'charmap' codec can't encode character '\u2713' in position 31: character maps to <undefined>
+[2025-05-23 15:06:00.454818] Erreur lors du traitement avec Mindee: 'charmap' codec can't encode character '\u2713' in position 315: character maps to <undefined>
+[2025-05-23 15:29:03.596580] Divisant un PDF de 21 pages en morceaux de 10 pages
+[2025-05-23 16:25:55.811692] Divisant un PDF de 21 pages en morceaux de 10 pages

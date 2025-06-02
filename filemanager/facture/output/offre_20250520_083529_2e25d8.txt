@@ -1,0 +1,18 @@
+OFFRE PERSONNALISÉE
+
+Prestataire: <br />
+<b>Warning</b>:  Undefined variable $analyse in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>42</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>42</b><br />
+<br />
+<b>Deprecated</b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>C:\laragon\www\EXTRACTYS\filemanager\facture\generer_offre_conditions.php</b> on line <b>42</b><br />
+
+Montant TTC: 0 €
+Économie mensuelle: 0 €
+Économie annuelle: 0 €
+
+Conditions particulières:
+
+
+Document généré le 20/05/2025
+Cette offre est valable 30 jours.

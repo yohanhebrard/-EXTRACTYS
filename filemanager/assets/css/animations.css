@@ -1,0 +1,110 @@
+/* Animations pour le gestionnaire de fichiers */
+
+/* Animation d'apparition pour les modales */
+@keyframes modalFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.95);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Animation pour le fond des modales */
+@keyframes backdropFadeIn {
+    0% {
+        opacity: 0;
+        backdrop-filter: blur(0);
+    }
+
+    100% {
+        opacity: 1;
+        backdrop-filter: blur(4px);
+    }
+}
+
+/* Animation pour l'élément en cours de déplacement */
+@keyframes dragPulse {
+
+    0%,
+    100% {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    50% {
+        box-shadow: 0 8px 25px rgba(var(--fm-primary-rgb), 0.25);
+    }
+}
+
+/* Animation de succès */
+@keyframes successPop {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Animation pour la renommage contextuel */
+@keyframes contextualSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px) scale(0.95);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Application des animations */
+.modal.show .modal-content {
+    animation: modalFadeIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.modal-backdrop.show {
+    animation: backdropFadeIn 0.3s ease forwards;
+}
+
+.rename-contextual.show {
+    animation: contextualSlideIn 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.filemanager-item.dragging {
+    animation: dragPulse 1.5s infinite;
+}
+
+.drop-success-indicator.show {
+    animation: successPop 0.4s cubic-bezier(0.17, 0.89, 0.32, 1.49) forwards;
+}
+
+/* Transitions plus fluides */
+.filemanager-item-icon i,
+.btn,
+.modal-close,
+.filemanager-item,
+.drop-indicator,
+.rename-contextual {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Réduction de mouvement pour l'accessibilité */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}

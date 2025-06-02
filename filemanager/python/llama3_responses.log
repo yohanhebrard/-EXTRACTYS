@@ -1,0 +1,39 @@
+[2025-05-28 09:10:31.545164] === DÉBUT PROCESSUS D'ANALYSE AVEC LLAMA3 ===
+[2025-05-28 09:10:31.547667] Texte extrait du PDF (1 caractères)
+[2025-05-28 09:10:37.424241] Items Mindee avant Llama3: 2
+[2025-05-28 09:10:37.424241] === AMÉLIORATION AVEC LLAMA3 ===
+[2025-05-28 09:10:37.425240] === DÉBUT APPEL LLAMA3 ===
+[2025-05-28 09:10:37.425240] Prompt: Analyse cette facture et améliore l'extraction des services/produits.
+
+Items extraits par Mindee:
+1. LOCATION TPE FIXE IP - 54.6€ HT
+2. LOCATION TPE FIXE IP - 54.6€ HT
+
+
+Objectifs:
+1. Vérifier que les prix sont bien en HORS TAXE
+2. Améliorer les descriptions si possible
+3. Détecter d'éventuels services manqués
+4. Corriger les erreurs de calcul TVA
+
+Réponds avec une liste JSON des services améliorés....
+[2025-05-28 09:10:37.425240] Envoi requête à http://localhost:11434/api/generate
+[2025-05-28 09:10:50.593258] Réponse brute Llama3: Voici la liste des services améliorés dans le format JSON attendu :
+
+{
+"services": [
+    {
+        "description": "LOCATION TPE FIXE IP",
+        "prix_ht": 54.60,
+        "quantite": 1,
+        "tva_taux": null
+    }
+]
+}
+
+Note : Comme il n'y a qu'une seule ligne de facture, il n'y a que un service à améliorer.
+[2025-05-28 09:10:50.594318] JSON parsé avec succès: {'services': [{'description': 'LOCATION TPE FIXE IP', 'prix_ht': 54.6, 'quantite': 1, 'tva_taux': None}]}
+[2025-05-28 09:10:50.594830] Llama3 a trouvé 1 services
+[2025-05-28 09:10:50.594830] Erreur traitement service Llama3: float() argument must be a string or a real number, not 'NoneType'
+[2025-05-28 09:10:50.595342] Pas d'amélioration Llama3, retour des items Mindee originaux
+[2025-05-28 09:10:50.595871] Items finaux après Llama3: 2

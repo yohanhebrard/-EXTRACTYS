@@ -1,0 +1,453 @@
+:root {
+    --ft-primary: #4361ee;
+    --ft-primary-dark: #2747c2;
+    --ft-success: #059669;
+    --ft-danger: #ef4444;
+    --ft-bg-card: #fff;
+    --ft-bg-alt: #f6f8fa;
+    --ft-text-main: #23243a;
+    --ft-text-muted: #6c757d;
+    --ft-border: #e0e7ff;
+    --ft-radius: 16px;
+    --ft-spacing: 1.2rem;
+    --ft-font-base: 15px;
+    --ft-font-lg: 18px;
+    --ft-font-xl: 20px;
+    --ft-badge-sfr: #ff0033;
+    --ft-badge-orange: #ff9900;
+    --ft-badge-bouygues: #009fe3;
+    --ft-badge-free: #2ecc40;
+}
+
+/* Effet carte flottante et hover */
+.result-card {
+    border-radius: var(--ft-radius);
+    box-shadow: 0 2px 12px rgba(67, 97, 238, 0.10), 0 1.5px 6px rgba(67, 97, 238, 0.05);
+    background: var(--ft-bg-card);
+    margin-bottom: 0.7rem;
+    border: 1px solid var(--ft-border);
+    transition: box-shadow 0.18s, transform 0.18s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    position: relative;
+}
+
+.result-card:hover {
+    box-shadow: 0 8px 32px rgba(67, 97, 238, 0.18), 0 2px 8px rgba(67, 97, 238, 0.10);
+    transform: translateY(-2px) scale(1.012);
+    border-color: var(--ft-primary);
+    z-index: 2;
+}
+
+/* Header : séparation visuelle et numéro mis en avant */
+.result-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: var(--ft-bg-alt);
+    padding: 0.9rem 1.3rem 0.5rem 1.3rem;
+    border-bottom: 1.5px solid var(--ft-border);
+    position: relative;
+}
+
+.result-card-title {
+    font-size: 1.15em;
+    font-weight: 700;
+    color: var(--ft-primary-dark);
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.facture-num {
+    font-size: 1.1em;
+    color: var(--ft-primary);
+    background: #e0e7ff;
+    border-radius: 6px;
+    padding: 0.08em 0.5em;
+    margin-left: 0.4em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    box-shadow: 0 1px 4px rgba(67, 97, 238, 0.06);
+}
+
+/* Badge opérateur plus compact */
+.badge {
+    padding: 0.13em 0.7em;
+    border-radius: 6px;
+    font-size: 0.97em;
+    font-weight: 600;
+    margin-right: 0.2em;
+    box-shadow: 0 1px 4px rgba(67, 97, 238, 0.04);
+}
+
+.badge-op-sfr,
+.badge-op-orange,
+.badge-op-bouygues,
+.badge-op-free {
+    font-size: 0.97em;
+    letter-spacing: 0.2px;
+    min-width: 48px;
+    text-align: center;
+}
+
+/* Badge statut */
+.badge-success {
+    font-size: 0.97em;
+    padding: 0.13em 0.7em;
+    border-radius: 6px;
+    background: #d1fae5;
+    color: var(--ft-success);
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    box-shadow: 0 1px 4px rgba(5, 150, 105, 0.06);
+}
+
+/* Corps : plus compact, séparation verticale */
+.result-card-body {
+    padding: 1rem 1.3rem 0.9rem 1.3rem;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem 1.2rem;
+    font-size: var(--ft-font-base);
+    border-left: 4px solid #e0e7ff;
+}
+
+@media (max-width: 900px) {
+    .result-card-body {
+        grid-template-columns: 1fr;
+        padding: 0.8rem 0.5rem;
+        border-left: none;
+    }
+}
+
+/* Labels et valeurs */
+.result-label {
+    color: var(--ft-text-muted);
+    font-size: 0.93em;
+    margin-bottom: 0.1em;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+.result-value {
+    color: var(--ft-text-main);
+    font-size: var(--ft-font-lg);
+    font-weight: 600;
+    margin-bottom: 0.4em;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+}
+
+/* Montant très visible */
+.result-value.montant {
+    color: var(--ft-primary-dark);
+    font-size: 1.45em;
+    font-weight: 800;
+    background: linear-gradient(90deg, #e0e7ff 60%, #fff 100%);
+    border-radius: 7px;
+    padding: 0.08em 0.6em;
+    box-shadow: 0 1px 4px rgba(67, 97, 238, 0.07);
+    letter-spacing: 0.5px;
+}
+
+/* Email : effet pill et icône */
+.result-value.email {
+    color: var(--ft-primary);
+    font-family: 'Inter', monospace, Arial, sans-serif;
+    font-size: var(--ft-font-base);
+    background: #f6f8fa;
+    border-radius: 20px;
+    padding: 0.1em 0.8em;
+    cursor: pointer;
+    transition: background 0.15s;
+    box-shadow: 0 1px 4px rgba(67, 97, 238, 0.04);
+}
+
+.result-value.email:hover {
+    background: #e0e7ff;
+}
+
+/* Fichier PDF */
+.file-info {
+    background: #f6f8fa;
+    border-left: 3px solid var(--ft-primary);
+    border-radius: 6px;
+    padding: 0.3em 0.7em;
+    font-size: var(--ft-font-base);
+    color: var(--ft-text-main);
+    /* <-- assure la couleur foncée */
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-weight: 500;
+}
+
+/* Séparateur visuel entre les cards */
+.result-card:not(:last-child) {
+    margin-bottom: 1.1rem;
+    border-bottom: 2px solid #f1f5f9;
+}
+
+/* Animation d’apparition */
+.result-card {
+    animation: fadeInCard 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes fadeInCard {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Tooltip pour email copiable */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #23243a;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 4px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-size: 0.93em;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Responsive pour les cards et boutons */
+@media (max-width: 600px) {
+
+    .result-card-header,
+    .result-card-body {
+        padding: 0.7rem 0.5rem;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --ft-bg-card: #23243a;
+        --ft-bg-alt: #23243a;
+        --ft-text-main: #f3f4f6;
+        --ft-text-muted: #a1a1aa;
+        --ft-border: #313244;
+    }
+
+    .result-card,
+    .result-card-header,
+    .result-card-body {
+        background: var(--ft-bg-card);
+        color: var(--ft-text-main);
+        border-color: var(--ft-border);
+    }
+
+    .badge,
+    .badge-success {
+        background: #313244;
+        color: #fff;
+    }
+
+    .btn-light {
+        background: #23243a;
+        color: #fff;
+        border: 1px solid #313244;
+    }
+
+    .btn-primary {
+        background: linear-gradient(90deg, #2747c2 80%, #4361ee 100%);
+        color: #fff;
+    }
+
+    .file-info {
+        background: #313244;
+        color: #f3f4f6;
+        /* <-- couleur claire en dark mode */
+    }
+}
+
+/* --- NAVBAR MODERNE --- */
+.navbar {
+    width: 100%;
+    background: var(--ft-bg-card);
+    border-bottom: 1px solid var(--ft-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 2.2rem;
+    min-height: 64px;
+    box-shadow: 0 2px 8px rgba(67, 97, 238, 0.04);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: var(--ft-primary-dark);
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 2.2em;
+}
+
+.navbar-link {
+    color: var(--ft-text-main);
+    font-size: var(--ft-font-base);
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.3em 0.7em;
+    border-radius: 6px;
+    transition: background 0.15s, color 0.15s;
+}
+
+.navbar-link:hover,
+.navbar-link.active {
+    background: var(--ft-bg-alt);
+    color: var(--ft-primary-dark);
+}
+
+.navbar-user {
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+    font-size: var(--ft-font-base);
+    color: var(--ft-text-muted);
+}
+
+.navbar-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--ft-bg-alt);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: var(--ft-primary-dark);
+    font-size: 1em;
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0.7rem 1rem;
+        min-height: unset;
+    }
+
+    .navbar-links {
+        gap: 1.2em;
+        margin-top: 0.5em;
+    }
+}
+
+/* Dark mode navbar */
+@media (prefers-color-scheme: dark) {
+    .navbar {
+        background: var(--ft-bg-alt);
+        border-bottom: 1px solid var(--ft-border);
+        box-shadow: 0 2px 8px rgba(67, 97, 238, 0.10);
+    }
+
+    .navbar-link:hover,
+    .navbar-link.active {
+        background: #313244;
+        color: #fff;
+    }
+
+    .navbar-logo {
+        color: #fff;
+    }
+}
+
+/* Button for generating offers */
+.btn-generate-offer {
+    background: linear-gradient(90deg, #ffb300 80%, #ff9900 100%);
+    color: #fff;
+}
+
+.btn-generate-offer:hover {
+    background: linear-gradient(90deg, #ff9900 80%, #ffb300 100%);
+}
+/* Modal Générer toutes les offres */
+.modal-offer {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-offer-backdrop {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(44, 48, 66, 0.45);
+}
+.modal-offer-content {
+    position: relative;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(67,97,238,0.18);
+    padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+    min-width: 350px;
+    max-width: 95vw;
+    width: 500px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.modal-offer-close {
+    position: absolute;
+    top: 10px; right: 14px;
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: #888;
+    cursor: pointer;
+    z-index: 3;
+}
+@media (max-width: 600px) {
+    .modal-offer-content { width: 98vw; min-width: unset; padding: 0.5rem; }
+    #iframeOffer { height: 300px; }
+}

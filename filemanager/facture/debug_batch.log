@@ -1,0 +1,68 @@
+[2025-05-20 09:34:05] =================== DÉBUT TRAITEMENT PAR LOT ===================
+[2025-05-20 09:34:05] IDs récupérés: 15, 14, 3, 1
+[2025-05-20 09:34:05] Nombre de factures récupérées: 4
+[2025-05-20 09:34:05] =================== FIN TRAITEMENT PAR LOT ===================
+[2025-05-20 09:34:23] =================== DÉBUT TRAITEMENT PAR LOT ===================
+[2025-05-20 09:34:23] IDs récupérés: 15, 14, 3, 1
+[2025-05-20 09:34:23] Nombre de factures récupérées: 4
+[2025-05-20 09:34:23] =================== FIN TRAITEMENT PAR LOT ===================
+[2025-05-20 09:34:25] =================== DÉBUT TRAITEMENT PAR LOT ===================
+[2025-05-20 09:34:25] IDs récupérés: 15, 14, 3, 1
+[2025-05-20 09:34:25] Nombre de factures récupérées: 4
+[2025-05-20 09:34:25] Demande de génération de PDFs par lot
+[2025-05-20 09:34:25] Dossier temporaire créé: C:\Users\yohan\AppData\Local\Temp/offres_682c4ca190a3b
+[2025-05-20 09:34:25] Traitement de la facture ID: 15
+[2025-05-20 09:34:25] JSON créé pour la facture 15: C:\Users\yohan\AppData\Local\Temp\offF541.tmp.json
+[2025-05-20 09:34:26] Commande python3 a réussi pour la facture 15
+[2025-05-20 09:34:26] Fichier JSON temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\offF541.tmp.json
+[2025-05-20 09:34:26] PDF généré pour la facture 15: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_simple_Operateur_20250520.pdf
+[2025-05-20 09:34:26] Traitement de la facture ID: 14
+[2025-05-20 09:34:26] JSON créé pour la facture 14: C:\Users\yohan\AppData\Local\Temp\offF7A4.tmp.json
+[2025-05-20 09:34:26] Commande python3 a réussi pour la facture 14
+[2025-05-20 09:34:26] Fichier JSON temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\offF7A4.tmp.json
+[2025-05-20 09:34:26] PDF généré pour la facture 14: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_simple_Operateur_20250520.pdf
+[2025-05-20 09:34:26] Traitement de la facture ID: 3
+[2025-05-20 09:34:26] JSON créé pour la facture 3: C:\Users\yohan\AppData\Local\Temp\offF9A8.tmp.json
+[2025-05-20 09:34:48] Commande python3 a réussi pour la facture 3
+[2025-05-20 09:34:48] Fichier JSON temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\offF9A8.tmp.json
+[2025-05-20 09:34:48] PDF généré pour la facture 3: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:34:48] Traitement de la facture ID: 1
+[2025-05-20 09:34:48] JSON créé pour la facture 1: C:\Users\yohan\AppData\Local\Temp\off4E61.tmp.json
+[2025-05-20 09:35:04] Commande python3 a réussi pour la facture 1
+[2025-05-20 09:35:04] Fichier JSON temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off4E61.tmp.json
+[2025-05-20 09:35:04] PDF généré pour la facture 1: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:35:04] 4 offres ont été générées avec succès.
+[2025-05-20 09:35:04] Token de lot généré: f4ebbc0d973bededd85bd9f3c9848e09 avec 4 PDFs
+[2025-05-20 09:35:04] =================== FIN TRAITEMENT PAR LOT ===================
+[2025-05-20 09:35:43] =================== DÉBUT TRAITEMENT PAR LOT ===================
+[2025-05-20 09:35:43] IDs récupérés: 15, 14, 3, 1
+[2025-05-20 09:35:43] Nombre de factures récupérées: 4
+[2025-05-20 09:35:43] =================== FIN TRAITEMENT PAR LOT ===================
+[2025-05-20 09:35:46] =================== DÉBUT TRAITEMENT PAR LOT ===================
+[2025-05-20 09:35:46] IDs récupérés: 15, 14, 3, 1
+[2025-05-20 09:35:46] Nombre de factures récupérées: 4
+[2025-05-20 09:35:46] Demande de génération de PDFs par lot
+[2025-05-20 09:35:46] Dossier temporaire créé: C:\Users\yohan\AppData\Local\Temp/offres_682c4cf2bccbf
+[2025-05-20 09:35:46] Traitement de la facture ID: 15
+[2025-05-20 09:35:46] JSON créé pour la facture 15: C:\Users\yohan\AppData\Local\Temp\off3269.tmp.json
+[2025-05-20 09:35:47] Commande python3 a réussi pour la facture 15
+[2025-05-20 09:35:47] Fichier JSON temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off3269.tmp.json
+[2025-05-20 09:35:47] PDF généré pour la facture 15: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_simple_Operateur_20250520.pdf
+[2025-05-20 09:35:47] Traitement de la facture ID: 14
+[2025-05-20 09:35:47] JSON créé pour la facture 14: C:\Users\yohan\AppData\Local\Temp\off347D.tmp.json
+[2025-05-20 09:35:47] Commande python3 a réussi pour la facture 14
+[2025-05-20 09:35:47] Fichier JSON temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off347D.tmp.json
+[2025-05-20 09:35:47] PDF généré pour la facture 14: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_simple_Operateur_20250520.pdf
+[2025-05-20 09:35:47] Traitement de la facture ID: 3
+[2025-05-20 09:35:47] JSON créé pour la facture 3: C:\Users\yohan\AppData\Local\Temp\off3682.tmp.json
+[2025-05-20 09:36:01] Commande python3 a réussi pour la facture 3
+[2025-05-20 09:36:01] Fichier JSON temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off3682.tmp.json
+[2025-05-20 09:36:01] PDF généré pour la facture 3: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:36:01] Traitement de la facture ID: 1
+[2025-05-20 09:36:01] JSON créé pour la facture 1: C:\Users\yohan\AppData\Local\Temp\off6B10.tmp.json
+[2025-05-20 09:36:15] Commande python3 a réussi pour la facture 1
+[2025-05-20 09:36:15] Fichier JSON temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off6B10.tmp.json
+[2025-05-20 09:36:15] PDF généré pour la facture 1: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:36:15] 4 offres ont été générées avec succès.
+[2025-05-20 09:36:15] Token de lot généré: 5b4f98e7c8d13c8e14881ac1b1dd2073 avec 4 PDFs
+[2025-05-20 09:36:15] =================== FIN TRAITEMENT PAR LOT ===================

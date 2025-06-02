@@ -1,0 +1,151 @@
+body {
+    background: var(--gradient-secondary);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing-md);
+    margin: 0;
+    font-family: var(--font-family);
+    color: var(--color-dark);
+}
+
+.login-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--gradient-secondary);
+    z-index: -2;
+}
+
+.login-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%234a6fdc' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+    z-index: -1;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 450px;
+    background-color: var(--color-white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-card);
+    overflow: hidden;
+}
+
+.login-header {
+    padding: var(--spacing-lg);
+    background: var(--gradient-primary);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.login-body {
+    padding: var(--spacing-xl);
+}
+
+.login-footer {
+    padding: var(--spacing-lg);
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Layout spécifique à la page de connexion */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: var(--spacing-md);
+    perspective: 1200px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Animation fade-in avec perspective 3D avancée */
+.fade-in {
+    animation: fadeIn3D 1s ease-out forwards;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+@keyframes fadeIn3D {
+    0% {
+        opacity: 0;
+        transform: translateY(40px) rotateX(10deg);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translateY(-5px) rotateX(-2deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotateX(0);
+    }
+}
+
+/* Effet de flottement amélioré */
+@keyframes float {
+    0% {
+        transform: translateY(0px) translateZ(0px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    }
+
+    50% {
+        transform: translateY(-10px) translateZ(5px);
+        box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+    }
+
+    100% {
+        transform: translateY(0px) translateZ(0px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    }
+}
+
+/* Parallax effect for card */
+.auth-container:hover .auth-card {
+    transform: translateZ(10px);
+}
+
+.auth-card {
+    animation: float 6s ease-in-out infinite;
+    transition: transform 0.5s ease;
+}
+
+/* Effet de parallaxe pour le contenu interne */
+.auth-container:hover .auth-header {
+    transform: translateZ(20px);
+}
+
+.auth-header {
+    transition: transform 0.5s ease;
+}
+
+.auth-container:hover .auth-body {
+    transform: translateZ(15px);
+}
+
+.auth-body {
+    transition: transform 0.5s ease;
+}
+
+/* Cursor Tracking 3D effect (advanced) */
+.parallax-effect {
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .parallax-tile {
+        transition: transform 0.2s ease;
+    }
+}

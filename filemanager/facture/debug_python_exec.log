@@ -1,0 +1,550 @@
+[2025-05-20 08:43:23] =================== DÉBUT GÉNÉRATION OFFRE PYTHON ===================
+[2025-05-20 08:43:23] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 08:43:23] Données récupérées:
+[2025-05-20 08:43:23] - Prestataire: SFR
+[2025-05-20 08:43:23] - Montant TTC: 42.99
+[2025-05-20 08:43:23] - Économie mensuelle: 8.60
+[2025-05-20 08:43:23] - Économie annuelle: 103.20
+[2025-05-20 08:43:23] - Conditions: 
+[2025-05-20 08:43:23] Fichier JSON temporaire créé: C:\Users\yohan\AppData\Local\Temp\off3D00.tmp.json
+[2025-05-20 08:43:23] Contenu JSON écrit dans le fichier temporaire: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 08:43:23] ERREUR: Aucune commande Python trouvée sur le système
+[2025-05-20 08:53:19] =================== DÉBUT GÉNÉRATION OFFRE PYTHON ===================
+[2025-05-20 08:53:19] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 08:53:19] Données récupérées:
+[2025-05-20 08:53:19] - Prestataire: SFR
+[2025-05-20 08:53:19] - Montant TTC: 42.99
+[2025-05-20 08:53:19] - Économie mensuelle: 8.60
+[2025-05-20 08:53:19] - Économie annuelle: 103.20
+[2025-05-20 08:53:19] - Conditions: 
+[2025-05-20 08:53:19] Fichier JSON temporaire créé: C:\Users\yohan\AppData\Local\Temp\off555F.tmp.json
+[2025-05-20 08:53:19] Contenu JSON écrit dans le fichier temporaire: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 08:53:19] Vérification du chemin: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 08:53:19] Script Python trouvé à: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 08:53:19] Test de la commande Python: python3
+[2025-05-20 08:53:19] Test de la commande Python: python
+[2025-05-20 08:53:19] Test de la commande Python: py
+[2025-05-20 08:53:19] Test de la commande Python: /usr/bin/python3
+[2025-05-20 08:53:19] Test de la commande Python: /usr/bin/python
+[2025-05-20 08:53:19] Test de la commande Python: C:\Python311\python.exe
+[2025-05-20 08:53:19] Test de la commande Python: C:\Python310\python.exe
+[2025-05-20 08:53:19] Test de la commande Python: C:\Python39\python.exe
+[2025-05-20 08:53:19] Test de la commande Python: C:\Python38\python.exe
+[2025-05-20 08:53:19] Test de la commande Python: C:\Python37\python.exe
+[2025-05-20 08:53:19] ERREUR: Aucune commande Python trouvée sur le système
+[2025-05-20 08:56:10] =================== DÉBUT GÉNÉRATION OFFRE PYTHON ===================
+[2025-05-20 08:56:10] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 08:56:10] Données récupérées:
+[2025-05-20 08:56:10] - Prestataire: SFR
+[2025-05-20 08:56:10] - Montant TTC: 42.99
+[2025-05-20 08:56:10] - Économie mensuelle: 8.60
+[2025-05-20 08:56:10] - Économie annuelle: 103.20
+[2025-05-20 08:56:10] - Conditions: 
+[2025-05-20 08:56:10] Fichier JSON temporaire créé: C:\Users\yohan\AppData\Local\Temp\offEF26.tmp.json
+[2025-05-20 08:56:10] Contenu JSON écrit dans le fichier temporaire: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 08:56:10] Vérification du chemin: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 08:56:10] Script Python trouvé à: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 08:56:10] Test de la commande Python: python3
+[2025-05-20 08:56:10] Test de la commande Python: python
+[2025-05-20 08:56:10] Test de la commande Python: py
+[2025-05-20 08:56:10] Test de la commande Python: /usr/bin/python3
+[2025-05-20 08:56:10] Test de la commande Python: /usr/bin/python
+[2025-05-20 08:56:10] Test de la commande Python: C:\Python311\python.exe
+[2025-05-20 08:56:10] Test de la commande Python: C:\Python310\python.exe
+[2025-05-20 08:56:10] Test de la commande Python: C:\Python39\python.exe
+[2025-05-20 08:56:10] Test de la commande Python: C:\Python38\python.exe
+[2025-05-20 08:56:10] Test de la commande Python: C:\Python37\python.exe
+[2025-05-20 08:56:10] ERREUR: Aucune commande Python trouvée sur le système
+[2025-05-20 09:02:16] =================== DÉBUT GÉNÉRATION OFFRE PYTHON DIRECT ===================
+[2025-05-20 09:02:16] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 09:02:16] Données récupérées:
+[2025-05-20 09:02:16] - Prestataire: SFR
+[2025-05-20 09:02:16] - Montant TTC: 42.99
+[2025-05-20 09:02:16] - Économie mensuelle: 8.60
+[2025-05-20 09:02:16] - Économie annuelle: 103.20
+[2025-05-20 09:02:16] - Conditions: 
+[2025-05-20 09:02:16] Répertoire Python: C:\laragon\www\EXTRACTYS\filemanager\python
+[2025-05-20 09:02:16] Script Python: C:\laragon\www\EXTRACTYS\filemanager\python/genereateur_offre.py
+[2025-05-20 09:02:16] Dossier output créé: C:\laragon\www\EXTRACTYS\filemanager\python/output
+[2025-05-20 09:02:16] Fichier JSON temporaire: C:\Users\yohan\AppData\Local\Temp\off8498.tmp.json
+[2025-05-20 09:02:16] Données JSON écrites dans le fichier temporaire
+[2025-05-20 09:02:16] Changement de répertoire de travail: de C:\laragon\www\EXTRACTYS\filemanager\facture vers C:\laragon\www\EXTRACTYS\filemanager\python
+[2025-05-20 09:02:16] Exécution de la commande: python3 C:\laragon\www\EXTRACTYSilemanager\python\genereateur_offre.py "C:\Users\yohan\AppData\Local\Temp\off8498.tmp.json"
+[2025-05-20 09:02:16] Retour au répertoire de travail: C:\laragon\www\EXTRACTYS\filemanager\facture
+[2025-05-20 09:02:16] Fichier temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off8498.tmp.json
+[2025-05-20 09:02:16] Code de retour: 2
+[2025-05-20 09:02:16] Sortie (1 lignes):
+[2025-05-20 09:02:16] Ligne 1: python3: can't open file 'C:\\laragon\\www\\EXTRACTYS\x0cilemanager\\python\\genereateur_offre.py': [Errno 22] Invalid argument
+[2025-05-20 09:02:16] ERREUR: Aucun JSON valide trouvé dans la sortie
+[2025-05-20 09:02:16] =================== FIN GÉNÉRATION OFFRE PYTHON DIRECT ===================
+[2025-05-20 09:03:49] =================== DÉBUT GÉNÉRATION OFFRE PYTHON SIMPLIFIÉE ===================
+[2025-05-20 09:03:49] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 09:03:49] Données récupérées:
+[2025-05-20 09:03:49] - Prestataire: SFR
+[2025-05-20 09:03:49] - Montant TTC: 42.99
+[2025-05-20 09:03:49] - Économie mensuelle: 8.60
+[2025-05-20 09:03:49] - Économie annuelle: 103.20
+[2025-05-20 09:03:49] - Conditions: 
+[2025-05-20 09:03:49] Répertoire Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:03:49] Script Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 09:03:49] Fichier JSON temporaire: C:\Users\yohan\AppData\Local\Temp\offF08D.tmp.json
+[2025-05-20 09:03:49] Données JSON écrites dans le fichier temporaire
+[2025-05-20 09:03:49] Changement de répertoire de travail: de C:\laragon\www\EXTRACTYS\filemanager\facture vers C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:03:49] Exécution de la commande: python3 genereateur_offre.py "C:\Users\yohan\AppData\Local\Temp\offF08D.tmp.json"
+[2025-05-20 09:04:18] Retour au répertoire de travail: C:\laragon\www\EXTRACTYS\filemanager\facture
+[2025-05-20 09:04:18] Fichier temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\offF08D.tmp.json
+[2025-05-20 09:04:18] Code de retour: 0
+[2025-05-20 09:04:18] Sortie (18 lignes):
+[2025-05-20 09:04:18] Ligne 1: {"debug": "Traitement du fichier: C:\\Users\\yohan\\AppData\\Local\\Temp\\offF08D.tmp.json"}
+[2025-05-20 09:04:18] Ligne 2: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:04:18] Ligne 3: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:04:18] Ligne 4: {"debug": "Document PDF initialis\u00e9"}
+[2025-05-20 09:04:18] Ligne 5: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:04:18] Ligne 6: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:04:18] Ligne 7: {"debug": "Polices Roboto charg\u00e9es avec succ\u00e8s"}
+[2025-05-20 09:04:18] Ligne 8: {"debug": "Erreur d\u00e9taill\u00e9e dans generer_pdf: \"Style 'Title' already defined in stylesheet\""}
+[2025-05-20 09:04:18] Ligne 9: {"debug": "Type d'erreur: KeyError"}
+[2025-05-20 09:04:18] Ligne 10: {"debug": "Tentative avec le PDF de secours..."}
+[2025-05-20 09:04:18] Ligne 11: {"debug": "G\u00e9n\u00e9ration du PDF de secours: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:04:18] Ligne 12: {"debug": "Texte brut re\u00e7u: Voici trois arguments de vente pour une offre qui permet au client de faire des \u00e9conomies :\n\n1. **Enrichissez votre portefeuille** : D\u00e9couvrez comment notre offre vous sauve 20% sur votre facture mensuelle, soit 8,6 euros moins par mois ! Cela repr\u00e9sente 103,2 euros d'\u00e9conomie annuelle.\n2. **Faites des \u00e9conomies, pas de sacrifices** : Nous offrons une solution pour r\u00e9duire vos d\u00e9penses sans sacrifier l'exp\u00e9rience mobile que vous attendez. \u00c9conomisez 20% et conservez le confort que vous m\u00e9ritez.\n3. **Engage-toi intelligemment** : Pour 3 mois, acceptez de faire des \u00e9conomies significatives sur votre facture SFR. Si notre offre ne r\u00e9pond pas \u00e0 vos attentes, vous pouvez toujours revenir \u00e0 l'ancien tarif. Pas de risque, juste des gains !"}
+[2025-05-20 09:04:18] Ligne 13: {"debug": "Extraction par num\u00e9rotation: 3 arguments trouv\u00e9s"}
+[2025-05-20 09:04:18] Ligne 14: {"debug": "Arguments nettoy\u00e9s: [\"**Enrichissez votre portefeuille** : D\u00e9couvrez comment notre offre vous sauve 20% sur votre facture mensuelle, soit 8,6 euros moins par mois ! Cela repr\u00e9sente 103,2 euros d'\u00e9conomie annuelle.\", \"**Faites des \u00e9conomies, pas de sacrifices** : Nous offrons une solution pour r\u00e9duire vos d\u00e9penses sans sacrifier l'exp\u00e9rience mobile que vous attendez. \u00c9conomisez 20% et conservez le confort que vous m\u00e9ritez.\", \"**Engage-toi intelligemment** : Pour 3 mois, acceptez de faire des \u00e9conomies significatives sur votre facture SFR. Si notre offre ne r\u00e9pond pas \u00e0 vos attentes, vous pouvez toujours revenir \u00e0 l'ancien tarif. Pas de risque, juste des gains !\"]"}
+[2025-05-20 09:04:18] Ligne 15: {"debug": "Utilisation des arguments d'Ollama dans le PDF"}
+[2025-05-20 09:04:18] Ligne 16: {"debug": "Utilisation de la police Arial par d\u00e9faut"}
+[2025-05-20 09:04:18] Ligne 17: {"debug": "PDF de secours g\u00e9n\u00e9r\u00e9 avec succ\u00e8s: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:04:18] Ligne 18: {"success": true, "message": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s", "pdf_path": "../generated_offers/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:04:18] JSON de succès trouvé: {"success":true,"message":"PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s","pdf_path":"..\/generated_offers\/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:04:18] =================== FIN GÉNÉRATION OFFRE PYTHON SIMPLIFIÉE ===================
+[2025-05-20 09:07:01] =================== DÉBUT GÉNÉRATION OFFRE PYTHON AVEC TÉLÉCHARGEMENT ===================
+[2025-05-20 09:07:01] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 09:07:01] Données récupérées:
+[2025-05-20 09:07:01] - Prestataire: SFR
+[2025-05-20 09:07:01] - Montant TTC: 42.99
+[2025-05-20 09:07:01] - Économie mensuelle: 8.60
+[2025-05-20 09:07:01] - Économie annuelle: 103.20
+[2025-05-20 09:07:01] - Conditions: 
+[2025-05-20 09:07:01] Répertoire Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:07:01] Script Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 09:07:01] Fichier JSON temporaire: C:\Users\yohan\AppData\Local\Temp\offDE9E.tmp.json
+[2025-05-20 09:07:01] Données JSON écrites dans le fichier temporaire
+[2025-05-20 09:07:01] Changement de répertoire de travail: de C:\laragon\www\EXTRACTYS\filemanager\facture vers C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:07:01] Exécution de la commande: python3 genereateur_offre.py "C:\Users\yohan\AppData\Local\Temp\offDE9E.tmp.json"
+[2025-05-20 09:07:17] Retour au répertoire de travail: C:\laragon\www\EXTRACTYS\filemanager\facture
+[2025-05-20 09:07:17] Fichier temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\offDE9E.tmp.json
+[2025-05-20 09:07:17] Code de retour: 0
+[2025-05-20 09:07:17] Sortie (18 lignes):
+[2025-05-20 09:07:17] Ligne 1: {"debug": "Traitement du fichier: C:\\Users\\yohan\\AppData\\Local\\Temp\\offDE9E.tmp.json"}
+[2025-05-20 09:07:17] Ligne 2: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:07:17] Ligne 3: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:07:17] Ligne 4: {"debug": "Document PDF initialis\u00e9"}
+[2025-05-20 09:07:17] Ligne 5: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:07:17] Ligne 6: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:07:17] Ligne 7: {"debug": "Polices Roboto charg\u00e9es avec succ\u00e8s"}
+[2025-05-20 09:07:17] Ligne 8: {"debug": "Erreur d\u00e9taill\u00e9e dans generer_pdf: \"Style 'Title' already defined in stylesheet\""}
+[2025-05-20 09:07:17] Ligne 9: {"debug": "Type d'erreur: KeyError"}
+[2025-05-20 09:07:17] Ligne 10: {"debug": "Tentative avec le PDF de secours..."}
+[2025-05-20 09:07:17] Ligne 11: {"debug": "G\u00e9n\u00e9ration du PDF de secours: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:07:17] Ligne 12: {"debug": "Texte brut re\u00e7u: Voici trois arguments de vente en fran\u00e7ais pour une offre qui permet au client de faire des \u00e9conomies :\n\n1. \u00c9conomisez imm\u00e9diatement ! En choisissant notre offre, vous allez r\u00e9duire vos frais mensuels de 20% (8,6 \u20ac/mois), ce qui repr\u00e9sente une \u00e9conomie annuelle de 103,2 \u20ac.\n2. Profitez de la flexibilit\u00e9 sans compromettre votre qualit\u00e9 de service. Nos packages sont con\u00e7us pour vous offrir les meilleures conditions \u00e0 un co\u00fbt comp\u00e9titif, avec des \u00e9conomies significatives sur votre facture mensuelle actuelle (42,99 \u20ac/mois).\n3. \u00c9conomisez et investissez dans votre avenir ! Pour 3 mois d'engagement, nous vous proposons une formule qui vous permettra de r\u00e9aliser des \u00e9conomies substantielles tout en b\u00e9n\u00e9ficiant d'un service t\u00e9l\u00e9phonique in\u00e9galable."}
+[2025-05-20 09:07:17] Ligne 13: {"debug": "Extraction par num\u00e9rotation: 3 arguments trouv\u00e9s"}
+[2025-05-20 09:07:17] Ligne 14: {"debug": "Arguments nettoy\u00e9s: ['\u00c9conomisez imm\u00e9diatement ! En choisissant notre offre, vous allez r\u00e9duire vos frais mensuels de 20% (8,6 EUR/mois), ce qui repr\u00e9sente une \u00e9conomie annuelle de 103,2 EUR.', 'Profitez de la flexibilit\u00e9 sans compromettre votre qualit\u00e9 de service. Nos packages sont con\u00e7us pour vous offrir les meilleures conditions \u00e0 un co\u00fbt comp\u00e9titif, avec des \u00e9conomies significatives sur votre facture mensuelle actuelle (42,99 EUR/mois).', \"\u00c9conomisez et investissez dans votre avenir ! Pour 3 mois d'engagement, nous vous proposons une formule qui vous permettra de r\u00e9aliser des \u00e9conomies substantielles tout en b\u00e9n\u00e9ficiant d'un service t\u00e9l\u00e9phonique in\u00e9galable.\"]"}
+[2025-05-20 09:07:17] Ligne 15: {"debug": "Utilisation des arguments d'Ollama dans le PDF"}
+[2025-05-20 09:07:17] Ligne 16: {"debug": "Utilisation de la police Arial par d\u00e9faut"}
+[2025-05-20 09:07:17] Ligne 17: {"debug": "PDF de secours g\u00e9n\u00e9r\u00e9 avec succ\u00e8s: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:07:17] Ligne 18: {"success": true, "message": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s", "pdf_path": "../generated_offers/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:07:17] JSON de succès trouvé: {"success":true,"message":"PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s","pdf_path":"..\/generated_offers\/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:07:17] Chemin PDF trouvé: ../generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:07:17] ERREUR: Aucun PDF valide trouvé dans la sortie
+[2025-05-20 09:07:17] =================== FIN GÉNÉRATION OFFRE PYTHON AVEC TÉLÉCHARGEMENT ===================
+[2025-05-20 09:09:53] =================== DÉBUT GÉNÉRATION OFFRE PYTHON AVEC TÉLÉCHARGEMENT CORRIGÉ ===================
+[2025-05-20 09:09:53] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 09:09:53] Données récupérées:
+[2025-05-20 09:09:53] - Prestataire: SFR
+[2025-05-20 09:09:53] - Montant TTC: 42.99
+[2025-05-20 09:09:53] - Économie mensuelle: 8.60
+[2025-05-20 09:09:53] - Économie annuelle: 103.20
+[2025-05-20 09:09:53] - Conditions: 
+[2025-05-20 09:09:53] Répertoire Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:09:53] Script Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 09:09:53] Fichier JSON temporaire: C:\Users\yohan\AppData\Local\Temp\off7F3A.tmp.json
+[2025-05-20 09:09:53] Données JSON écrites dans le fichier temporaire
+[2025-05-20 09:09:53] Changement de répertoire de travail: de C:\laragon\www\EXTRACTYS\filemanager\facture vers C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:09:53] Exécution de la commande: python3 genereateur_offre.py "C:\Users\yohan\AppData\Local\Temp\off7F3A.tmp.json"
+[2025-05-20 09:10:08] Retour au répertoire de travail: C:\laragon\www\EXTRACTYS\filemanager\facture
+[2025-05-20 09:10:08] Fichier temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off7F3A.tmp.json
+[2025-05-20 09:10:08] Code de retour: 0
+[2025-05-20 09:10:08] Sortie (18 lignes):
+[2025-05-20 09:10:08] Ligne 1: {"debug": "Traitement du fichier: C:\\Users\\yohan\\AppData\\Local\\Temp\\off7F3A.tmp.json"}
+[2025-05-20 09:10:08] Ligne 2: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:10:08] Ligne 3: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:10:08] Ligne 4: {"debug": "Document PDF initialis\u00e9"}
+[2025-05-20 09:10:08] Ligne 5: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:10:08] Ligne 6: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:10:08] Ligne 7: {"debug": "Polices Roboto charg\u00e9es avec succ\u00e8s"}
+[2025-05-20 09:10:08] Ligne 8: {"debug": "Erreur d\u00e9taill\u00e9e dans generer_pdf: \"Style 'Title' already defined in stylesheet\""}
+[2025-05-20 09:10:08] Ligne 9: {"debug": "Type d'erreur: KeyError"}
+[2025-05-20 09:10:08] Ligne 10: {"debug": "Tentative avec le PDF de secours..."}
+[2025-05-20 09:10:08] Ligne 11: {"debug": "G\u00e9n\u00e9ration du PDF de secours: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:10:08] Ligne 12: {"debug": "Texte brut re\u00e7u: Voici trois arguments de vente pour une offre qui permet au client SFR de faire des \u00e9conomies :\n\n1. Dites adieu aux d\u00e9penses inutiles ! En passant \u00e0 notre offre, vous \u00e9conomiez 20% sur votre facture mensuelle (8,6\u20ac moins par mois) et 103,2\u20ac d'\u00e9conomie annuelle.\n2. R\u00e9duisez vos co\u00fbts sans sacrifier la qualit\u00e9 ! Notre offre permet de maintenir un r\u00e9seau haut d\u00e9bit tout en \u00e9conomisant 20% de votre montant actuel mensuel (42,99\u20ac).\n3. Prenez le contr\u00f4le de vos finances ! En engag\u00e9 pour 3 mois, vous pouvez enregistrer une \u00e9conomie significative et lib\u00e9rer des fonds pour d'autres besoins ou projets."}
+[2025-05-20 09:10:08] Ligne 13: {"debug": "Extraction par num\u00e9rotation: 3 arguments trouv\u00e9s"}
+[2025-05-20 09:10:08] Ligne 14: {"debug": "Arguments nettoy\u00e9s: [\"Dites adieu aux d\u00e9penses inutiles ! En passant \u00e0 notre offre, vous \u00e9conomiez 20% sur votre facture mensuelle (8,6EUR moins par mois) et 103,2EUR d'\u00e9conomie annuelle.\", 'R\u00e9duisez vos co\u00fbts sans sacrifier la qualit\u00e9 ! Notre offre permet de maintenir un r\u00e9seau haut d\u00e9bit tout en \u00e9conomisant 20% de votre montant actuel mensuel (42,99EUR).', \"Prenez le contr\u00f4le de vos finances ! En engag\u00e9 pour 3 mois, vous pouvez enregistrer une \u00e9conomie significative et lib\u00e9rer des fonds pour d'autres besoins ou projets.\"]"}
+[2025-05-20 09:10:08] Ligne 15: {"debug": "Utilisation des arguments d'Ollama dans le PDF"}
+[2025-05-20 09:10:08] Ligne 16: {"debug": "Utilisation de la police Arial par d\u00e9faut"}
+[2025-05-20 09:10:08] Ligne 17: {"debug": "PDF de secours g\u00e9n\u00e9r\u00e9 avec succ\u00e8s: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:10:08] Ligne 18: {"success": true, "message": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s", "pdf_path": "../generated_offers/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:10:08] JSON de succès trouvé: {"success":true,"message":"PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s","pdf_path":"..\/generated_offers\/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:10:08] Chemin PDF relatif trouvé: ../generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:10:08] Chemin PDF absolu résolu: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:10:08] Vérification de l'existence du PDF: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:10:08] PDF trouvé, téléchargement direct: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:10:08] PDF téléchargé avec succès
+[2025-05-20 09:13:13] =================== DÉBUT GÉNÉRATION OFFRE PYTHON AVEC TÉLÉCHARGEMENT AJAX ===================
+[2025-05-20 09:13:13] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 09:13:13] Mode AJAX: Non
+[2025-05-20 09:13:13] Données récupérées:
+[2025-05-20 09:13:13] - Prestataire: SFR
+[2025-05-20 09:13:13] - Montant TTC: 42.99
+[2025-05-20 09:13:13] - Économie mensuelle: 8.60
+[2025-05-20 09:13:13] - Économie annuelle: 103.20
+[2025-05-20 09:13:13] - Conditions: 
+[2025-05-20 09:13:13] Répertoire Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:13:13] Script Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 09:13:13] Fichier JSON temporaire: C:\Users\yohan\AppData\Local\Temp\off8C6C.tmp.json
+[2025-05-20 09:13:13] Données JSON écrites dans le fichier temporaire
+[2025-05-20 09:13:13] Changement de répertoire de travail: de C:\laragon\www\EXTRACTYS\filemanager\facture vers C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:13:13] Exécution de la commande: python3 genereateur_offre.py "C:\Users\yohan\AppData\Local\Temp\off8C6C.tmp.json"
+[2025-05-20 09:13:28] Retour au répertoire de travail: C:\laragon\www\EXTRACTYS\filemanager\facture
+[2025-05-20 09:13:28] Fichier temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off8C6C.tmp.json
+[2025-05-20 09:13:28] Code de retour: 0
+[2025-05-20 09:13:28] Sortie (18 lignes):
+[2025-05-20 09:13:28] Ligne 1: {"debug": "Traitement du fichier: C:\\Users\\yohan\\AppData\\Local\\Temp\\off8C6C.tmp.json"}
+[2025-05-20 09:13:28] Ligne 2: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:13:28] Ligne 3: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:13:28] Ligne 4: {"debug": "Document PDF initialis\u00e9"}
+[2025-05-20 09:13:28] Ligne 5: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:13:28] Ligne 6: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:13:28] Ligne 7: {"debug": "Polices Roboto charg\u00e9es avec succ\u00e8s"}
+[2025-05-20 09:13:28] Ligne 8: {"debug": "Erreur d\u00e9taill\u00e9e dans generer_pdf: \"Style 'Title' already defined in stylesheet\""}
+[2025-05-20 09:13:28] Ligne 9: {"debug": "Type d'erreur: KeyError"}
+[2025-05-20 09:13:28] Ligne 10: {"debug": "Tentative avec le PDF de secours..."}
+[2025-05-20 09:13:28] Ligne 11: {"debug": "G\u00e9n\u00e9ration du PDF de secours: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:13:28] Ligne 12: {"debug": "Texte brut re\u00e7u: Voici trois arguments de vente pour SFR :\n\n1. R\u00e9duisez vos d\u00e9penses ! Aujourd'hui, vous payez 42,99 \u20ac par mois. En changeant d'offre, vous pouvez \u00e9conomiser 8,6 \u20ac par mois (20% de r\u00e9duction) et ainsi encaisser 103,2 \u20ac par an.\n2. Faites des \u00e9conomies sans sacrifier votre satisfaction ! Pour les prochains trois mois, nous vous offrons une nouvelle offre qui permettra de r\u00e9duire vos co\u00fbts mensuels tout en maintenant la qualit\u00e9 de votre service t\u00e9l\u00e9phonique.\n3. Profitiez de l'opportunit\u00e9 ! Vous avez la chance de r\u00e9duire vos d\u00e9penses mensuelles pour 20% et ainsi \u00e9conomiser 103,2 \u20ac par an. N'h\u00e9sitez pas \u00e0 saisir cette occasion exceptionnelle pour am\u00e9liorer votre budget !"}
+[2025-05-20 09:13:28] Ligne 13: {"debug": "Extraction par num\u00e9rotation: 3 arguments trouv\u00e9s"}
+[2025-05-20 09:13:28] Ligne 14: {"debug": "Arguments nettoy\u00e9s: [\"R\u00e9duisez vos d\u00e9penses ! Aujourd'hui, vous payez 42,99 EUR par mois. En changeant d'offre, vous pouvez \u00e9conomiser 8,6 EUR par mois (20% de r\u00e9duction) et ainsi encaisser 103,2 EUR par an.\", 'Faites des \u00e9conomies sans sacrifier votre satisfaction ! Pour les prochains trois mois, nous vous offrons une nouvelle offre qui permettra de r\u00e9duire vos co\u00fbts mensuels tout en maintenant la qualit\u00e9 de votre service t\u00e9l\u00e9phonique.', \"Profitiez de l'opportunit\u00e9 ! Vous avez la chance de r\u00e9duire vos d\u00e9penses mensuelles pour 20% et ainsi \u00e9conomiser 103,2 EUR par an. N'h\u00e9sitez pas \u00e0 saisir cette occasion exceptionnelle pour am\u00e9liorer votre budget !\"]"}
+[2025-05-20 09:13:28] Ligne 15: {"debug": "Utilisation des arguments d'Ollama dans le PDF"}
+[2025-05-20 09:13:28] Ligne 16: {"debug": "Utilisation de la police Arial par d\u00e9faut"}
+[2025-05-20 09:13:28] Ligne 17: {"debug": "PDF de secours g\u00e9n\u00e9r\u00e9 avec succ\u00e8s: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:13:28] Ligne 18: {"success": true, "message": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s", "pdf_path": "../generated_offers/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:13:28] JSON de succès trouvé: {"success":true,"message":"PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s","pdf_path":"..\/generated_offers\/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:13:28] Chemin PDF relatif trouvé: ../generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:13:28] Chemin PDF absolu résolu: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:13:28] Vérification de l'existence du PDF: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:13:28] PDF trouvé: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:13:28] PDF téléchargé avec succès en mode direct
+[2025-05-20 09:13:49] =================== DÉBUT GÉNÉRATION OFFRE PYTHON AVEC TÉLÉCHARGEMENT AJAX ===================
+[2025-05-20 09:13:49] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 09:13:49] Mode AJAX: Non
+[2025-05-20 09:13:49] Données récupérées:
+[2025-05-20 09:13:49] - Prestataire: SFR
+[2025-05-20 09:13:49] - Montant TTC: 42.99
+[2025-05-20 09:13:49] - Économie mensuelle: 8.60
+[2025-05-20 09:13:49] - Économie annuelle: 103.20
+[2025-05-20 09:13:49] - Conditions: 
+[2025-05-20 09:13:49] Répertoire Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:13:49] Script Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 09:13:49] Fichier JSON temporaire: C:\Users\yohan\AppData\Local\Temp\off1A16.tmp.json
+[2025-05-20 09:13:49] Données JSON écrites dans le fichier temporaire
+[2025-05-20 09:13:49] Changement de répertoire de travail: de C:\laragon\www\EXTRACTYS\filemanager\facture vers C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:13:49] Exécution de la commande: python3 genereateur_offre.py "C:\Users\yohan\AppData\Local\Temp\off1A16.tmp.json"
+[2025-05-20 09:14:04] Retour au répertoire de travail: C:\laragon\www\EXTRACTYS\filemanager\facture
+[2025-05-20 09:14:04] Fichier temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off1A16.tmp.json
+[2025-05-20 09:14:04] Code de retour: 0
+[2025-05-20 09:14:04] Sortie (18 lignes):
+[2025-05-20 09:14:04] Ligne 1: {"debug": "Traitement du fichier: C:\\Users\\yohan\\AppData\\Local\\Temp\\off1A16.tmp.json"}
+[2025-05-20 09:14:04] Ligne 2: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:14:04] Ligne 3: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:14:04] Ligne 4: {"debug": "Document PDF initialis\u00e9"}
+[2025-05-20 09:14:04] Ligne 5: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:14:04] Ligne 6: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:14:04] Ligne 7: {"debug": "Polices Roboto charg\u00e9es avec succ\u00e8s"}
+[2025-05-20 09:14:04] Ligne 8: {"debug": "Erreur d\u00e9taill\u00e9e dans generer_pdf: \"Style 'Title' already defined in stylesheet\""}
+[2025-05-20 09:14:04] Ligne 9: {"debug": "Type d'erreur: KeyError"}
+[2025-05-20 09:14:04] Ligne 10: {"debug": "Tentative avec le PDF de secours..."}
+[2025-05-20 09:14:04] Ligne 11: {"debug": "G\u00e9n\u00e9ration du PDF de secours: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:14:04] Ligne 12: {"debug": "Texte brut re\u00e7u: Voici trois arguments de vente pour une offre qui permet au client SFR de faire des \u00e9conomies :\n\n1. \u00c9conomisez imm\u00e9diatement ! Avec notre offre, vous allez sauver 8,6\u20ac par mois, ce qui repr\u00e9sente une r\u00e9duction de 20% sur votre facture actuelle.\n2. R\u00e9duisez vos co\u00fbts annuels ! Pour un montant mensuel de 42,99\u20ac, vous pouvez \u00e9conomiser 103,2\u20ac l'an. C'est plus que vous ne pensez !\n3. Engagez-vous pour les bons r\u00e9sultats ! Ensignez-vous \u00e0 notre offre pour 3 mois et d\u00e9couvrez les avantages d'une r\u00e9duction de votre facture mensuelle."}
+[2025-05-20 09:14:04] Ligne 13: {"debug": "Extraction par num\u00e9rotation: 3 arguments trouv\u00e9s"}
+[2025-05-20 09:14:04] Ligne 14: {"debug": "Arguments nettoy\u00e9s: ['\u00c9conomisez imm\u00e9diatement ! Avec notre offre, vous allez sauver 8,6EUR par mois, ce qui repr\u00e9sente une r\u00e9duction de 20% sur votre facture actuelle.', \"R\u00e9duisez vos co\u00fbts annuels ! Pour un montant mensuel de 42,99EUR, vous pouvez \u00e9conomiser 103,2EUR l'an. C'est plus que vous ne pensez !\", \"Engagez-vous pour les bons r\u00e9sultats ! Ensignez-vous \u00e0 notre offre pour 3 mois et d\u00e9couvrez les avantages d'une r\u00e9duction de votre facture mensuelle.\"]"}
+[2025-05-20 09:14:04] Ligne 15: {"debug": "Utilisation des arguments d'Ollama dans le PDF"}
+[2025-05-20 09:14:04] Ligne 16: {"debug": "Utilisation de la police Arial par d\u00e9faut"}
+[2025-05-20 09:14:04] Ligne 17: {"debug": "PDF de secours g\u00e9n\u00e9r\u00e9 avec succ\u00e8s: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:14:04] Ligne 18: {"success": true, "message": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s", "pdf_path": "../generated_offers/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:14:04] JSON de succès trouvé: {"success":true,"message":"PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s","pdf_path":"..\/generated_offers\/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:14:04] Chemin PDF relatif trouvé: ../generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:14:04] Chemin PDF absolu résolu: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:14:04] Vérification de l'existence du PDF: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:14:04] PDF trouvé: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:14:04] PDF téléchargé avec succès en mode direct
+[2025-05-20 09:16:06] =================== DÉBUT GÉNÉRATION OFFRE PYTHON REDIRECTION ===================
+[2025-05-20 09:16:06] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 09:16:06] Données récupérées:
+[2025-05-20 09:16:06] - Prestataire: SFR
+[2025-05-20 09:16:06] - Montant TTC: 42.99
+[2025-05-20 09:16:06] - Économie mensuelle: 8.60
+[2025-05-20 09:16:06] - Économie annuelle: 103.20
+[2025-05-20 09:16:06] - Conditions: 
+[2025-05-20 09:16:06] Répertoire Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:16:06] Script Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 09:16:06] Fichier JSON temporaire: C:\Users\yohan\AppData\Local\Temp\off318E.tmp.json
+[2025-05-20 09:16:06] Données JSON écrites dans le fichier temporaire
+[2025-05-20 09:16:06] Changement de répertoire de travail: de C:\laragon\www\EXTRACTYS\filemanager\facture vers C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:16:06] Exécution de la commande: python3 genereateur_offre.py "C:\Users\yohan\AppData\Local\Temp\off318E.tmp.json"
+[2025-05-20 09:16:22] Retour au répertoire de travail: C:\laragon\www\EXTRACTYS\filemanager\facture
+[2025-05-20 09:16:22] Fichier temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off318E.tmp.json
+[2025-05-20 09:16:22] Code de retour: 0
+[2025-05-20 09:16:22] Sortie (18 lignes):
+[2025-05-20 09:16:22] Ligne 1: {"debug": "Traitement du fichier: C:\\Users\\yohan\\AppData\\Local\\Temp\\off318E.tmp.json"}
+[2025-05-20 09:16:22] Ligne 2: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:16:22] Ligne 3: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:16:22] Ligne 4: {"debug": "Document PDF initialis\u00e9"}
+[2025-05-20 09:16:22] Ligne 5: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:16:22] Ligne 6: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:16:22] Ligne 7: {"debug": "Polices Roboto charg\u00e9es avec succ\u00e8s"}
+[2025-05-20 09:16:22] Ligne 8: {"debug": "Erreur d\u00e9taill\u00e9e dans generer_pdf: \"Style 'Title' already defined in stylesheet\""}
+[2025-05-20 09:16:22] Ligne 9: {"debug": "Type d'erreur: KeyError"}
+[2025-05-20 09:16:22] Ligne 10: {"debug": "Tentative avec le PDF de secours..."}
+[2025-05-20 09:16:22] Ligne 11: {"debug": "G\u00e9n\u00e9ration du PDF de secours: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:16:22] Ligne 12: {"debug": "Texte brut re\u00e7u: Voici trois arguments de vente pour convaincre le client SFR de faire des \u00e9conomies avec votre offre :\n\n1. \u00c9conomisez imm\u00e9diatement ! Vous pouvez r\u00e9duire vos frais mensuels de 20% et passer \u00e0 34.39 EUR/mois, ce qui repr\u00e9sente une \u00e9conomie de 8.6 EUR/mois.\n2. Profitez d'une \u00e9pargne annuelle substantielle ! Au cours des 12 prochains mois, vous serez en mesure d'\u00e9conomiser 103.2 EUR par rapport \u00e0 votre co\u00fbt actuel de 42.99 EUR/mois.\n3. Engagez-vous pour 3 mois et r\u00e9duisez vos d\u00e9penses \u00e0 court terme ! Pour un engagement de 3 mois, vous pouvez d\u00e9j\u00e0 ressentir l'impact positif sur votre budget mensuel en b\u00e9n\u00e9ficiant d'une \u00e9conomie de 8.6 EUR/mois."}
+[2025-05-20 09:16:22] Ligne 13: {"debug": "Extraction par num\u00e9rotation: 3 arguments trouv\u00e9s"}
+[2025-05-20 09:16:22] Ligne 14: {"debug": "Arguments nettoy\u00e9s: ['\u00c9conomisez imm\u00e9diatement ! Vous pouvez r\u00e9duire vos frais mensuels de 20% et passer \u00e0.', \"Profitez d'une \u00e9pargne annuelle substantielle ! Au cours des 12 prochains mois, vous serez en mesure d'\u00e9conomiser.\", \"Engagez-vous pour 3 mois et r\u00e9duisez vos d\u00e9penses \u00e0 court terme ! Pour un engagement de 3 mois, vous pouvez d\u00e9j\u00e0 ressentir l'impact positif sur votre budget mensuel en b\u00e9n\u00e9ficiant d'une \u00e9conomie de.\"]"}
+[2025-05-20 09:16:22] Ligne 15: {"debug": "Utilisation des arguments d'Ollama dans le PDF"}
+[2025-05-20 09:16:22] Ligne 16: {"debug": "Utilisation de la police Arial par d\u00e9faut"}
+[2025-05-20 09:16:22] Ligne 17: {"debug": "PDF de secours g\u00e9n\u00e9r\u00e9 avec succ\u00e8s: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:16:22] Ligne 18: {"success": true, "message": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s", "pdf_path": "../generated_offers/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:16:22] JSON de succès trouvé: {"success":true,"message":"PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s","pdf_path":"..\/generated_offers\/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:16:22] Chemin PDF relatif trouvé: ../generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:16:22] Chemin PDF absolu résolu: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:16:22] Vérification de l'existence du PDF: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:16:22] PDF trouvé, préparation du téléchargement: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:16:22] Token de téléchargement généré: fdbd7823e5c89e420053cac1ff7a2bbc
+[2025-05-20 09:16:22] Redirection vers telecharger_pdf.php?token=fdbd7823e5c89e420053cac1ff7a2bbc
+[2025-05-20 09:19:39] =================== DÉBUT GÉNÉRATION OFFRE DIRECTE ===================
+[2025-05-20 09:19:39] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 09:19:39] Données récupérées:
+[2025-05-20 09:19:39] - Prestataire: SFR
+[2025-05-20 09:19:39] - Montant TTC: 42.99
+[2025-05-20 09:19:39] - Économie mensuelle: 8.60
+[2025-05-20 09:19:39] - Économie annuelle: 103.20
+[2025-05-20 09:19:39] - Conditions: 
+[2025-05-20 09:19:39] Répertoire Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:19:39] Script Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 09:19:39] Fichier JSON temporaire: C:\Users\yohan\AppData\Local\Temp\off70DB.tmp.json
+[2025-05-20 09:19:39] Données JSON écrites dans le fichier temporaire
+[2025-05-20 09:19:39] Changement de répertoire de travail: de C:\laragon\www\EXTRACTYS\filemanager\facture vers C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:19:39] Tentative avec la commande: python3
+[2025-05-20 09:19:55] Commande python3 a réussi
+[2025-05-20 09:19:55] Retour au répertoire de travail: C:\laragon\www\EXTRACTYS\filemanager\facture
+[2025-05-20 09:19:55] Fichier temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off70DB.tmp.json
+[2025-05-20 09:19:55] Sortie de la commande (18 lignes):
+[2025-05-20 09:19:55] Ligne 1: {"debug": "Traitement du fichier: C:\\Users\\yohan\\AppData\\Local\\Temp\\off70DB.tmp.json"}
+[2025-05-20 09:19:55] Ligne 2: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:19:55] Ligne 3: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:19:55] Ligne 4: {"debug": "Document PDF initialis\u00e9"}
+[2025-05-20 09:19:55] Ligne 5: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:19:55] Ligne 6: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:19:55] Ligne 7: {"debug": "Polices Roboto charg\u00e9es avec succ\u00e8s"}
+[2025-05-20 09:19:55] Ligne 8: {"debug": "Erreur d\u00e9taill\u00e9e dans generer_pdf: \"Style 'Title' already defined in stylesheet\""}
+[2025-05-20 09:19:55] Ligne 9: {"debug": "Type d'erreur: KeyError"}
+[2025-05-20 09:19:55] Ligne 10: {"debug": "Tentative avec le PDF de secours..."}
+[2025-05-20 09:19:55] Ligne 11: {"debug": "G\u00e9n\u00e9ration du PDF de secours: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:19:55] Ligne 12: {"debug": "Texte brut re\u00e7u: Voici trois arguments de vente pour une offre qui permet au client SFR de faire des \u00e9conomies :\n\n1. \"\u00c9conomisez imm\u00e9diatement 20% sur votre facture mensuelle ! Vous passerez de 42,99 \u20ac \u00e0 34,39 \u20ac par mois, ce qui repr\u00e9sente une \u00e9conomie annuelle de 103,2 \u20ac.\"\n2. \"Faites des \u00e9conomies significatives sans sacrifier la qualit\u00e9 ! Notre offre vous permettra d'\u00e9conomiser 8,6 \u20ac par mois, soit une r\u00e9duction de plus de 20% sur votre facture actuelle.\"\n3. \"Engagez-vous pour 3 mois et \u00e9pargnez 103,2 \u20ac en un an ! Vous pouvez commencer \u00e0 \u00e9conomiser imm\u00e9diatement sans compromettre la qualit\u00e9 du service SFR que vous avez choisi.\""}
+[2025-05-20 09:19:55] Ligne 13: {"debug": "Extraction par num\u00e9rotation: 3 arguments trouv\u00e9s"}
+[2025-05-20 09:19:55] Ligne 14: {"debug": "Arguments nettoy\u00e9s: ['\"\u00c9conomisez imm\u00e9diatement 20% sur votre facture mensuelle ! Vous passerez de 42,99 EUR \u00e0 34,39 EUR par mois, ce qui repr\u00e9sente une \u00e9conomie annuelle de 103,2 EUR.\".', '\"Faites des \u00e9conomies significatives sans sacrifier la qualit\u00e9 ! Notre offre vous permettra d\\'\u00e9conomiser 8,6 EUR par mois, soit une r\u00e9duction de plus de 20% sur votre facture actuelle.\".', '\"Engagez-vous pour 3 mois et \u00e9pargnez 103,2 EUR en un an ! Vous pouvez commencer \u00e0 \u00e9conomiser imm\u00e9diatement sans compromettre la qualit\u00e9 du service SFR que vous avez choisi.\".']"}
+[2025-05-20 09:19:55] Ligne 15: {"debug": "Utilisation des arguments d'Ollama dans le PDF"}
+[2025-05-20 09:19:55] Ligne 16: {"debug": "Utilisation de la police Arial par d\u00e9faut"}
+[2025-05-20 09:19:55] Ligne 17: {"debug": "PDF de secours g\u00e9n\u00e9r\u00e9 avec succ\u00e8s: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:19:55] Ligne 18: {"success": true, "message": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s", "pdf_path": "../generated_offers/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:19:55] Chemin PDF relatif trouvé: ../generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:19:55] Chemin PDF absolu résolu: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:19:55] PDF trouvé, préparation du téléchargement: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:19:55] Taille du fichier PDF: 1824 octets
+[2025-05-20 09:19:55] PDF téléchargé avec succès
+[2025-05-20 09:19:55] =================== FIN GÉNÉRATION OFFRE DIRECTE ===================
+[2025-05-20 09:22:47] =================== DÉBUT GÉNÉRATION OFFRE DIRECTE ===================
+[2025-05-20 09:22:47] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 09:22:47] Données récupérées:
+[2025-05-20 09:22:47] - Prestataire: SFR
+[2025-05-20 09:22:47] - Montant TTC: 42.99
+[2025-05-20 09:22:47] - Économie mensuelle: 8.60
+[2025-05-20 09:22:47] - Économie annuelle: 103.20
+[2025-05-20 09:22:47] - Conditions: 
+[2025-05-20 09:22:47] Répertoire Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:22:47] Script Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 09:22:47] Fichier JSON temporaire: C:\Users\yohan\AppData\Local\Temp\off4FE8.tmp.json
+[2025-05-20 09:22:47] Données JSON écrites dans le fichier temporaire
+[2025-05-20 09:22:47] Changement de répertoire de travail: de C:\laragon\www\EXTRACTYS\filemanager\facture vers C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:22:47] Tentative avec la commande: python3
+[2025-05-20 09:22:49] =================== DÉBUT GÉNÉRATION OFFRE DIRECTE ===================
+[2025-05-20 09:22:49] POST data: {"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.20","conditions":""}
+[2025-05-20 09:22:49] Données récupérées:
+[2025-05-20 09:22:49] - Prestataire: SFR
+[2025-05-20 09:22:49] - Montant TTC: 42.99
+[2025-05-20 09:22:49] - Économie mensuelle: 8.60
+[2025-05-20 09:22:49] - Économie annuelle: 103.20
+[2025-05-20 09:22:49] - Conditions: 
+[2025-05-20 09:22:49] Répertoire Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:22:49] Script Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 09:22:49] Fichier JSON temporaire: C:\Users\yohan\AppData\Local\Temp\off5558.tmp.json
+[2025-05-20 09:22:49] Données JSON écrites dans le fichier temporaire
+[2025-05-20 09:22:49] Changement de répertoire de travail: de C:\laragon\www\EXTRACTYS\filemanager\facture vers C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:22:49] Tentative avec la commande: python3
+[2025-05-20 09:23:03] Commande python3 a réussi
+[2025-05-20 09:23:03] Retour au répertoire de travail: C:\laragon\www\EXTRACTYS\filemanager\facture
+[2025-05-20 09:23:03] Fichier temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off4FE8.tmp.json
+[2025-05-20 09:23:03] Sortie de la commande (18 lignes):
+[2025-05-20 09:23:03] Ligne 1: {"debug": "Traitement du fichier: C:\\Users\\yohan\\AppData\\Local\\Temp\\off4FE8.tmp.json"}
+[2025-05-20 09:23:03] Ligne 2: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:23:03] Ligne 3: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:23:03] Ligne 4: {"debug": "Document PDF initialis\u00e9"}
+[2025-05-20 09:23:03] Ligne 5: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:23:03] Ligne 6: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:23:03] Ligne 7: {"debug": "Polices Roboto charg\u00e9es avec succ\u00e8s"}
+[2025-05-20 09:23:03] Ligne 8: {"debug": "Erreur d\u00e9taill\u00e9e dans generer_pdf: \"Style 'Title' already defined in stylesheet\""}
+[2025-05-20 09:23:03] Ligne 9: {"debug": "Type d'erreur: KeyError"}
+[2025-05-20 09:23:03] Ligne 10: {"debug": "Tentative avec le PDF de secours..."}
+[2025-05-20 09:23:03] Ligne 11: {"debug": "G\u00e9n\u00e9ration du PDF de secours: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:23:03] Ligne 12: {"debug": "Texte brut re\u00e7u: Voici trois arguments de vente en fran\u00e7ais pour une offre qui permet au client de faire des \u00e9conomies :\n\n1. \u00c9conomisez 20% : En choisissant notre offre, vous pouvez r\u00e9duire votre facture mensuelle de 8,6 EUR, ce qui repr\u00e9sente une \u00e9conomie annuelle de 103,2 EUR.\n2. Plus d'argent pour vos besoins : Avec notre offre, vous pouvez conserver 20% de votre budget actuel et l'affecter \u00e0 d'autres priorit\u00e9s, comme des sorties en famille ou des achats de jouets.\n3. \u00c9conomisez maintenant, b\u00e9n\u00e9ficiez plus tard : Engagez-vous pendant 3 mois et \u00e9conomisez 8,6 EUR par mois, ce qui vous permettra de b\u00e9n\u00e9ficier d'une r\u00e9serve financi\u00e8re plus importante pour vos projets \u00e0 long terme."}
+[2025-05-20 09:23:03] Ligne 13: {"debug": "Extraction par num\u00e9rotation: 3 arguments trouv\u00e9s"}
+[2025-05-20 09:23:03] Ligne 14: {"debug": "Arguments nettoy\u00e9s: ['\u00c9conomisez 20% : En choisissant notre offre, vous pouvez r\u00e9duire votre facture mensuelle de 8,6 EUR, ce qui repr\u00e9sente une \u00e9conomie annuelle de 103,2 EUR.', \"Plus d'argent pour vos besoins : Avec notre offre, vous pouvez conserver 20% de votre budget actuel et l'affecter \u00e0 d'autres priorit\u00e9s, comme des sorties en famille ou des achats de jouets.\", \"\u00c9conomisez maintenant, b\u00e9n\u00e9ficiez plus tard : Engagez-vous pendant 3 mois et \u00e9conomisez 8,6 EUR par mois, ce qui vous permettra de b\u00e9n\u00e9ficier d'une r\u00e9serve financi\u00e8re plus importante pour vos projets \u00e0 long terme.\"]"}
+[2025-05-20 09:23:03] Ligne 15: {"debug": "Utilisation des arguments d'Ollama dans le PDF"}
+[2025-05-20 09:23:03] Ligne 16: {"debug": "Utilisation de la police Arial par d\u00e9faut"}
+[2025-05-20 09:23:03] Ligne 17: {"debug": "PDF de secours g\u00e9n\u00e9r\u00e9 avec succ\u00e8s: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:23:03] Ligne 18: {"success": true, "message": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s", "pdf_path": "../generated_offers/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:23:03] Chemin PDF relatif trouvé: ../generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:23:03] Chemin PDF absolu résolu: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:23:03] PDF trouvé, préparation du téléchargement: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:23:03] Taille du fichier PDF: 1875 octets
+[2025-05-20 09:23:03] PDF téléchargé avec succès
+[2025-05-20 09:23:03] =================== FIN GÉNÉRATION OFFRE DIRECTE ===================
+[2025-05-20 09:23:12] Commande python3 a réussi
+[2025-05-20 09:23:12] Retour au répertoire de travail: C:\laragon\www\EXTRACTYS\filemanager\facture
+[2025-05-20 09:23:12] Fichier temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off5558.tmp.json
+[2025-05-20 09:23:12] Sortie de la commande (18 lignes):
+[2025-05-20 09:23:12] Ligne 1: {"debug": "Traitement du fichier: C:\\Users\\yohan\\AppData\\Local\\Temp\\off5558.tmp.json"}
+[2025-05-20 09:23:12] Ligne 2: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:23:12] Ligne 3: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:23:12] Ligne 4: {"debug": "Document PDF initialis\u00e9"}
+[2025-05-20 09:23:12] Ligne 5: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:23:12] Ligne 6: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:23:12] Ligne 7: {"debug": "Polices Roboto charg\u00e9es avec succ\u00e8s"}
+[2025-05-20 09:23:12] Ligne 8: {"debug": "Erreur d\u00e9taill\u00e9e dans generer_pdf: \"Style 'Title' already defined in stylesheet\""}
+[2025-05-20 09:23:12] Ligne 9: {"debug": "Type d'erreur: KeyError"}
+[2025-05-20 09:23:12] Ligne 10: {"debug": "Tentative avec le PDF de secours..."}
+[2025-05-20 09:23:12] Ligne 11: {"debug": "G\u00e9n\u00e9ration du PDF de secours: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:23:12] Ligne 12: {"debug": "Texte brut re\u00e7u: Voici trois arguments de vente pour une offre qui permet au client de faire des \u00e9conomies :\n\n1. R\u00e9duisez votre facture mensuelle de 20% en passant \u00e0 notre offre sp\u00e9ciale ! \u00c9conomiez 8,6\u20ac par mois (soit 103,2\u20ac annuellement) et profitez d'un service continu.\n2. \u00c9conomie garantie pour votre budget : abandonnez les co\u00fbts \u00e9lev\u00e9s et optez pour notre solution plus abordable ! Pourquoi payer trop lorsque vous pouvez \u00e9conomiser ?\n3. Les \u00e9conomies sont rapides et palpables ! Dans les 3 premiers mois, vous avez d\u00e9j\u00e0 sauv\u00e9 25,8\u20ac (soit 103,2\u20ac annuellement). Plus tard, c'est vous qui f\u00eaterez votre gain avec une somme d'argent suppl\u00e9mentaire."}
+[2025-05-20 09:23:12] Ligne 13: {"debug": "Extraction par num\u00e9rotation: 3 arguments trouv\u00e9s"}
+[2025-05-20 09:23:12] Ligne 14: {"debug": "Arguments nettoy\u00e9s: [\"R\u00e9duisez votre facture mensuelle de 20% en passant \u00e0 notre offre sp\u00e9ciale ! \u00c9conomiez 8,6EUR par mois (soit 103,2EUR annuellement) et profitez d'un service continu.\", '\u00c9conomie garantie pour votre budget : abandonnez les co\u00fbts \u00e9lev\u00e9s et optez pour notre solution plus abordable ! Pourquoi payer trop lorsque vous pouvez \u00e9conomiser ?', \"Les \u00e9conomies sont rapides et palpables ! Dans les 3 premiers mois, vous avez d\u00e9j\u00e0 sauv\u00e9 25,8EUR (soit 103,2EUR annuellement). Plus tard, c'est vous qui f\u00eaterez votre gain avec une somme d'argent suppl\u00e9mentaire.\"]"}
+[2025-05-20 09:23:12] Ligne 15: {"debug": "Utilisation des arguments d'Ollama dans le PDF"}
+[2025-05-20 09:23:12] Ligne 16: {"debug": "Utilisation de la police Arial par d\u00e9faut"}
+[2025-05-20 09:23:12] Ligne 17: {"debug": "PDF de secours g\u00e9n\u00e9r\u00e9 avec succ\u00e8s: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:23:12] Ligne 18: {"success": true, "message": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s", "pdf_path": "../generated_offers/offre_secours_SFR_20250520.pdf"}
+[2025-05-20 09:23:12] Chemin PDF relatif trouvé: ../generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:23:12] Chemin PDF absolu résolu: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:23:12] PDF trouvé, préparation du téléchargement: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_secours_SFR_20250520.pdf
+[2025-05-20 09:23:12] Taille du fichier PDF: 1882 octets
+[2025-05-20 09:23:12] PDF téléchargé avec succès
+[2025-05-20 09:23:12] =================== FIN GÉNÉRATION OFFRE DIRECTE ===================
+[2025-05-20 09:58:25] =================== DÉBUT GÉNÉRATION OFFRE DIRECTE ===================
+[2025-05-20 09:58:25] POST data: {"facture_ids":["17"],"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.18","conditions":""}
+[2025-05-20 09:58:25] Données récupérées:
+[2025-05-20 09:58:25] - Prestataire: SFR
+[2025-05-20 09:58:25] - Montant TTC: 42.99
+[2025-05-20 09:58:25] - Économie mensuelle: 8.60
+[2025-05-20 09:58:25] - Économie annuelle: 103.18
+[2025-05-20 09:58:25] - Conditions: 
+[2025-05-20 09:58:25] Répertoire Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:58:25] Script Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 09:58:25] Fichier JSON temporaire: C:\Users\yohan\AppData\Local\Temp\offED98.tmp.json
+[2025-05-20 09:58:25] Données JSON écrites dans le fichier temporaire
+[2025-05-20 09:58:25] Changement de répertoire de travail: de C:\laragon\www\EXTRACTYS\filemanager\facture vers C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 09:58:25] Tentative avec la commande: python3
+[2025-05-20 09:58:44] Commande python3 a réussi
+[2025-05-20 09:58:44] Retour au répertoire de travail: C:\laragon\www\EXTRACTYS\filemanager\facture
+[2025-05-20 09:58:44] Fichier temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\offED98.tmp.json
+[2025-05-20 09:58:44] Sortie de la commande (8 lignes):
+[2025-05-20 09:58:44] Ligne 1: {"debug": "Traitement du fichier: C:\\Users\\yohan\\AppData\\Local\\Temp\\offED98.tmp.json"}
+[2025-05-20 09:58:44] Ligne 2: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 09:58:44] Ligne 3: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 09:58:44] Ligne 4: {"debug": "Texte brut re\u00e7u: Voici trois arguments de vente en fran\u00e7ais pour une offre qui permet au client de faire des \u00e9conomies :\n\n1. \u00c9conomisez 20% sur votre facture mensuelle avec notre nouvelle offre ! Vous passerez de 42,99 \u20ac \u00e0 34,39 \u20ac par mois.\n2. En choisissant notre offre, vous gagnerez 103,18 \u20ac d'\u00e9conomie annuelle - c'est comme offrir 8,6 \u20ac de cadeau \u00e0 votre maison chaque mois !\n3. Engagez-vous pour 3 mois et commencez \u00e0 \u00e9conomiser d\u00e8s le premier jour : 20% d'\u00e9conomies garanties, sans aucun co\u00fbt suppl\u00e9mentaire !"}
+[2025-05-20 09:58:44] Ligne 5: {"debug": "Extraction par num\u00e9rotation: 3 arguments trouv\u00e9s"}
+[2025-05-20 09:58:44] Ligne 6: {"debug": "Arguments nettoy\u00e9s: ['\u00c9conomisez 20% sur votre facture mensuelle avec notre nouvelle offre ! Vous passerez de 42,99 EUR \u00e0 34,39 EUR par mois.', \"En choisissant notre offre, vous gagnerez 103,18 EUR d'\u00e9conomie annuelle - c'est comme offrir 8,6 EUR de cadeau \u00e0 votre maison chaque mois !\", \"Engagez-vous pour 3 mois et commencez \u00e0 \u00e9conomiser d\u00e8s le premier jour : 20% d'\u00e9conomies garanties, sans aucun co\u00fbt suppl\u00e9mentaire !\"]"}
+[2025-05-20 09:58:44] Ligne 7: {"debug": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_SFR_20250520.pdf"}
+[2025-05-20 09:58:44] Ligne 8: {"success": true, "message": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s", "pdf_path": "../generated_offers/offre_SFR_20250520.pdf"}
+[2025-05-20 09:58:44] Chemin PDF relatif trouvé: ../generated_offers/offre_SFR_20250520.pdf
+[2025-05-20 09:58:44] Chemin PDF absolu résolu: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_SFR_20250520.pdf
+[2025-05-20 09:58:44] PDF trouvé, préparation du téléchargement: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_SFR_20250520.pdf
+[2025-05-20 09:58:44] Taille du fichier PDF: 2908 octets
+[2025-05-20 09:58:44] PDF téléchargé avec succès
+[2025-05-20 09:58:44] =================== FIN GÉNÉRATION OFFRE DIRECTE ===================
+[2025-05-20 11:44:20] =================== DÉBUT GÉNÉRATION OFFRE DIRECTE ===================
+[2025-05-20 11:44:20] POST data: {"facture_ids":["17"],"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.18","conditions":""}
+[2025-05-20 11:44:20] Données récupérées:
+[2025-05-20 11:44:20] - Prestataire: SFR
+[2025-05-20 11:44:20] - Montant TTC: 42.99
+[2025-05-20 11:44:20] - Économie mensuelle: 8.60
+[2025-05-20 11:44:20] - Économie annuelle: 103.18
+[2025-05-20 11:44:20] - Conditions: 
+[2025-05-20 11:44:20] Répertoire Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 11:44:20] Script Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 11:44:20] Fichier JSON temporaire: C:\Users\yohan\AppData\Local\Temp\offE69D.tmp.json
+[2025-05-20 11:44:20] Données JSON écrites dans le fichier temporaire
+[2025-05-20 11:44:20] Changement de répertoire de travail: de C:\laragon\www\EXTRACTYS\filemanager\facture vers C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 11:44:20] Tentative avec la commande: python3
+[2025-05-20 11:44:47] Commande python3 a réussi
+[2025-05-20 11:44:47] Retour au répertoire de travail: C:\laragon\www\EXTRACTYS\filemanager\facture
+[2025-05-20 11:44:47] Fichier temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\offE69D.tmp.json
+[2025-05-20 11:44:47] Sortie de la commande (8 lignes):
+[2025-05-20 11:44:47] Ligne 1: {"debug": "Traitement du fichier: C:\\Users\\yohan\\AppData\\Local\\Temp\\offE69D.tmp.json"}
+[2025-05-20 11:44:47] Ligne 2: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 11:44:47] Ligne 3: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 11:44:47] Ligne 4: {"debug": "Texte brut re\u00e7u: Voici trois arguments de vente concis pour SFR :\n\n1. Dites adieu aux d\u00e9penses exorbitantes ! En choisissant notre offre, vous \u00e9conomisez 20% sur votre facture actuelle, soit 8,6 \u20ac par mois.\n2. Faites fructifier vos \u00e9conomies ! Avec notre offre, vous gagnerez 103,18 \u20ac d'\u00e9conomie annuelle, sans sacrifier la qualit\u00e9 de votre service.\n3. Pour 3 mois, prendrez-vous le risque de ne pas profiter des avantages ? \u00c9conomisez imm\u00e9diatement et obtenez une offre exceptionnelle pour votre t\u00e9l\u00e9phone !"}
+[2025-05-20 11:44:47] Ligne 5: {"debug": "Extraction par num\u00e9rotation: 3 arguments trouv\u00e9s"}
+[2025-05-20 11:44:47] Ligne 6: {"debug": "Arguments nettoy\u00e9s: ['Dites adieu aux d\u00e9penses exorbitantes ! En choisissant notre offre, vous \u00e9conomisez 20% sur votre facture actuelle, soit 8,6 EUR par mois.', \"Faites fructifier vos \u00e9conomies ! Avec notre offre, vous gagnerez 103,18 EUR d'\u00e9conomie annuelle, sans sacrifier la qualit\u00e9 de votre service.\", 'Pour 3 mois, prendrez-vous le risque de ne pas profiter des avantages ? \u00c9conomisez imm\u00e9diatement et obtenez une offre exceptionnelle pour votre t\u00e9l\u00e9phone !']"}
+[2025-05-20 11:44:47] Ligne 7: {"debug": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_SFR_20250520.pdf"}
+[2025-05-20 11:44:47] Ligne 8: {"success": true, "message": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s", "pdf_path": "../generated_offers/offre_SFR_20250520.pdf"}
+[2025-05-20 11:44:47] Chemin PDF relatif trouvé: ../generated_offers/offre_SFR_20250520.pdf
+[2025-05-20 11:44:47] Chemin PDF absolu résolu: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_SFR_20250520.pdf
+[2025-05-20 11:44:47] PDF trouvé, préparation du téléchargement: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_SFR_20250520.pdf
+[2025-05-20 11:44:47] Taille du fichier PDF: 2959 octets
+[2025-05-20 11:44:47] PDF téléchargé avec succès
+[2025-05-20 11:44:47] =================== FIN GÉNÉRATION OFFRE DIRECTE ===================
+[2025-05-20 11:47:05] =================== DÉBUT GÉNÉRATION OFFRE DIRECTE ===================
+[2025-05-20 11:47:05] POST data: {"facture_ids":["17"],"prestataire":"SFR","montant_ttc":"42.99","economie_mensuelle":"8.60","economie_annuelle":"103.18","conditions":""}
+[2025-05-20 11:47:05] Données récupérées:
+[2025-05-20 11:47:05] - Prestataire: SFR
+[2025-05-20 11:47:05] - Montant TTC: 42.99
+[2025-05-20 11:47:05] - Économie mensuelle: 8.60
+[2025-05-20 11:47:05] - Économie annuelle: 103.18
+[2025-05-20 11:47:05] - Conditions: 
+[2025-05-20 11:47:05] Répertoire Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 11:47:05] Script Python: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/genereateur_offre.py
+[2025-05-20 11:47:05] Fichier JSON temporaire: C:\Users\yohan\AppData\Local\Temp\off6BA3.tmp.json
+[2025-05-20 11:47:05] Données JSON écrites dans le fichier temporaire
+[2025-05-20 11:47:05] Changement de répertoire de travail: de C:\laragon\www\EXTRACTYS\filemanager\facture vers C:\laragon\www\EXTRACTYS\filemanager\facture/../python
+[2025-05-20 11:47:05] Tentative avec la commande: python3
+[2025-05-20 11:47:19] Commande python3 a réussi
+[2025-05-20 11:47:19] Retour au répertoire de travail: C:\laragon\www\EXTRACTYS\filemanager\facture
+[2025-05-20 11:47:19] Fichier temporaire supprimé: C:\Users\yohan\AppData\Local\Temp\off6BA3.tmp.json
+[2025-05-20 11:47:19] Sortie de la commande (8 lignes):
+[2025-05-20 11:47:19] Ligne 1: {"debug": "Traitement du fichier: C:\\Users\\yohan\\AppData\\Local\\Temp\\off6BA3.tmp.json"}
+[2025-05-20 11:47:19] Ligne 2: {"debug": "V\u00e9rification du r\u00e9pertoire des polices: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\fonts"}
+[2025-05-20 11:47:19] Ligne 3: {"debug": "Polices Roboto disponibles: True"}
+[2025-05-20 11:47:19] Ligne 4: {"debug": "Texte brut re\u00e7u: Voici trois arguments de vente concis pour SFR :\n\n1. \u00c9conomisez imm\u00e9diatement avec notre offre ! Pour 42.99 EUR/mois, vous pouvez sauver 8.6 EUR/mois (20%).\n2. Les \u00e9conomies sont r\u00e9elles : en moyenne, vous gagnerez 103.18 EUR par an en optant pour notre offre.\n3. Engagez-vous pendant 3 mois et commencer \u00e0 \u00e9conomiser d\u00e8s aujourd'hui !"}
+[2025-05-20 11:47:19] Ligne 5: {"debug": "Extraction par num\u00e9rotation: 3 arguments trouv\u00e9s"}
+[2025-05-20 11:47:19] Ligne 6: {"debug": "Arguments nettoy\u00e9s: ['\u00c9conomisez imm\u00e9diatement avec notre offre ! Pour.', 'Les \u00e9conomies sont r\u00e9elles : en moyenne, vous gagnerez.', \"Engagez-vous pendant 3 mois et commencer \u00e0 \u00e9conomiser d\u00e8s aujourd'hui !\"]"}
+[2025-05-20 11:47:19] Ligne 7: {"debug": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s: C:\\laragon\\www\\EXTRACTYS\\filemanager\\python\\generated_offers\\offre_SFR_20250520.pdf"}
+[2025-05-20 11:47:19] Ligne 8: {"success": true, "message": "PDF g\u00e9n\u00e9r\u00e9 avec succ\u00e8s", "pdf_path": "../generated_offers/offre_SFR_20250520.pdf"}
+[2025-05-20 11:47:19] Chemin PDF relatif trouvé: ../generated_offers/offre_SFR_20250520.pdf
+[2025-05-20 11:47:19] Chemin PDF absolu résolu: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_SFR_20250520.pdf
+[2025-05-20 11:47:19] PDF trouvé, préparation du téléchargement: C:\laragon\www\EXTRACTYS\filemanager\facture/../python/generated_offers/offre_SFR_20250520.pdf
+[2025-05-20 11:47:19] Taille du fichier PDF: 2779 octets
+[2025-05-20 11:47:19] PDF téléchargé avec succès
+[2025-05-20 11:47:19] =================== FIN GÉNÉRATION OFFRE DIRECTE ===================

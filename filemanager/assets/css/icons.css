@@ -1,0 +1,319 @@
+/* Styles pour les icônes des types de fichiers */
+
+/* Base pour toutes les icônes */
+.filemanager-item-icon .fas,
+.filemanager-item-icon .far,
+.filemanager-empty-icon .fas {
+    transition: all var(--fm-animation);
+}
+
+/* Icônes génériques - avec effets */
+.filemanager-item-icon .fas,
+.filemanager-item-icon .far {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.filemanager-item:hover .filemanager-item-icon .fas,
+.filemanager-item:hover .filemanager-item-icon .far {
+    transform: translateY(-2px);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
+}
+
+/* Dossiers */
+.fas.fa-folder {
+    color: #FDD663;
+    /* Jaune vif */
+    text-shadow: 0 2px 8px rgba(253, 214, 99, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-folder {
+    color: #FFCA28;
+    text-shadow: 0 2px 12px rgba(253, 214, 99, 0.4);
+}
+
+.fas.fa-folder-open {
+    color: #FDD663;
+    text-shadow: 0 2px 8px rgba(253, 214, 99, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-folder-open {
+    color: #FFCA28;
+    text-shadow: 0 2px 12px rgba(253, 214, 99, 0.4);
+}
+
+/* Images */
+.fas.fa-file-image {
+    color: #4CAF50;
+    /* Vert */
+    text-shadow: 0 2px 8px rgba(76, 175, 80, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-file-image {
+    color: #66BB6A;
+    text-shadow: 0 2px 12px rgba(76, 175, 80, 0.4);
+}
+
+/* Documents */
+.fas.fa-file-pdf {
+    color: #F44336;
+    /* Rouge */
+    text-shadow: 0 2px 8px rgba(244, 67, 54, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-file-pdf {
+    color: #EF5350;
+    text-shadow: 0 2px 12px rgba(244, 67, 54, 0.4);
+}
+
+.fas.fa-file-word {
+    color: #2196F3;
+    /* Bleu */
+    text-shadow: 0 2px 8px rgba(33, 150, 243, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-file-word {
+    color: #42A5F5;
+    text-shadow: 0 2px 12px rgba(33, 150, 243, 0.4);
+}
+
+.fas.fa-file-excel {
+    color: #4CAF50;
+    /* Vert */
+    text-shadow: 0 2px 8px rgba(76, 175, 80, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-file-excel {
+    color: #66BB6A;
+    text-shadow: 0 2px 12px rgba(76, 175, 80, 0.4);
+}
+
+.fas.fa-file-powerpoint {
+    color: #FF9800;
+    /* Orange */
+    text-shadow: 0 2px 8px rgba(255, 152, 0, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-file-powerpoint {
+    color: #FFA726;
+    text-shadow: 0 2px 12px rgba(255, 152, 0, 0.4);
+}
+
+.fas.fa-file-alt,
+.fas.fa-file-text {
+    color: #607D8B;
+    /* Bleu-gris */
+    text-shadow: 0 2px 8px rgba(96, 125, 139, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-file-alt,
+.filemanager-item:hover .fas.fa-file-text {
+    color: #78909C;
+    text-shadow: 0 2px 12px rgba(96, 125, 139, 0.4);
+}
+
+.fas.fa-file-csv {
+    color: #00BCD4;
+    /* Cyan */
+    text-shadow: 0 2px 8px rgba(0, 188, 212, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-file-csv {
+    color: #26C6DA;
+    text-shadow: 0 2px 12px rgba(0, 188, 212, 0.4);
+}
+
+/* Archives */
+.fas.fa-file-archive {
+    color: #795548;
+    /* Marron */
+    text-shadow: 0 2px 8px rgba(121, 85, 72, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-file-archive {
+    color: #8D6E63;
+    text-shadow: 0 2px 12px rgba(121, 85, 72, 0.4);
+}
+
+/* Code */
+.fas.fa-file-code {
+    color: #9C27B0;
+    /* Violet */
+    text-shadow: 0 2px 8px rgba(156, 39, 176, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-file-code {
+    color: #AB47BC;
+    text-shadow: 0 2px 12px rgba(156, 39, 176, 0.4);
+}
+
+/* Audio */
+.fas.fa-file-audio {
+    color: #E91E63;
+    /* Rose */
+    text-shadow: 0 2px 8px rgba(233, 30, 99, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-file-audio {
+    color: #EC407A;
+    text-shadow: 0 2px 12px rgba(233, 30, 99, 0.4);
+}
+
+/* Video */
+.fas.fa-file-video {
+    color: #673AB7;
+    /* Pourpre */
+    text-shadow: 0 2px 8px rgba(103, 58, 183, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-file-video {
+    color: #7E57C2;
+    text-shadow: 0 2px 12px rgba(103, 58, 183, 0.4);
+}
+
+/* Fichier par défaut */
+.fas.fa-file {
+    color: #9E9E9E;
+    /* Gris */
+    text-shadow: 0 2px 8px rgba(158, 158, 158, 0.2);
+}
+
+.filemanager-item:hover .fas.fa-file {
+    color: #BDBDBD;
+    text-shadow: 0 2px 12px rgba(158, 158, 158, 0.4);
+}
+
+/* Tailles des icônes */
+.filemanager-item-icon .fas {
+    font-size: 48px;
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.filemanager-item:hover .filemanager-item-icon .fas {
+    transform: scale(1.15);
+}
+
+.preview-not-available .fas {
+    font-size: 72px;
+    color: var(--fm-gray-400);
+    animation: pulse 2s infinite alternate ease-in-out;
+}
+
+/* Animation pour la prévisualisation des fichiers vides */
+@keyframes pulse {
+    from {
+        opacity: 0.4;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 0.7;
+        transform: scale(1.05);
+    }
+}
+
+/* Icônes de menu et interface */
+.sidebar-menu-icon {
+    transition: all var(--fm-animation);
+}
+
+.sidebar-menu-link:hover .sidebar-menu-icon,
+.sidebar-menu-link.active .sidebar-menu-icon {
+    transform: translateX(2px);
+}
+
+.sidebar-menu-link.active .sidebar-menu-icon {
+    color: var(--fm-primary);
+}
+
+/* Icônes pour les actions */
+.action-icon {
+    transition: all var(--fm-animation);
+}
+
+.btn:hover .action-icon {
+    transform: translateY(-2px);
+}
+
+/* Icônes de sélection */
+.select-icon {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--fm-gray-400);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--fm-animation);
+}
+
+.filemanager-item.selected .select-icon {
+    background-color: var(--fm-primary);
+    border-color: var(--fm-primary);
+}
+
+.filemanager-item.selected .select-icon:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* État de chargement */
+.filemanager-item.loading .filemanager-item-icon {
+    animation: pulse 1.5s infinite;
+}
+
+/* Animations spéciales */
+@keyframes rotateIn {
+    from {
+        transform: rotate(-180deg);
+        opacity: 0;
+    }
+
+    to {
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+.filemanager-item.folder.new .filemanager-item-icon .fas {
+    animation: rotateIn 0.5s ease-out;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.filemanager-item.dragging .filemanager-item-icon .fas {
+    animation: bounce 1s infinite;
+}
+
+/* Animation pour les icônes dans le menu contextuel */
+@keyframes iconWiggle {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-12deg);
+    }
+
+    75% {
+        transform: rotate(12deg);
+    }
+}
+
+.context-menu-btn:hover .context-menu-icon {
+    animation: iconWiggle 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}

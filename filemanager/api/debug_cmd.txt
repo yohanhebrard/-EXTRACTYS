@@ -1,0 +1,1 @@
+python "C:\laragon\www\EXTRACTYS\filemanager\api/../python/analyse_factures.py" "C:\Users\yohan\AppData\Local\Temp\ana1C92.tmp.pdf" ""

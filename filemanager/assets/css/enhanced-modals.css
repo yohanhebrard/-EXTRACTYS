@@ -1,0 +1,455 @@
+/* Styles améliorés pour les modales et interactions */
+
+/* Réinitialisation du style des modales */
+.modal {
+    --modal-padding: 16px;
+    --modal-radius: 12px;
+    --modal-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    --modal-bg: var(--fm-bg);
+    --modal-border: var(--fm-border);
+    --modal-text: var(--fm-text);
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-backdrop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Structure de base des modales modernisée */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.modal {
+    --modal-padding: 16px;
+    --modal-radius: 12px;
+    --modal-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    --modal-bg: var(--fm-bg);
+    --modal-border: var(--fm-border);
+    --modal-text: var(--fm-text);
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-backdrop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Suite du CSS pour les modales améliorées */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1050;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal.closing .modal-content {
+    transform: scale(0.9);
+    opacity: 0;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.modal-content {
+    background-color: var(--modal-bg, #fff);
+    border-radius: var(--modal-radius, 12px);
+    box-shadow: var(--modal-shadow, 0 10px 25px rgba(0, 0, 0, 0.2));
+    padding: var(--modal-padding, 20px);
+    max-width: 90%;
+    width: 400px;
+    position: relative;
+    z-index: 1060;
+    overflow: hidden;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--modal-border, rgba(0, 0, 0, 0.1));
+}
+
+.modal-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+    color: var(--modal-text, #333);
+}
+
+.modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: 0;
+    cursor: pointer;
+    color: var(--fm-text-light, #777);
+    opacity: 0.7;
+    transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.modal-close:hover {
+    opacity: 1;
+    color: var(--fm-danger, #dc3545);
+}
+
+.modal-body {
+    margin-bottom: 16px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 16px;
+    border-top: 1px solid var(--modal-border, rgba(0, 0, 0, 0.1));
+}
+
+/* Styles pour le renommage contextuel */
+.rename-contextual {
+    position: absolute;
+    background-color: var(--modal-bg, #fff);
+    border-radius: var(--modal-radius, 8px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    width: 280px;
+    z-index: 1040;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+    transform: translateY(10px);
+}
+
+.rename-contextual.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.rename-contextual form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rename-contextual .buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.rename-contextual .buttons button {
+    flex: 1;
+}
+
+/* Styles pour les indicateurs de déplacement */
+.drag-indicator {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--fm-primary, #4361ee);
+    color: white;
+    border-radius: 30px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    z-index: 1030;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateX(-50%) translateY(20px);
+}
+
+.drag-indicator.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+.drag-indicator i {
+    font-size: 1.2rem;
+}
+
+/* Styles pour l'indicateur de succès */
+.drop-success-indicator {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background-color: var(--fm-success, #10b981);
+    color: white;
+    border-radius: 8px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    z-index: 1030;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.drop-success-indicator.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.drop-success-indicator i {
+    font-size: 1.5rem;
+}
+
+/* Styles pour le drag & drop */
+.filemanager-item {
+    transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+    will-change: transform, opacity;
+}
+
+.filemanager-item.dragging {
+    opacity: 0.6;
+    transform: scale(0.95);
+    cursor: grabbing;
+}
+
+.filemanager-item.highlight {
+    box-shadow: 0 0 0 2px var(--fm-primary, #4361ee);
+}
+
+.filemanager-item.drop-possible {
+    background-color: rgba(var(--fm-primary-rgb, 67, 97, 238), 0.05);
+}
+
+.filemanager-item.drop-active {
+    background-color: rgba(var(--fm-primary-rgb, 67, 97, 238), 0.1);
+    box-shadow: 0 0 0 2px var(--fm-primary, #4361ee);
+    transform: scale(1.03);
+}
+
+.filemanager-item.drop-forbidden {
+    background-color: rgba(var(--fm-danger-rgb, 220, 53, 69), 0.1);
+    box-shadow: 0 0 0 2px var(--fm-danger, #dc3545);
+}
+
+.filemanager-item.fade-out {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+/* Clone pour le drag & drop sur mobile */
+.drag-ghost {
+    position: absolute;
+    pointer-events: none;
+    z-index: 9999;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    transform-origin: center;
+}
+
+.drag-ghost.folder {
+    background-color: rgba(var(--fm-folder-rgb, 74, 144, 226), 0.9);
+}
+
+.drag-ghost.file {
+    background-color: rgba(var(--fm-file-rgb, 114, 124, 245), 0.9);
+}
+
+/* Styles pour les toasts */
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1060;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+}
+
+.toast {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.toast.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.toast-icon {
+    font-size: 1.5rem;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.toast-message {
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.toast-close {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.toast-close:hover {
+    opacity: 1;
+}
+
+.toast-success .toast-icon {
+    color: var(--fm-success, #10b981);
+}
+
+.toast-error .toast-icon {
+    color: var(--fm-danger, #dc3545);
+}
+
+.toast-warning .toast-icon {
+    color: var(--fm-warning, #f59e0b);
+}
+
+.toast-info .toast-icon {
+    color: var(--fm-info, #3b82f6);
+}
+
+/* Media queries pour le responsive */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 320px;
+    }
+
+    .rename-contextual {
+        width: 250px;
+    }
+    
+    .drag-indicator {
+        bottom: 20px;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    
+    .drop-success-indicator {
+        top: 20px;
+        right: 20px;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Optimisation pour les écrans tactiles */
+@media (pointer: coarse) {
+    .filemanager-item-actions {
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+    }
+    
+    .btn {
+        min-height: 40px;
+        min-width: 40px;
+    }
+}
+
+/* Variables CSS pour les couleurs thématiques */
+:root {
+    --fm-primary: #4361ee;
+    --fm-primary-rgb: 67, 97, 238;
+    --fm-secondary: #2ec4b6;
+    --fm-success: #10b981;
+    --fm-danger: #dc3545;
+    --fm-danger-rgb: 220, 53, 69;
+    --fm-warning: #f59e0b;
+    --fm-info: #3b82f6;
+    --fm-text: #333333;
+    --fm-text-light: #777777;
+    --fm-bg: #ffffff;
+    --fm-border: #e2e8f0;
+    --fm-folder: #4a90e2;
+    --fm-folder-rgb: 74, 144, 226;
+    --fm-file: #727cf5;
+    --fm-file-rgb: 114, 124, 245;
+}
+
+/* Mode sombre - à activer selon les préférences du système */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fm-primary: #4361ee;
+        --fm-bg: #1e1e2d;
+        --fm-text: #e2e8f0;
+        --fm-text-light: #94a3b8;
+        --fm-border: #2d3748;
+    }
+    
+    .modal-content {
+        background-color: #1e1e2d;
+    }
+    
+    .rename-contextual {
+        background-color: #1e1e2d;
+        border: 1px solid #2d3748;
+    }
+    
+    .toast {
+        background-color: #2d3748;
+        color: #e2e8f0;
+    }
+}
